@@ -1,0 +1,4804 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cdi\n"
+"POT-Creation-Date: 2024-10-27 07:58+0100\n"
+"PO-Revision-Date: 2024-10-27 10:53+0100\n"
+"Last-Translator: Halyra\n"
+"Language-Team: Halyra <cdi@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cdi.php:26
+msgid "CDI - Collect and Deliver Interface"
+msgstr "CDI - Collect and Deliver Interface"
+
+#: cdi.php:115
+msgid "Error : CDI  (Collect and Deliver Interface)"
+msgstr "Erreur : CDI (Collect and Deliver Interface)"
+
+#: cdi.php:115
+msgid " requires that plugin(s)"
+msgstr "Nécessite que les plugin(s) "
+
+#: cdi.php:115
+msgid ""
+"to be active!. For your security CDI has stopped himself to run. Please "
+"review the plugins you need active. "
+msgstr ""
+"soient actifs. Pour votre sécurité, CDI  s'est lui-même  désactivé. SVP "
+"vérifiez les plugins que vous avez besoin d’avoir  actifs."
+
+#: cdi.php:123 cdi.php:133
+msgid "Information : CDI  (Collect and Deliver Interface)"
+msgstr "Information : CDI (Collect and Deliver Interface)"
+
+#: cdi.php:123
+msgid "notices possible conflict with other active plugin : "
+msgstr "constate une redondance avec un autre plugin :"
+
+#: cdi.php:123
+msgid "CDI  (Collect and Deliver Interface) must be activated alone !."
+msgstr ""
+"Ce dernier a été désactivé, et seul \"CDI - Collect and Deliver Interface\" "
+"est maintenant actif."
+
+#: cdi.php:133 includes/CDI-Settings.php:219
+msgid ""
+"Your installation has not Soap extension installed. We can be afraid that "
+"CDI will not fully work."
+msgstr ""
+"Votre installation n'a pas d'extension Soap installée. Nous pouvons craindre "
+"que CDI ne fonctionne pas complètement."
+
+#: cdi.php:296
+msgid "Do you need some help?"
+msgstr "Avez-vous besoin d'aide ?"
+
+#: cdi.php:333
+msgid "Settings"
+msgstr "Réglages"
+
+#: cdi.php:346 cdi.php:356
+msgid "Bienvenue dans CDI - Collect and Deliver Interface !"
+msgstr "Bienvenue dans CDI - Collect and Deliver Interface !"
+
+#: cdi.php:347
+msgid ""
+"The settings from your anterior Colissimo Delivery Integration has been "
+"sucessfully imported in CDI - Collect and Deliver Interface, which is now "
+"the only active plugin."
+msgstr ""
+"Les paramètres de votre précédent plugin  \"Colissimo Integration  Delivery"
+"\" ont été importés avec succès dans \"CDI - Collect and Deliver Interface"
+"\", lequel est désormais le seul plugin actif. "
+
+#: cdi.php:348
+msgid ""
+"Your CDI gateway and your WC shipping zone tables are shared between the 2 "
+"plugins."
+msgstr ""
+"Votre Passerelle CDI et vos tables de zones d'expédition WooCommerce sont "
+"inchangées. "
+
+#: cdi.php:357
+msgid ""
+"If necessary, you can get back the settings of your anterior CDI (Colissimo "
+"Delivery Integration)"
+msgstr ""
+"Si nécessaire, vous pouvez rapatrier vos réglages d'un CDI ancienne version "
+"(Colissimo Delivery Integration)"
+
+#: cdi.php:358
+msgid ""
+"In both cases, your CDI gateway and your WC shipping zone tables are shared "
+"between the 2 plugins. Only the other CDI settings are duplicated and "
+"copied. <br> If you do not want to get back your CDI Colissimo Delivery "
+"Integration  settings, use the \"Continue and dismiss this message\" button. "
+msgstr ""
+"Dans les deux cas, votre passerelle CDI et vos tables d'expédition WC sont "
+"partagées entre les 2 plugins. Seuls les autres paramètres de CDI sont "
+"dupliqués et copiés. <br> Si vous ne souhaitez pas récupérer vos paramètres "
+"de CDI - Colissimo Delivery Integration, utilisez le bouton \"Continuer et "
+"ignorer ce message\"."
+
+#: cdi.php:362
+msgid "Continue and dismiss this message"
+msgstr "Continuer et supprimer ce message"
+
+#: cdi.php:365
+msgid "Get back the anterior CDI settings"
+msgstr "Rapatrier les réglages d'un CDI ancien"
+
+#: examples/CDI-structure-custom-carrier.php:269
+#: includes/CDI-Carrier-collect/exec.php:444
+#: includes/CDI-Carrier-deliver/exec.php:134
+#: includes/CDI-Carrier-notcdi/exec.php:147
+#: includes/CDI-Carrier-ups/exec.php:882
+msgid "No delivery slip (deposit) for this carrier."
+msgstr "Pas de bordereau de remise (dépôt) pour ce transporteur."
+
+#: includes/CDI-Carrier-colissimo/Colissimo-Affranchissement.php:51
+msgid " ===> Error stop processing : "
+msgstr " ===> Erreur arrêt du traitement à l'ordre  #"
+
+#: includes/CDI-Carrier-colissimo/Colissimo-Affranchissement.php:64
+#: includes/CDI-Carrier-colissimo/Colissimo-Affranchissement.php:369
+#: includes/CDI-Carrier-colissimo/Colissimo-Affranchissement.php:383
+#: includes/CDI-Carrier-collect/Collect-Affranchissement.php:54
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:55
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:77
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:282
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:289
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:296
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:54
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:252
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:285
+#: includes/CDI-Carrier-ups/Ups-Retourcolis.php:185
+msgid " ===> Error stop processing at order #"
+msgstr " ===> Erreur arrêt du traitement à l'ordre  #"
+
+#: includes/CDI-Carrier-colissimo/Colissimo-Affranchissement.php:395
+msgid " parcels processed with Colissimo Web Service."
+msgstr " colis traités par le Web Service d’affranchissement Colissimo."
+
+#: includes/CDI-Carrier-colissimo/Colissimo-Remise.php:118
+#: includes/CDI-Carrier-colissimo/Colissimo-Remise.php:126
+#: includes/CDI-Carrier-colissimo/Colissimo-Remise.php:136
+msgid " ===> Error processing Bordereau de dépôt Colissimo"
+msgstr " ===> Erreur dans le traitement du Bordereau de dépôt Colissimo"
+
+#: includes/CDI-Carrier-colissimo/Colissimo-Retourcolis.php:198
+#: includes/CDI-Carrier-colissimo/Colissimo-Retourcolis.php:211
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Retourcolis.php:178
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Retourcolis.php:185
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Retourcolis.php:191
+msgid " ===> Return label not available - #"
+msgstr " ===> Etiquette de retour non disponible - #"
+
+#: includes/CDI-Carrier-colissimo/exec.php:206
+#: includes/CDI-Carrier-mondialrelay/exec.php:350
+#: includes/CDI-Carrier-ups/exec.php:232
+msgid ""
+"Pickup location - Technical error on pickup product code vs location id. "
+"Please try again."
+msgstr ""
+"Points de retrait - Erreur technique de cohérence : code produit  vs ID du "
+"point de retrait. Veuillez réessayer."
+
+#: includes/CDI-Carrier-colissimo/exec.php:236
+#: includes/CDI-Carrier-collect/exec.php:190
+#: includes/CDI-Carrier-mondialrelay/exec.php:380
+#: includes/CDI-Carrier-ups/exec.php:272 includes/CDI-Gateway.php:599
+msgid "Tracking code : "
+msgstr "Code suivi :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:252
+#: includes/CDI-Carrier-mondialrelay/exec.php:396
+#: includes/CDI-Carrier-ups/exec.php:288 includes/CDI-Gateway.php:605
+msgid "Partner number : "
+msgstr "Partenaire ref : "
+
+#: includes/CDI-Carrier-colissimo/exec.php:257
+#: includes/CDI-Carrier-collect/exec.php:206
+#: includes/CDI-Carrier-mondialrelay/exec.php:401
+#: includes/CDI-Carrier-ups/exec.php:293
+msgid "To Labels :  "
+msgstr "Url labels :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:285
+#: includes/CDI-Carrier-mondialrelay/exec.php:429
+#: includes/CDI-Carrier-ups/exec.php:328 includes/CDI-Gateway.php:609
+msgid "Parcel parameters"
+msgstr "Paramétrage des colis :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:286
+#: includes/CDI-Carrier-mondialrelay/exec.php:430
+#: includes/CDI-Carrier-ups/exec.php:329 includes/CDI-Gateway.php:611
+msgid "Parcel : "
+msgstr "Colis :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:293
+#: includes/CDI-Carrier-mondialrelay/exec.php:437
+#: includes/CDI-Carrier-ups/exec.php:336 includes/CDI-Settings.php:355
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/CDI-Carrier-colissimo/exec.php:294
+#: includes/CDI-Carrier-mondialrelay/exec.php:438
+#: includes/CDI-Carrier-ups/exec.php:337 includes/CDI-Settings.php:356
+msgid "Cumbersome"
+msgstr "Volumineux"
+
+#: includes/CDI-Carrier-colissimo/exec.php:295
+#: includes/CDI-Carrier-mondialrelay/exec.php:439
+#: includes/CDI-Carrier-ups/exec.php:338 includes/CDI-Settings.php:357
+msgid "Tube"
+msgstr "Rouleau"
+
+#: includes/CDI-Carrier-colissimo/exec.php:305
+#: includes/CDI-Carrier-mondialrelay/exec.php:448
+#: includes/CDI-Carrier-ups/exec.php:348 includes/CDI-Gateway.php:613
+msgid "Weight : "
+msgstr "Poids (g) :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:325
+#: includes/CDI-Carrier-mondialrelay/exec.php:488 includes/CDI-Gateway.php:616
+msgid "Optional services"
+msgstr "Services optionnels :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:332 includes/CDI-Gateway.php:618
+msgid "Signature : "
+msgstr "Signature (par défaut) :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:339
+#: includes/CDI-Carrier-colissimo/exec.php:361
+#: includes/CDI-Carrier-mondialrelay/exec.php:496
+msgid "yes"
+msgstr "oui"
+
+#: includes/CDI-Carrier-colissimo/exec.php:340
+#: includes/CDI-Carrier-colissimo/exec.php:362
+#: includes/CDI-Carrier-mondialrelay/exec.php:497
+msgid "no"
+msgstr "non"
+
+#: includes/CDI-Carrier-colissimo/exec.php:354
+#: includes/CDI-Carrier-mondialrelay/exec.php:489 includes/CDI-Gateway.php:620
+msgid "Compensation + : "
+msgstr "Assurance + :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:376
+#: includes/CDI-Carrier-mondialrelay/exec.php:511 includes/CDI-Gateway.php:622
+msgid "Amount : "
+msgstr "Montant :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:403
+msgid "sans"
+msgstr "sans"
+
+#: includes/CDI-Carrier-colissimo/exec.php:404
+msgid "avec"
+msgstr "avec"
+
+#: includes/CDI-Carrier-colissimo/exec.php:419 includes/CDI-Gateway.php:626
+msgid "Return : "
+msgstr "Retour :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:426 includes/CDI-Settings.php:385
+msgid "No return"
+msgstr "Ne pas retourner"
+
+#: includes/CDI-Carrier-colissimo/exec.php:427 includes/CDI-Settings.php:386
+msgid "Pay for return"
+msgstr "Retour payant"
+
+#: includes/CDI-Carrier-colissimo/exec.php:449
+msgid "non ftd"
+msgstr "non ftd"
+
+#: includes/CDI-Carrier-colissimo/exec.php:450
+msgid "en ftd"
+msgstr "en ftd"
+
+#: includes/CDI-Carrier-colissimo/exec.php:466
+#: includes/CDI-Carrier-collect/exec.php:290
+#: includes/CDI-Carrier-mondialrelay/exec.php:533
+#: includes/CDI-Carrier-ups/exec.php:385
+msgid "Customer shipping settings :"
+msgstr "Choix de livraison du client :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:467
+#: includes/CDI-Carrier-mondialrelay/exec.php:534
+#: includes/CDI-Carrier-ups/exec.php:386 includes/CDI-Gateway.php:633
+#: includes/CDI-Metabox-subscription.php:86
+msgid "Forced product code : "
+msgstr "Code produit :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:475
+msgid "DOM - EU Domicile sans signature"
+msgstr "DOM - EU Domicile sans signature"
+
+#: includes/CDI-Carrier-colissimo/exec.php:476
+msgid "DOS - EU Domicile avec signature"
+msgstr "DOS - EU Domicile avec signature"
+
+#: includes/CDI-Carrier-colissimo/exec.php:477
+msgid "COM - OM Domicile sans signature"
+msgstr "COM - OM Domicile sans signature"
+
+#: includes/CDI-Carrier-colissimo/exec.php:478
+msgid "CDS - OM Domicile avec signature"
+msgstr "CDS - OM Domicile avec signature"
+
+#: includes/CDI-Carrier-colissimo/exec.php:479
+msgid "COLI - IN Domicile"
+msgstr "COLI - IN Domicile"
+
+#: includes/CDI-Carrier-colissimo/exec.php:480
+msgid "A2P - FR Point retrait"
+msgstr "A2P - FR Point retrait"
+
+#: includes/CDI-Carrier-colissimo/exec.php:481
+msgid "BPR - FR Retrait La Poste"
+msgstr "BPR - FR Retrait à La Poste"
+
+#: includes/CDI-Carrier-colissimo/exec.php:482
+msgid "CMT - EU Point retrait"
+msgstr "CMT - EU Point retrait"
+
+#: includes/CDI-Carrier-colissimo/exec.php:483
+msgid "BDP - EU Retrait La Poste"
+msgstr "BDP - EU Retrait Postal"
+
+#: includes/CDI-Carrier-colissimo/exec.php:492
+#: includes/CDI-Carrier-collect/exec.php:291
+#: includes/CDI-Carrier-mondialrelay/exec.php:555
+#: includes/CDI-Carrier-ups/exec.php:405 includes/CDI-Gateway.php:635
+#: includes/CDI-Metabox-subscription.php:100
+msgid "Pickup location id : "
+msgstr "Point de retrait :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:509
+#: includes/CDI-Carrier-collect/exec.php:308
+#: includes/CDI-Carrier-mondialrelay/exec.php:572
+#: includes/CDI-Carrier-ups/exec.php:422 includes/CDI-Gateway.php:637
+#: includes/CDI-Metabox-subscription.php:114
+msgid "Location : "
+msgstr "Adresse :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:523
+#: includes/CDI-Carrier-ups/exec.php:436 includes/CDI-Gateway.php:640
+msgid "CN23 parameters"
+msgstr "CN23"
+
+#: includes/CDI-Carrier-colissimo/exec.php:525
+#: includes/CDI-Carrier-ups/exec.php:438 includes/CDI-Gateway.php:642
+msgid "CN23 transport : "
+msgstr "Prix transport HT :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:540
+#: includes/CDI-Carrier-ups/exec.php:453 includes/CDI-Gateway.php:644
+msgid "CN23 category : "
+msgstr "Catégorie :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:547
+#: includes/CDI-Carrier-ups/exec.php:460 includes/CDI-Settings.php:1009
+msgid "Gift"
+msgstr "Cadeau"
+
+#: includes/CDI-Carrier-colissimo/exec.php:548
+#: includes/CDI-Carrier-ups/exec.php:461 includes/CDI-Settings.php:1010
+msgid "Sample"
+msgstr "Echantillon"
+
+#: includes/CDI-Carrier-colissimo/exec.php:549
+#: includes/CDI-Carrier-ups/exec.php:462 includes/CDI-Settings.php:1011
+msgid "Commercial"
+msgstr "Envoi commercial"
+
+#: includes/CDI-Carrier-colissimo/exec.php:550
+#: includes/CDI-Carrier-ups/exec.php:463 includes/CDI-Settings.php:1012
+msgid "Documents"
+msgstr "Document"
+
+#: includes/CDI-Carrier-colissimo/exec.php:551
+#: includes/CDI-Carrier-ups/exec.php:464 includes/CDI-Settings.php:1013
+msgid "Other"
+msgstr "Autre"
+
+#: includes/CDI-Carrier-colissimo/exec.php:552
+#: includes/CDI-Carrier-ups/exec.php:465 includes/CDI-Settings.php:1014
+msgid "Returned goods"
+msgstr "Retour de marchandise"
+
+#: includes/CDI-Carrier-colissimo/exec.php:565
+#: includes/CDI-Carrier-ups/exec.php:478
+msgid "Article : "
+msgstr "Article CN23 num :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:566
+#: includes/CDI-Carrier-ups/exec.php:479
+msgid "CN23 Art descript. : "
+msgstr "Description :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:579
+#: includes/CDI-Carrier-ups/exec.php:492
+msgid "CN23 Art weight : "
+msgstr "Poids (g) :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:593
+#: includes/CDI-Carrier-ups/exec.php:506
+msgid "CN23 Art quantity : "
+msgstr "Quantité :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:607
+#: includes/CDI-Carrier-ups/exec.php:520
+msgid "CN23 Art value : "
+msgstr "Valeur HT :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:645
+#: includes/CDI-Carrier-ups/exec.php:558
+msgid "CN23 Art origine : "
+msgstr "Pays d'origine :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:671
+#: includes/CDI-Carrier-mondialrelay/exec.php:587
+#: includes/CDI-Carrier-ups/exec.php:583 includes/CDI-Gateway.php:647
+msgid "Parcel return"
+msgstr "Retour colis"
+
+#: includes/CDI-Carrier-colissimo/exec.php:672
+#: includes/CDI-Carrier-mondialrelay/exec.php:588
+#: includes/CDI-Carrier-ups/exec.php:584 includes/CDI-Gateway.php:649
+msgid "Return days : "
+msgstr "Nb jours retour :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:706
+#: includes/CDI-Carrier-ups/exec.php:618
+msgid ""
+"Force the creation of a Cn23 return form for this order. Only the "
+"administrator can generate it and print it to send it by email to his "
+"client. The Internet customer will not see it in its order view."
+msgstr ""
+"Forcer la création d'un formulaire de retour Cn23 pour cette commande. Seul "
+"l'administrateur peut le générer et l'imprimer pour l'envoyer par mail à son "
+"client. Le client Internet ne le verra pas dans sa vue de commande."
+
+#: includes/CDI-Carrier-colissimo/exec.php:712
+#: includes/CDI-Carrier-mondialrelay/exec.php:612
+msgid "To return label : "
+msgstr "Vers étiquette retour :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:715
+#: includes/CDI-Carrier-mondialrelay/exec.php:615
+#: includes/CDI-Carrier-ups/exec.php:624 includes/CDI-Gateway.php:651
+msgid "Return tracking code : "
+msgstr "Code suivi retour :"
+
+#: includes/CDI-Carrier-colissimo/exec.php:723
+#: includes/CDI-Carrier-mondialrelay/exec.php:623
+#: includes/CDI-Carrier-ups/exec.php:632
+msgid ""
+"Force the creation of a Label return form for this order. It will be seen by "
+"the admin, and the Internet customer in his order view. "
+msgstr ""
+"Forcer la création d'une étiquette de retour pour cette commande. Elle sera "
+"visible et imprimable par l'administrateur, et par le client Internet dans "
+"sa vue de commande."
+
+#: includes/CDI-Carrier-colissimo/exec.php:750
+#: includes/CDI-Carrier-ups/exec.php:179 includes/CDI-Carrier-ups/exec.php:707
+#: includes/CDI-Carrier-ups/exec.php:742
+msgid " ===> Search Access Points error - "
+msgstr "===> Erreur sur recherche de Points d'accès - "
+
+#: includes/CDI-Carrier-colissimo/exec.php:752
+#: includes/CDI-Carrier-collect/exec.php:356
+#: includes/CDI-Carrier-mondialrelay/exec.php:700
+#: includes/CDI-Carrier-ups/exec.php:709 includes/CDI-Carrier-ups/exec.php:744
+msgid "Non-existent point"
+msgstr "Point inexistant"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:39
+msgid "This collect starting file in cdi/uploads is not valid : "
+msgstr "Le fichier de démarrage indiqué dans CDI/uploads n'est pas valide : "
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:82
+msgid " Collect point(s)."
+msgstr "Point(s) de Retrait."
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:117
+#: includes/CDI-Gateway.php:108
+msgid "Are you sure you want to delete ?"
+msgstr "Confirmez-vous la suppression ?"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:117
+msgid "Remove collect point"
+msgstr "Supprimer Points de Retrait"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:118
+msgid "Add collect point"
+msgstr "Ajouter un Point de retrait"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:156
+msgid " Collect points have been removed successfully."
+msgstr "  Point(s) de Retrait ont été supprimé(s)."
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:189
+msgid " Collect point have been added successfully."
+msgstr "  Point de retrait a été ajouté."
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:198
+msgid "Collect Point Id"
+msgstr "ID"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:199
+msgid "Collect Point Name"
+msgstr "NOM"
+
+#: includes/CDI-Carrier-collect/CDI-Collect-Points-Edit.php:215
+msgid "No Collect points have been registered."
+msgstr "Aucun Point de retrait n'est enregistré."
+
+#: includes/CDI-Carrier-collect/Collect-Affranchissement.php:249
+msgid " parcels processed with Collect Service."
+msgstr "  colis/commandes ont été traités par le service Click & Collect."
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:56
+#: includes/CDI-Carrier-collect/Collect-Follow.php:110
+#: includes/CDI-Carrier-collect/exec.php:230
+#: includes/CDI-Carrier-collect/exec.php:422
+msgid "In preparation for"
+msgstr "En préparation"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:56
+#: includes/CDI-Carrier-collect/Collect-Follow.php:110
+#: includes/CDI-Carrier-collect/exec.php:231
+#: includes/CDI-Carrier-collect/exec.php:422
+msgid "At collect point"
+msgstr "Disponible au point de retrait"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:56
+#: includes/CDI-Carrier-collect/Collect-Follow.php:110
+#: includes/CDI-Carrier-collect/exec.php:232
+#: includes/CDI-Carrier-collect/exec.php:422
+msgid "Courier is running"
+msgstr "Pris en charge par coursier "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:56
+#: includes/CDI-Carrier-collect/Collect-Follow.php:110
+#: includes/CDI-Carrier-collect/exec.php:233
+#: includes/CDI-Carrier-collect/exec.php:422
+msgid "Delivered to customer"
+msgstr "Livré au client"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:56
+#: includes/CDI-Carrier-collect/Collect-Follow.php:110
+#: includes/CDI-Carrier-collect/exec.php:234
+#: includes/CDI-Carrier-collect/exec.php:422
+msgid "Customer agreement"
+msgstr "Validation du client"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:64
+msgid "Your parcel status for "
+msgstr "Situation de votre commande  "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:66
+#: includes/CDI-Carrier-collect/Collect-Follow.php:121
+msgid "Tracking code not correct : "
+msgstr "Code de suivi invalide : "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:135
+msgid ""
+"Your order is still in preparation stage. <br> You must wait a small bit to "
+"get it."
+msgstr ""
+"Votre commande est encore en préparation. <br> Il vous faut attendre un peu "
+"pour qu'il soit disponible."
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:147
+msgid ""
+"Your order has already been acknowledged as received. <br>  You can not do "
+"more and we wish you to enjoy it. <br>  You are welcome."
+msgstr ""
+"Votre commande a déjà été livrée, livraison que vous avez validée. Vous "
+"n'avez rien d'autre à faire. <br> On vous souhaite d'en profiter pleinement. "
+"<br>  Vous êtes les bienvenus chez nous. "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:173
+#: includes/CDI-Gateway-Bordereaux.php:67 includes/CDI-Gateway-Debug.php:33
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:174
+msgid "Confirm the marking of the order as delivered."
+msgstr "Confirmer le marquage de la commande comme délivrée."
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:174
+msgid "To confirm"
+msgstr "Confirmer"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:175
+msgid "Enter your security code"
+msgstr "Entrez votre code de sécurité"
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:179
+#: includes/CDI-Carrier-collect/Collect-Follow.php:185
+msgid "To switch to delivered / received the Order "
+msgstr "Pour basculer en  Livrée / Validée  la Commande "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:179
+msgid " click on the \"Confirm\" button."
+msgstr " , cliquez sur le bouton \"Confirmer\"."
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:180
+#: includes/CDI-Carrier-collect/Collect-Follow.php:186
+msgid "Current tracking Status of the Order "
+msgstr "Situation actuelle de suivi de la Commande "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:185
+msgid " enter your security code (*) then click on the \"Confirm\" button."
+msgstr ""
+" entrez votre code de sécurité (*) puis cliquez sur le bouton «Confirmer».\n"
+" "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:187
+msgid ""
+"(*) As customer, your security code is the total price you have paid for "
+"your order, expressed in cents (i.e. 1550 if you paid 15,50€) ."
+msgstr ""
+"(*) Comme client, votre code de sécurité est le prix total que vous avez "
+"payé pour votre commande, exprimé en centimes (soit 1550 si vous avez payé "
+"15,50 €)."
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:203
+msgid "Switching to the \"Customer agreement\" tracking status of the Order "
+msgstr ""
+"Passage au statut de suivi \"Validation du client\" reçu pour la Commande "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:206
+#: includes/CDI-Carrier-collect/Collect-Follow.php:214
+msgid ""
+"Switching to the \"Delivered to customer\" tracking status of the Order "
+msgstr "Passage au statut \"Livré au client\" de la commande  "
+
+#: includes/CDI-Carrier-collect/Collect-Follow.php:208
+msgid "Security code is incorrect. Please scan again the QRcode and try again."
+msgstr ""
+"Le code de sécurité est incorrect. Veuillez scanner à nouveau le QRcode et "
+"réessayer."
+
+#: includes/CDI-Carrier-collect/exec.php:223
+msgid "Click&Collect : "
+msgstr "Click&Collect : "
+
+#: includes/CDI-Carrier-collect/exec.php:245
+msgid "Security : "
+msgstr "Sécurité : "
+
+#: includes/CDI-Carrier-collect/exec.php:252 includes/CDI-Settings.php:2043
+msgid "With security codes to apply"
+msgstr "Avec application des codes de sécurité"
+
+#: includes/CDI-Carrier-collect/exec.php:253
+msgid "Without security code"
+msgstr "Sans code de sécurité"
+
+#: includes/CDI-Carrier-collect/exec.php:263
+msgid "Delivered code : "
+msgstr "Code livraison :"
+
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:77
+msgid "Shipping country not valid"
+msgstr "Pays destinataire non valide"
+
+#: includes/CDI-Carrier-mondialrelay/Mondialrelay-Affranchissement.php:381
+msgid " parcels processed with Mondialrelay Web Service."
+msgstr " colis traités par le Web Service d’affranchissement Mondial Relay."
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:275
+#: includes/CDI-Carrier-mondialrelay/exec.php:282
+#: includes/CDI-Carrier-mondialrelay/exec.php:669
+msgid " ===> Search relays error  -"
+msgstr "===> Erreur sur recherche de Points Relay  - "
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:288
+msgid " ===> Search Points Relay error  - "
+msgstr "===> Erreur sur recherche de Points Relay - "
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:462
+msgid "Collect : "
+msgstr "Enlèvement :"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:470
+#: includes/CDI-Settings.php:1534
+msgid "REL - Collecte point relais"
+msgstr "REL - Collecte point relais"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:471
+#: includes/CDI-Settings.php:1535
+msgid "CDR - Collecte domicile 1P"
+msgstr "CDR - Collecte domicile 1P"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:472
+msgid "CDS - Collecte domicile 2P (lourd)"
+msgstr "CDS - Collecte domicile 2P (lourd)"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:473
+#: includes/CDI-Settings.php:1537
+msgid "CCC - Collecte Client Chargeur"
+msgstr "CCC - Collecte Client Chargeur"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:542
+msgid "24R - Point relais"
+msgstr "24R - Point relais"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:543
+msgid "24L - Point relais XL"
+msgstr "24L - Point relais XL"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:544
+msgid "DRI - Colis drive"
+msgstr "DRI - Colis drive"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:545
+msgid "LD1 - Domicile avec RdV 1P"
+msgstr "LD1 - Domicile avec RdV 1P"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:546
+msgid "LDS - Domicile avec RdV 2P"
+msgstr "LDS - Domicile avec RdV 2P"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:676
+msgid " ===> Error on change pickupid in admin : "
+msgstr " ===> Erreur ws sur changement de point relay :"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:798
+msgid " ===> Error on parcel tracking -"
+msgstr " ===> Erreur ws sur suivi colis :"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:799
+#: includes/CDI-Carrier-mondialrelay/exec.php:805
+msgid "*** Erreur suivi : "
+msgstr "*** Erreur suivi :"
+
+#: includes/CDI-Carrier-mondialrelay/exec.php:836
+msgid "No delivery slip (deposit) for Mondial Relay."
+msgstr "Pas de bordereau de remise (dépôt) pour Mondial Relay."
+
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:167
+msgid ""
+"Your package has arrived at your UPS Access Point. It is now at your "
+"disposal. Your order N °: "
+msgstr ""
+"Votre colis est arrivé à votre Point d'Accès UPS. Il est maintenant à votre "
+"disposition. Votre commande N°  :"
+
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:175
+msgid ""
+"Your customer package has arrived at the UPS access point. It is now at his "
+"disposal. His order N °: "
+msgstr ""
+"Le colis de votre client est arrivé au point d'accès UPS. Il est maintenant "
+"à sa disposition. Sa commande  N° :  "
+
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:261
+msgid " ===> Warning processing at order #"
+msgstr " ===> Avertissement à l'ordre  #"
+
+#: includes/CDI-Carrier-ups/Ups-Affranchissement.php:338
+msgid " parcels processed with ups Web Service."
+msgstr " colis traités par le Web Service d’affranchissement UPS."
+
+#: includes/CDI-Carrier-ups/exec.php:362
+msgid "Cost max/real "
+msgstr "Coût max/réel"
+
+#: includes/CDI-Carrier-ups/exec.php:394 includes/CDI-Settings.php:1737
+msgid "11 - UPS Standard"
+msgstr "11 - UPS Standard"
+
+#: includes/CDI-Carrier-ups/exec.php:395 includes/CDI-Settings.php:1738
+msgid "07 - UPS Express"
+msgstr "07 - UPS Express"
+
+#: includes/CDI-Carrier-ups/exec.php:396 includes/CDI-Settings.php:1739
+msgid "AP - UPS Access Point"
+msgstr "AP - UPS Access Point"
+
+#: includes/CDI-Carrier-ups/exec.php:858
+msgid " ===> Error tracking : "
+msgstr " ===> Erreur suivi :"
+
+#: includes/CDI-Docs/CDI-Doc-Gateway.php:13
+msgid "CDI - Shipping Gateway"
+msgstr "CDI - Passerelle de livraison"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-cn23.php:13
+msgid "CDI - CN23"
+msgstr "CDI - CN23"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-colissimo.php:13
+msgid "CDI - Colissimo settings"
+msgstr "CDI - Réglages Colissimo"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-collect.php:13
+msgid "CDI - Click & Collect settings"
+msgstr "CDI - Réglages Click & Collect"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-general.php:13
+msgid "CDI - General settings"
+msgstr "CDI - Réglages Généraux"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-mondialrelay.php:13
+msgid "CDI - Mondial Relay settings"
+msgstr "CDI - Réglages  Mondial Relay"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-printlabel.php:13
+msgid "CDI – Impression d’adresses"
+msgstr "CDI - Impression d'adresses"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-referrals.php:13
+msgid "CDI - Références Livraisons"
+msgstr "CDI - Références Livraisons"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-shipping.php:13
+msgid "CDI – Expéditions"
+msgstr "CDI - Expéditions"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-tracking.php:13
+msgid "CDI – Interface Client"
+msgstr "CDI - Interface Client"
+
+#: includes/CDI-Docs/CDI-Doc-Setting-ups.php:13
+msgid "CDI - UPS settings"
+msgstr "CDI - Réglages UPS"
+
+#: includes/CDI-Docs/CDI-Doc-Shipping-instance.php:13
+msgid "CDI – Méthode de Livraison"
+msgstr "CDI - Méthode de Livraison"
+
+#: includes/CDI-Frontend.php:81 includes/CDI-Frontend.php:133
+#: includes/CDI-Gateway.php:583 includes/CDI-Gateway.php:735
+#: includes/CDI-Metabox.php:121
+msgid "shipping request: "
+msgstr "Expédition initiale: "
+
+#: includes/CDI-Frontend.php:81 includes/CDI-Frontend.php:133
+#: includes/CDI-Gateway.php:583 includes/CDI-Gateway.php:735
+#: includes/CDI-Metabox.php:121
+msgid " - Carrier used: "
+msgstr " - Transporteur utilisé: "
+
+#: includes/CDI-Frontend.php:84 includes/CDI-Frontend.php:136
+#: includes/CDI-Settings.php:1210
+msgid "Order shipped. Your tracking code is : "
+msgstr "Votre colis a été expédié. Votre code de suivi est :"
+
+#: includes/CDI-Frontend.php:96 includes/CDI-Frontend.php:148
+msgid "Pickup address"
+msgstr "Adresse de retrait"
+
+#: includes/CDI-Frontend.php:111 includes/CDI-Frontend.php:163
+msgid "Pickup location : "
+msgstr "Point de retrait : "
+
+#: includes/CDI-Frontend.php:174 includes/CDI-Frontend.php:430
+#: includes/CDI-Frontend.php:474
+msgid "Notes on your order, eg special notes for color, size, ..."
+msgstr ""
+"Message concernant votre commande. Ex. indications spéciales sur la couleur, "
+"la taille, ..."
+
+#: includes/CDI-Frontend.php:180 includes/CDI-Frontend.php:424
+msgid "(*) House number + Name of the way (street, avenue, ...)"
+msgstr "(*) Numéro de la voie + Nom de la voie (rue, avenue, ...)"
+
+#: includes/CDI-Frontend.php:181 includes/CDI-Frontend.php:427
+msgid "Entrance - Block - Building - Residence"
+msgstr "Entrée - Bloc - Batiment - Résidence"
+
+#: includes/CDI-Frontend.php:182 includes/CDI-Frontend.php:440
+#: includes/CDI-Frontend.php:441 includes/CDI-Frontend.php:447
+msgid "Apartment or letter box number - Floor - Corridor - Staircase"
+msgstr "Appartement ou numéro de boite aux lettres - Couloir - Escalier"
+
+#: includes/CDI-Frontend.php:187 includes/CDI-Frontend.php:453
+#: includes/CDI-Frontend.php:454 includes/CDI-Frontend.php:460
+msgid "Postal box - Place called"
+msgstr "Boite postale - Lieu dit"
+
+#: includes/CDI-Frontend.php:314 includes/CDI-Frontend.php:334
+#: includes/CDI-Settings.php:1839
+msgid "Address line 3"
+msgstr "Adresse ligne 3"
+
+#: includes/CDI-Frontend.php:318 includes/CDI-Frontend.php:338
+msgid "Address line 4"
+msgstr "Adresse ligne4"
+
+#: includes/CDI-Frontend.php:387
+msgid "Les armées françaises"
+msgstr "Les armées françaises"
+
+#: includes/CDI-Function.php:916
+msgid "Mail to CDI not sent : not authorized file type ! "
+msgstr "Message à CDI non envoyé : Type de fichier non autorisé ! "
+
+#: includes/CDI-Function.php:923
+msgid "Mail to CDI not sent : Files too big !"
+msgstr "Message à CDI non envoyé : Fichiers trop volumineux !"
+
+#: includes/CDI-Function.php:940
+msgid "Your private message has been sent."
+msgstr "Votre message privé a été envoyé."
+
+#: includes/CDI-Function.php:1079
+msgid " ===> Search relays error  - Customer address not found : "
+msgstr ""
+"===> Erreur sur recherche de Points Relay - Adresse de client non trouvée :"
+
+#: includes/CDI-Gateway-Bordereaux.php:68
+msgid "Add selection (s)"
+msgstr "Ajouter sélections"
+
+#: includes/CDI-Gateway-Bordereaux.php:69
+msgid "Purge selected"
+msgstr "Supprimer Sélectés"
+
+#: includes/CDI-Gateway-Bordereaux.php:72
+msgid ""
+"Select the carrier for which the logistics documents (green buttons) will be "
+"generated."
+msgstr ""
+"Sélectionnez le transporteur pour lequel les documents logistiques (boutons "
+"verts) seront générés."
+
+#: includes/CDI-Gateway-Bordereaux.php:79
+msgid "Travel voucher"
+msgstr "Bon de Transport"
+
+#: includes/CDI-Gateway-Bordereaux.php:79
+msgid ""
+"Generate a transport voucher. This document is intended for the logistics "
+"department, a service provider, or a carrier, who have to deliver the "
+"packages. It contains gathered in one sheet only the external "
+"characteristics of the package selection, without detailing the content of "
+"each package"
+msgstr ""
+"Générer un bon de transport. Ce document est destiné au service logistique, "
+"à un prestataire ou à un transporteur, qui doit livrer les colis. Il "
+"contient regroupées dans une seule feuille les caractéristiques externes de "
+"la sélection de colis, sans détailler le contenu de chaque colis"
+
+#: includes/CDI-Gateway-Bordereaux.php:80
+msgid "Preparation lists"
+msgstr "Listes de préparation"
+
+#: includes/CDI-Gateway-Bordereaux.php:80
+msgid ""
+"Generate Preparation Lists. These documents are intended for the logistics "
+"department or a service provider, who in particular have to prepare the "
+"packages. They consist of independent sheets per package giving details of "
+"the items to be in each package."
+msgstr ""
+"Générer des listes de préparation. Ces documents sont destinés au service "
+"logistique ou à un prestataire, qui doivent notamment préparer les colis. "
+"Ils se composent de feuilles indépendantes par colis donnant des détails sur "
+"les articles à inclure dans chaque colis."
+
+#: includes/CDI-Gateway-Bordereaux.php:81
+msgid "Status of deliveries"
+msgstr "Etat des livraisons"
+
+#: includes/CDI-Gateway-Bordereaux.php:81
+msgid ""
+"Document giving the overall status of deliveries for the selected packages."
+msgstr ""
+"Document donnant l'état général des livraisons  pour les colis sélectionnés."
+
+#: includes/CDI-Gateway-Bordereaux.php:82
+msgid "Deposit voucher"
+msgstr "Bordereau de remise"
+
+#: includes/CDI-Gateway-Bordereaux.php:82
+msgid ""
+"Generate a delivery slip for the carrier. This document is to be given when "
+"the parcels are dropped off at carrier. It may be optional according to the "
+"deposit terms agreed in the contract with the carrier."
+msgstr ""
+"Générer un bordereau de remise pour le transporteur. Ce document est à "
+"remettre lors du dépôt des colis. Il peut être facultatif selon les "
+"modalités de dépôt convenues dans le contrat avec le transporteur."
+
+#: includes/CDI-Gateway-Bordereaux.php:84
+msgid "bulk labels"
+msgstr "Etiquettes"
+
+#: includes/CDI-Gateway-Bordereaux.php:84
+msgid ""
+"Here you can export a bulk printing of your label parcels / parcels already "
+"processed."
+msgstr ""
+"Ici, vous pouvez exporter un assemblage d'étiquettes d'affranchissement de "
+"vos colis déjà traités."
+
+#: includes/CDI-Gateway-Bordereaux.php:85
+msgid "bulk cn23s"
+msgstr "CN23s"
+
+#: includes/CDI-Gateway-Bordereaux.php:85
+msgid ""
+"Here you can export a bulk printing of your cn23 parcels / parcels already "
+"processed."
+msgstr ""
+"Ici, vous pouvez exporter un assemblage de vos cn23 de vos colis déjà "
+"traités."
+
+#: includes/CDI-Gateway-Bordereaux.php:86
+msgid "Orders / parcels history"
+msgstr "Histo. colis"
+
+#: includes/CDI-Gateway-Bordereaux.php:86
+msgid ""
+"Here you can export a csv history of your orders / parcels already "
+"processed. For reprocessing from the csv workbook."
+msgstr ""
+"Ici, vous pouvez exporter un historique CSV de vos commandes / colis déjà "
+"traités. Pour un retraitement à partir du classeur CSV."
+
+#: includes/CDI-Gateway-Bordereaux.php:91
+msgid "Selectors"
+msgstr "Sélecteurs"
+
+#: includes/CDI-Gateway-Bordereaux.php:92
+msgid "Selection of Orders / Packages:"
+msgstr "Sélections des Commandes / Colis"
+
+#: includes/CDI-Gateway-Bordereaux.php:96
+msgid "Parcels in the Gateway"
+msgstr "   Colis dans la passerelle"
+
+#: includes/CDI-Gateway-Bordereaux.php:100
+msgid "Packages for orders from date to date (included):"
+msgstr "Colis des commandes de date à date (inclues) : "
+
+#: includes/CDI-Gateway-Bordereaux.php:110
+msgid "Order / package Id list (separating commas): "
+msgstr "Liste Id de commandes/colis (virgules de séparation) :"
+
+#: includes/CDI-Gateway-Bordereaux.php:115
+msgid "list of codes followed (separating commas):"
+msgstr "liste de codes suivi (virgules de séparation) : "
+
+#: includes/CDI-Gateway-Bordereaux.php:120
+msgid ""
+"External (scan, app, etc) (separator commas, 'orderid, [codetracking], ...' "
+"syntax) or by a change of the Wordpress option 'cdi_o_Br_select_extern' "
+msgstr ""
+"Externe : scan, app, etc ...(virgules de séparation, syntaxe 'orderid,"
+"[codetracking],...'),  ou en changeant l'entrée  'cdi_o_Br_select_extern'  "
+"de la table d'options  Wordpress. "
+
+#: includes/CDI-Gateway-Bordereaux.php:125
+msgid ""
+"Cancellation of Orders / Parcels (separator commas, 'orderid, "
+"[codetracking], ...' syntax):"
+msgstr ""
+"Annulation Commandes/Colis (virgules de séparation, syntaxe 'orderid,"
+"[codetracking],...') : "
+
+#: includes/CDI-Gateway-Bordereaux.php:131
+msgid "Selected (all carriers)"
+msgstr "Sélectés (tous transporteurs)"
+
+#: includes/CDI-Gateway-Bordereaux.php:135
+msgid "Your logistics documents"
+msgstr "Vos documents logistiques"
+
+#: includes/CDI-Gateway-Bordereaux.php:136
+msgid "History of generated documents"
+msgstr "Historique des documents générés "
+
+#: includes/CDI-Gateway-Bordereaux.php:144
+#: includes/CDI-Gateway-Bordereaux.php:153
+msgid "Creation date"
+msgstr "Date de création"
+
+#: includes/CDI-Gateway-Bordereaux.php:145
+#: includes/CDI-Gateway-Bordereaux.php:154
+msgid "Type and reference"
+msgstr "Type et référence"
+
+#: includes/CDI-Gateway-Bordereaux.php:146
+#: includes/CDI-Gateway-Bordereaux.php:155 includes/CDI-Gateway.php:314
+msgid "Parcel"
+msgstr "Colis"
+
+#: includes/CDI-Gateway-Bordereaux.php:147
+#: includes/CDI-Gateway-Bordereaux.php:156
+msgid "View"
+msgstr "Voir"
+
+#: includes/CDI-Gateway-Bordereaux.php:180
+msgid "Logistics documents"
+msgstr "Documents logistiques"
+
+#: includes/CDI-Gateway-Bordereaux.php:180
+msgid "Management of logistics documents. To open click!"
+msgstr "Gestion des documents logistiques. Pour ouvrir cliquez!"
+
+#: includes/CDI-Gateway-Bordereaux.php:229
+msgid "Welcome in the manager of your logistics documents"
+msgstr "Bienvenue dans le gestionnaire de vos documents logistiques"
+
+#: includes/CDI-Gateway-Bordereaux.php:459
+msgid ""
+"Your logistics documents will now be produced for your orders with the "
+"carrier : "
+msgstr ""
+"Vos documents logistiques seront désormais produits pour les commandes "
+"auprès du transporteur :"
+
+#: includes/CDI-Gateway-Bordereaux.php:459
+msgid ""
+"The carrier selection will be made during the production of each document."
+msgstr ""
+"La sélection du transporteur se fera lors de la production de chaque "
+"document."
+
+#: includes/CDI-Gateway-Custom.php:97
+msgid " parcels processed ; "
+msgstr " colis traités ; "
+
+#: includes/CDI-Gateway-Custom.php:97
+msgid " tracking codes updated."
+msgstr "  lignes de suivi mises à jour dans la passerelle."
+
+#: includes/CDI-Gateway-Debug.php:34
+msgid "Suppress cdilog.log"
+msgstr "Nettoyer cdilog.log"
+
+#: includes/CDI-Gateway-Debug.php:35
+msgid "Refresh view"
+msgstr "Rafraîchir la vue"
+
+#: includes/CDI-Gateway-Debug.php:36
+msgid "Select Debug View"
+msgstr "Sélection des vues"
+
+#: includes/CDI-Gateway-Debug.php:37
+msgid " Select Debug View ==>"
+msgstr " Sélectionner la vue ==>"
+
+#: includes/CDI-Gateway-Debug.php:61
+msgid "Debug View"
+msgstr "Lancer Debug"
+
+#: includes/CDI-Gateway-Debug.php:61
+msgid "Debug CDI. To open click!"
+msgstr "Debug CDI. Pour ouvrir cliquez!"
+
+#: includes/CDI-Gateway-Debug.php:85
+msgid "The cdilog.log has been cleared."
+msgstr "Le fichier cdilog.log est maintenant vide."
+
+#: includes/CDI-Gateway-Manual.php:86
+msgid " parcels inserted in csv file."
+msgstr " colis insérés dans le fichier csv."
+
+#: includes/CDI-Gateway-Printlabel.php:68
+msgid "Printing Adress Labels"
+msgstr "Impression d'étiquettes adresse"
+
+#: includes/CDI-Gateway-Printlabel.php:177
+msgid " address labels have been created."
+msgstr " étiquettes adresse ont été produites."
+
+#: includes/CDI-Gateway.php:69
+msgid " parcel(s) in the gateway."
+msgstr "   colis dans la passerelle d'expédition."
+
+#: includes/CDI-Gateway.php:106
+msgid "Block parcels"
+msgstr "Bloquer"
+
+#: includes/CDI-Gateway.php:106
+msgid ""
+"Block parcels that you temporarily do not want to process in the cdi gateway."
+msgstr ""
+"Bloquez les colis que vous souhaitez temporairement ne pas traiter dans la "
+"Passerelle CDI."
+
+#: includes/CDI-Gateway.php:107
+msgid "Release parcels"
+msgstr "Libérer"
+
+#: includes/CDI-Gateway.php:107
+msgid "Release parcels that you now want to process in the cdi gateway."
+msgstr ""
+"Libérez les colis que vous souhaitez maintenant traiter dans la Passerelle "
+"CDI."
+
+#: includes/CDI-Gateway.php:108
+msgid "Remove parcels"
+msgstr "Supprimer"
+
+#: includes/CDI-Gateway.php:108
+msgid ""
+"Necessary when auto clean of parcels has not been set in settings. Your "
+"parcels can be remove at the end of a gateway session (i.e. after sending "
+"parcels to your carriers, collecting the tracking codes, and copying them in "
+"the gateway). Afterward, a new list of parcels can be prepared for a new "
+"gateway session."
+msgstr ""
+"Nécessaire quand le nettoyage automatique des colis  n'a pas été définie "
+"dans les paramètres. Vos colis peuvent être enlever à la fin d'une session "
+"de la passerelle (à savoir après l'envoi des colis vers votre transporteur, "
+"la collecte de leur codes de suivi, et leur recopiage dans la Passerelle "
+"CDI). Par la suite, une nouvelle liste de colis  pourra être préparé pour "
+"une nouvelle session de la Passerelle."
+
+#: includes/CDI-Gateway.php:113
+msgid "Register your changes"
+msgstr "Enregistrer"
+
+#: includes/CDI-Gateway.php:113
+msgid "Save your package tracking code changes."
+msgstr "Enregistrer les codes de suivi qui ont été modifiés."
+
+#: includes/CDI-Gateway.php:133
+msgid ""
+"Submit your packages on hold (i.e. without yet a tracking code) in the "
+"gateway to your carriers :"
+msgstr ""
+"Soumettez  tous vos colis en passerelle en attente (i.e. sans encore un code "
+"de suivi) à vos transporteurs :"
+
+#: includes/CDI-Gateway.php:137
+msgid "Manual"
+msgstr "Manuel"
+
+#: includes/CDI-Gateway.php:138
+msgid ""
+"A csv file will be exported. It can be printed to manage parcels to send to "
+"your carrier. It also can be used to activate an browser automation. It can "
+"be use as input for a carrier software. The parcel tracking codes will then "
+"have to be manually entered into the gateway panel."
+msgstr ""
+"Un fichier csv sera exporté. Il pourra être imprimé pour gérer les colis à "
+"envoyer à votre transporteur. Il pourra également être utilisé pour activer "
+"un script de navigateur. Il pourra être utilisé également comme entrée pour "
+"un logiciel de transporteur. Les codes de suivi des colis devront ensuite "
+"être saisis manuellement dans la Passerelle CDI."
+
+#: includes/CDI-Gateway.php:141
+msgid "Export a csv file."
+msgstr "Exporte un fichier CSV."
+
+#: includes/CDI-Gateway.php:146
+msgid "Addresses printing for letters"
+msgstr "Impr. Adresses"
+
+#: includes/CDI-Gateway.php:147
+msgid ""
+"A pdf file with address labels will be exported. It can be printed for "
+"parcels or letters to send throught the carrier chosen. The parcel tracking "
+"codes will have to be manually entered into the gateway panel."
+msgstr ""
+"Un fichier pdf avec des étiquettes d'adresse sera exporté. Il peut être "
+"imprimé pour être utiliser sur les colis ou les lettres à envoyer à travers "
+"le transporteur choisi. Les codes de suivi des colis devront être saisis "
+"manuellement dans le panneau de passerelle."
+
+#: includes/CDI-Gateway.php:150
+msgid "Print address labels."
+msgstr "Imprime des étiquettes adresse."
+
+#: includes/CDI-Gateway.php:155 includes/CDI-Metabox-subscription.php:72
+#: includes/CDI-Metabox.php:91 includes/CDI-Shipping.php:71
+msgid "Colissimo"
+msgstr "Colissimo"
+
+#: includes/CDI-Gateway.php:156
+msgid ""
+"The service will be executed in line with Colissimo Web service under soap "
+"protocol. A business contract with La Poste is needed. After printing of "
+"Colissimo labels, the parcel tracking codes will be automatically inserted "
+"into the gateway panel."
+msgstr ""
+"Le service sera exécuté avec le  Web Service d’Affranchissement Colissimo. "
+"Un contrat Entreprise avec La Poste est nécessaire. Après l'impression des "
+"étiquettes Colissimo, les codes de suivi des colis et autres informations "
+"seront automatiquement insérés dans le panneau de la passerelle."
+
+#: includes/CDI-Gateway.php:159
+msgid "Run the \"Web Service d’Affranchissement Colissimo\"."
+msgstr "Service d’Affranchissement Colissimo"
+
+#: includes/CDI-Gateway.php:164 includes/CDI-Metabox-subscription.php:73
+#: includes/CDI-Metabox.php:92 includes/CDI-Shipping.php:73
+msgid "Mondial Relay"
+msgstr "Mondial Relay"
+
+#: includes/CDI-Gateway.php:165
+msgid ""
+"The service will be executed in line with Mondial Relay Web service under "
+"soap protocol. A business contract with Mondial Relay is needed. After "
+"printing of Mondial Relay labels, the parcel tracking codes will be "
+"automatically inserted into the gateway panel."
+msgstr ""
+"Le service sera exécuté avec le  Web Service d’Affranchissement Mondial "
+"Relay. Un contrat avec Mondial Relay est nécessaire. Après l'impression des "
+"étiquettes Mondial Relay, les codes de suivi des colis et autres "
+"informations seront automatiquement insérés dans le panneau de la passerelle."
+
+#: includes/CDI-Gateway.php:168
+msgid "Run the \"Web Service d’Affranchissement Mondial Relay\"."
+msgstr "Service d’Affranchissement Mondial Relay"
+
+#: includes/CDI-Gateway.php:173 includes/CDI-Metabox-subscription.php:74
+#: includes/CDI-Metabox.php:93 includes/CDI-Shipping.php:72
+msgid "UPS"
+msgstr "UPS"
+
+#: includes/CDI-Gateway.php:174
+msgid ""
+"The service will be executed in line with UPS Web services under soap or xml "
+"protocols. A business contract with UPS is needed. After printing of UPS "
+"labels, the parcel tracking codes will be automatically inserted into the "
+"gateway panel."
+msgstr ""
+"Le service sera exécuté avec les  Web Service d’Affranchissement UPS sous "
+"Soap et XML protocole. Un contrat avec UPS est nécessaire. Après "
+"l'impression des étiquettes UPS, les codes de suivi des colis et autres "
+"informations seront automatiquement insérés dans le panneau de la passerelle."
+
+#: includes/CDI-Gateway.php:177
+msgid "Run the \"Web Service d’Affranchissement UPS\"."
+msgstr "Service d’Affranchissement UPS"
+
+#: includes/CDI-Gateway.php:182 includes/CDI-Metabox-subscription.php:75
+#: includes/CDI-Metabox.php:94 includes/CDI-Shipping.php:74
+msgid "Collect"
+msgstr "Collect"
+
+#: includes/CDI-Gateway.php:183
+msgid ""
+"The service will be executed with Clieck & Collect services. After printing "
+"of Collect labels, the parcel tracking codes will be automatically inserted "
+"into the gateway panel."
+msgstr ""
+"Le service sera exécuté avec Click & Collect. Après l'impression des "
+"étiquettes, les codes de suivi des colis et autres informations seront "
+"automatiquement insérés dans le panneau de la passerelle."
+
+#: includes/CDI-Gateway.php:186
+msgid "Run the \"Click & Collect Service\"."
+msgstr "Service de \"Click & Collect\""
+
+#: includes/CDI-Gateway.php:192
+msgid ""
+"A custom service will be executed. The filter $cdi_tracking = apply_filters "
+"('cdi_custom_gateway_exec', $cdi_tracking=false , $cdi_nbrorderstodo , "
+"$cdi_rowcurrentorder, $array_for_carrier) is used. $array_for_carrier "
+"contains the datas to process with your software carrier. The parcel "
+"tracking code is returned in $cdi_tracking and will be automatically updated "
+"into the gateway panel. $cdi_nbrorderstodo and $cdi_rowcurrentorder are "
+"respectively the number of orders to process and the rank of the current "
+"order in process."
+msgstr ""
+"Votre programme personnalisé sera exécuté. Le filtre $cdi_tracking = "
+"apply_filters ('cdi_custom_gateway_exec', $cdi_tracking = false, "
+"$cdi_nbrorderstodo, $cdi_rowcurrentorder, $array_for_carrier) est utilisé. "
+"$Array_for_carrier contient les données à traiter avec le  logiciel de votre "
+"transporteur. Le informations de suivi des colis sont retournées dans "
+"$cdi_tracking et seront automatiquement mises à jour dans le panneau de la "
+"passerelle. $cdi_nbrorderstodo et $cdi_rowcurrentorder sont respectivement "
+"le nombre de commandes à traiter et le rang de l'ordre actuel dans le "
+"processus."
+
+#: includes/CDI-Gateway.php:195
+msgid "Run your custom computer program through a filter."
+msgstr "Exécute votre programme personnalisé."
+
+#: includes/CDI-Gateway.php:233
+msgid " parcel(s) have been freezed."
+msgstr " colis ont été bloqués."
+
+#: includes/CDI-Gateway.php:254
+msgid " parcel(s) have been unfreezed."
+msgstr " colis ont été libérés."
+
+#: includes/CDI-Gateway.php:282
+msgid " tracking code(s) have been changed."
+msgstr "  code(s) de suivi ont été modifiés."
+
+#: includes/CDI-Gateway.php:303
+msgid " parcels have been removed successfully."
+msgstr "  colis ont été supprimés."
+
+#: includes/CDI-Gateway.php:315
+msgid "Order"
+msgstr "Commande"
+
+#: includes/CDI-Gateway.php:316
+msgid "Destination"
+msgstr "Destination"
+
+#: includes/CDI-Gateway.php:317
+msgid ""
+"Shipping address is only for home shippings. For pickup shippings the pickup "
+"address is displayed elsewhere."
+msgstr ""
+"L'adresse de livraison est uniquement pour les expéditions à domicile. Pour "
+"les envois en point relai, l'adresse de retrait est affichée ailleurs en "
+"complément."
+
+#: includes/CDI-Gateway.php:317
+msgid "Shipping address"
+msgstr "Adresse destinataire"
+
+#: includes/CDI-Gateway.php:318
+msgid "Tracking code"
+msgstr "Code suivi"
+
+#: includes/CDI-Gateway.php:319
+msgid "Label"
+msgstr "Etiquette"
+
+#: includes/CDI-Gateway.php:320
+msgid "Url"
+msgstr "Url"
+
+#: includes/CDI-Gateway.php:322 includes/CDI-Shipping.php:67
+msgid "Carrier"
+msgstr "Transporteur"
+
+#: includes/CDI-Gateway.php:341
+msgid "No parcel have been registered in the gateway."
+msgstr "Aucun colis enregistré dans la passerelle d'expédition."
+
+#: includes/CDI-Gateway.php:566 includes/CDI-Gateway.php:746
+#: includes/CDI-Metabox.php:65 includes/CDI-Metabox.php:70
+#: includes/CDI-Orderlist.php:90
+msgid "Waiting"
+msgstr "En attente d'expédition"
+
+#: includes/CDI-Gateway.php:566 includes/CDI-Gateway.php:746
+#: includes/CDI-Metabox.php:65 includes/CDI-Orderlist.php:94
+msgid "Deposited"
+msgstr "Dans la passerelle d'expédition"
+
+#: includes/CDI-Gateway.php:566 includes/CDI-Gateway.php:746
+#: includes/CDI-Metabox.php:65
+msgid "Intruck"
+msgstr "Dans le camion"
+
+#: includes/CDI-Gateway.php:570
+msgid "More details in CDI Metabox"
+msgstr "Details dans la  Metabox CDI"
+
+#: includes/CDI-Gateway.php:575
+msgid "From : "
+msgstr "De :"
+
+#: includes/CDI-Gateway.php:577 includes/CDI-Metabox.php:114
+msgid "To : "
+msgstr " Vers : "
+
+#: includes/CDI-Gateway.php:624
+msgid "Avis réception : "
+msgstr "Avis réception : "
+
+#: includes/CDI-Gateway.php:628
+msgid "ftd OM : "
+msgstr "ftd OM : "
+
+#: includes/CDI-Gateway.php:631
+msgid "Customer shipping settings"
+msgstr "Choix de livraison du client "
+
+#: includes/CDI-Gateway.php:734
+msgid "Billing details"
+msgstr "Détail de facturation"
+
+#: includes/CDI-Gateway.php:734
+msgid "Email"
+msgstr "Email"
+
+#: includes/CDI-Gateway.php:734
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/CDI-Gateway.php:734
+msgid "Payment via"
+msgstr "Paiement par"
+
+#: includes/CDI-Gateway.php:735
+msgid "Shipping details"
+msgstr "Détail de livraison"
+
+#: includes/CDI-Gateway.php:736
+msgid "Customer note"
+msgstr "Note du client"
+
+#: includes/CDI-Metabox-subscription.php:61
+msgid "Original shipping : "
+msgstr "Livraison initiale:"
+
+#: includes/CDI-Metabox-subscription.php:64
+msgid "Future shippings :"
+msgstr "Livraisons futures :"
+
+#: includes/CDI-Metabox-subscription.php:65 includes/CDI-Metabox.php:84
+msgid "Carrier : "
+msgstr "Transporteur :"
+
+#: includes/CDI-Metabox.php:62
+msgid "Parcel (Order) : "
+msgstr "Colis (Commande) : "
+
+#: includes/CDI-Metabox.php:66
+msgid "Status : "
+msgstr "Etat :"
+
+#: includes/CDI-Metabox.php:70 includes/CDI-Orderlist.php:90
+msgid "Waiting - Can be filed in the CDI gateway."
+msgstr ""
+"En attente d'expédition - Prêt à être déposé dans la Passerelle CDI (Gateway "
+"ou Passerelle d'expédition)."
+
+#: includes/CDI-Orderlist.php:56
+msgid "Insert parcels in CDI Gateway"
+msgstr "Mettre en Passerelle CDI"
+
+#: includes/CDI-Orderlist.php:94
+msgid "Filed in CDI gateway - Is pending for processing."
+msgstr ""
+"Déposé dans la Passerelle CDI - Prêt à recevoir le traitement d'expédition."
+
+#: includes/CDI-Orderlist.php:98
+msgid "In truck"
+msgstr "Dans le camion"
+
+#: includes/CDI-Orderlist.php:98
+msgid "In truck - Parcel is on the road and carrier is in charge."
+msgstr ""
+"Dans le camion -  Le colis a été traité  et est pris en charge par le "
+"transporteur."
+
+#: includes/CDI-Orderlist.php:108
+msgid "label"
+msgstr "Étiquette affranchissement"
+
+#: includes/CDI-Orderlist.php:108
+msgid "Label exits. May be printed."
+msgstr "Étiquette d'affranchissement existante. Elle peut être imprimée."
+
+#: includes/CDI-Orderlist.php:115
+msgid "cn23"
+msgstr "cn23"
+
+#: includes/CDI-Orderlist.php:115
+msgid "Cn23 exits. May be printed."
+msgstr "Cn23 existant. Elle peut être imprimée."
+
+#: includes/CDI-Orderlist.php:125
+msgid "Carrier redirected"
+msgstr "Redirection Transporteur"
+
+#: includes/CDI-Orderlist.php:128
+msgid ""
+"This parcel has been redirected by administrator to another carrier and/or "
+"with another carrier code. The initial shipping indication showed by "
+"WooCommerce may not be the right one. Only the information in CDI gatewal is "
+"true.<br><br>Click on icon to suppress this notification."
+msgstr ""
+"Ce colis a été redirigé par l'administrateur vers un autre transporteur et/"
+"ou avec un autre code ou point relai du transporteur. L'indication "
+"d'expédition initiale affichée par WooCommerce n'est peut-être plus la "
+"bonne. Seules les informations contenues dans la Passerelle CDI sont vraies. "
+"<br> <br>Cliquez sur l'icône pour supprimer cette notification."
+
+#: includes/CDI-Orderlist.php:135
+msgid "Parcel return asked"
+msgstr "Retour colis demandé"
+
+#: includes/CDI-Orderlist.php:135
+msgid ""
+"Parcel return asked - A parcel return label has been asked by the customer "
+"(but we dont know if the parcel has already been sent).<br><br>Click on icon "
+"to suppress this notification."
+msgstr ""
+"Colis retour demandé.<br>\n"
+"Le client a demandé une étiquette de retour de colis pour cette commande "
+"(mais nous ne savons pas si le colis a déjà été déposé chez le tranporteur)."
+"<br><br>\n"
+"Cliquez sur l'icône pour supprimer cette notification."
+
+#: includes/CDI-Reference-Livraisons.php:371
+msgid "The carrier can not send its relay addresses. Please try again."
+msgstr ""
+"Votre transporteur est inaccessible ou ne peut pas géolocaliser cette "
+"adresse. Veuillez réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:455
+msgid "Select your pickup locations :"
+msgstr "Sélectionnez votre point de retrait :"
+
+#: includes/CDI-Reference-Livraisons.php:460
+msgid "Choose a location"
+msgstr "Choisissez un point de retrait"
+
+#: includes/CDI-Reference-Livraisons.php:566
+msgid "CDI can not geolocate this address. Please try again."
+msgstr "CDI ne peut pas géolocaliser cette adresse. Veuillez réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:632
+msgid "Open Maps can not geolocate this address. Please try again."
+msgstr "Open Maps ne peut pas géolocaliser cette adresse. Veuillez réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:765
+msgid "Google Maps can not geolocate this address. Please try again."
+msgstr ""
+"Google Maps ne peut pas géolocaliser cette adresse. Veuillez réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:1030
+msgid "You must fill your billing phone number."
+msgstr "Vous devez renseigner un numéro de téléphone (mobile)."
+
+#: includes/CDI-Reference-Livraisons.php:1045
+msgid "You must select a pickup location. Please try again."
+msgstr "Vous devez choisir un point de retrait. Essayez de nouveau SVP."
+
+#: includes/CDI-Reference-Livraisons.php:1063
+msgid "Pickup location - Technical error on product code. Please try again."
+msgstr ""
+"Points de retrait - Erreur technique sur le code produit. Veuillez réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:1070
+msgid ""
+"Pickup location - Technical error : WC adress not present. Please try again."
+msgstr ""
+"Points de retrait - Erreur technique : adresse WC absente. Veuillez "
+"réessayer."
+
+#: includes/CDI-Reference-Livraisons.php:1092
+msgid "Pickup location - Technical error on pickup method. Please try again."
+msgstr ""
+"Points de retrait - Erreur technique de cohérence : méthode de livraison vs "
+"ID du point de retrait. Veuillez réessayer."
+
+#: includes/CDI-Repatriation.php:149
+msgid ""
+"You used previously an old CDI plugin version. Its settings have been taken "
+"back in this new CDI. Your CDI DB (CDI Gateway) and your CDI shipping "
+"parameters are inchanged."
+msgstr ""
+"Vous avez utilisé précédemment une  version antérieure du plugin CDI "
+"(Colissimo Delivery Intégration). Ses réglages ont été repris à l'identique "
+"dans ce nouveau CDI (Collect and Deliver Interface). Votre base de donnée "
+"CDI (Passerelle CDI) et vos paramètres d'expédition CDI restent inchangés."
+
+#: includes/CDI-Repatriation.php:149
+msgid ""
+"If you had a problem starting this new CDI plugin, you can go back to the "
+"old plugin. To do this, deactivate this plugin with previously having marked "
+"in the CDI settings, general settings, the deletion of data, then reactivate "
+"the old plugin."
+msgstr ""
+"Si vous aviez un quelconque problème pour le démarrage de ce nouveau plugin "
+"CDI, vous pourrez toujours revenir à l'ancien plugin.  Pour cela, 1- "
+"Désactivez ce plugin après avoir  préalablement demandé dans les réglages "
+"CDI, onglet réglages généraux, la suppression des données lors de la "
+"suppression du plugin, 2- Supprimez ce plugin, puis 3- Réactivez l'ancien "
+"plugin. \n"
+"Il est en revanche déconseillé en exploitation de basculer plusieurs fois "
+"d'un plugin vers l'autre au risque de générer des incohérences."
+
+#: includes/CDI-Retour-Colis.php:93
+msgid "Print your parcel return label"
+msgstr "Imprimer l'étiquette d'affranchissement de retour"
+
+#: includes/CDI-Retour-Colis.php:111
+msgid "Request for a parcel return label"
+msgstr "Demander une étiquette d'affranchissement retour"
+
+#: includes/CDI-Settings.php:68 includes/CDI-Shipping.php:63
+msgid "CDI"
+msgstr "CDI"
+
+#: includes/CDI-Settings.php:120
+msgid "Reset the official carriers settings"
+msgstr "Réinstaller les paramètres officiels de CDI"
+
+#: includes/CDI-Settings.php:120
+msgid ""
+"Warning : To reset your carriers settings (shown with red font)  to official "
+"settings if you have inadvertently changed them. Your own website settings "
+"(font not in red) will not be modified."
+msgstr ""
+"Avertissement: Pour reinstaller vos réglages CDI officiels (affichés avec "
+"police rouge), si vous les aviez modifiés par inadvertance. Les paramètres "
+"propres à votre installation (police non en rouge) ne seront pas changés."
+
+#: includes/CDI-Settings.php:148
+msgid "Reinstall the CDI Gateway"
+msgstr "Réinstaller la passerelle CDI"
+
+#: includes/CDI-Settings.php:148
+msgid ""
+"Warning : To reinstall the CDI gateway when something is wrong in CDI "
+"process or in an order. The gateway will be recreate empty of parcels. "
+"Existing pending parcels in gateway will be deleted, but corresponding "
+"orders will be inchanged. All others CDI settings will stay."
+msgstr ""
+"Avertissement: Pour réinstaller la passerelle CDI lorsque quelque chose ne "
+"va pas dans le fonctionnement de CDI ou dans une commande dont le colis est "
+"en passerelle. La passerelle sera recréée vide de colis. Les colis en "
+"attente existants dans la passerelle seront supprimés, mais les commandes "
+"correspondantes seront conservées inchangées. Tous les autres paramètres CDI "
+"resteront inchangés."
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-general"
+msgstr "Onglet Réglages généraux"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-cn23"
+msgstr "Onglet  CN23"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-tracking"
+msgstr "Onglet Interfaces client"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-colissimo"
+msgstr "Onglet  Colissimo"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-referrals"
+msgstr "Onglet Références aux livraisons"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-shipping"
+msgstr "Onglet Méthodes de livraison CDI"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-mondialrelay"
+msgstr "Onglet Mondial Relay"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-ups"
+msgstr "Onglet  UPS"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-printlabel"
+msgstr "Onglet Étiquettes lettres"
+
+#: includes/CDI-Settings.php:183
+msgid "Settings tab section-collect"
+msgstr "Onglet  Click Collect"
+
+#: includes/CDI-Settings.php:188
+msgid "Settings tab "
+msgstr "Onglet  "
+
+#: includes/CDI-Settings.php:192
+msgid "It seems yours CDI panels | "
+msgstr "Votre ou vos écrans de paramétrage CDI suivants :  | "
+
+#: includes/CDI-Settings.php:192
+msgid ""
+" have not been registered. So your plugin will not work correctly. Please "
+"click on \"Register changes\" for each of theses panels to have your "
+"settings correctly registered."
+msgstr ""
+" n'ont pas été enregistrés. Pour cela, votre plugin ne fonctionnera pas "
+"correctement. SVP cliquez sur \"Enregistrer les changements\" pour chaque "
+"écran de paramétrage CDI, pour avoir tous vos réglages correctement "
+"enregistrés."
+
+#: includes/CDI-Settings.php:198
+msgid ""
+"The Wordpress version is less than 4.7.0. You should upgrade it to fully use "
+"CDI"
+msgstr ""
+"La version Wordpress est inférieure à 4.7.0. Mettez à jour pour utiliser "
+"pleinement CDI"
+
+#: includes/CDI-Settings.php:202
+msgid ""
+"The Woocommerce version is less than 3.0.0. You should upgrade it to fully "
+"use CDI"
+msgstr ""
+"La version Woocommerce est inférieure à  3.0.0. Mettez à jour pour utiliser "
+"pleinement CDI"
+
+#: includes/CDI-Settings.php:205
+msgid ""
+"The PHP version is less than 5.4.0. You should upgrade it to fully use CDI"
+msgstr ""
+"La version PHP est inférieure à 5.4.0. Mettez à jour pour utiliser "
+"pleinement CDI"
+
+#: includes/CDI-Settings.php:208
+msgid ""
+"The OpenSSL extension is not installed. You should install it to fully use "
+"CDI"
+msgstr ""
+"L'extension OpenSSL n'est pas installée. Installez la pour utiliser "
+"pleinement CDI"
+
+#: includes/CDI-Settings.php:212
+msgid ""
+"The Openssl version is less than 1.0.1. You should upgrade it to fully use "
+"CDI"
+msgstr ""
+"La version Openssl est inférieure à 1.0.1. Mettez à jour pour utiliser "
+"pleinement CDI"
+
+#: includes/CDI-Settings.php:216
+msgid ""
+"Your installation has not allow_url_fopen authorized, and moreover Curl is "
+"not setup. We can be afraid that CDI will not fully work."
+msgstr ""
+"Votre installation n'a pas Curl installé, et allow_url_fopen n'est pas "
+"autorisé . Nous pouvons craindre que CDI ne fonctionne pas complètement."
+
+#: includes/CDI-Settings.php:352
+msgid "Parcel default settings"
+msgstr ""
+"Réglages généraux pour les colis (Pour uniquement certains transporteurs)."
+
+#: includes/CDI-Settings.php:360
+msgid "Default Type Parcel"
+msgstr "Type de colis par défaut"
+
+#: includes/CDI-Settings.php:366
+msgid ""
+"Request delivery against signature whenever possible. If not requested, it "
+"will be delivery without signature whenever possible. Delivery without "
+"signature depends on the carriers and destination countries in which they "
+"operate."
+msgstr ""
+"Demander une livraison contre signature chaque fois que possible. Si non "
+"demandé, ce sera livraison sans signature chaque fois que possible. La "
+"livraison sans signature dépend des transporteurs et des pays de destination "
+"sur lesquels ils opèrent."
+
+#: includes/CDI-Settings.php:372
+msgid "Default Additional Compensation :"
+msgstr "Choix par défaut d'une assurance additionnelle"
+
+#: includes/CDI-Settings.php:378
+msgid "Default Total Amount Compensation in euros"
+msgstr "Montant en euros par défaut de l'assurance additionnelle"
+
+#: includes/CDI-Settings.php:379
+msgid ""
+"Is significant only if additional compensation is checked. It is the default "
+"insurance amount in €."
+msgstr ""
+"N'est significatif que si une assurance additionnelle est cochée. C'est le "
+"montant d'assurance par défaut en €."
+
+#: includes/CDI-Settings.php:389
+msgid "Default Type Return"
+msgstr "Type de retour par défaut"
+
+#: includes/CDI-Settings.php:390
+msgid ""
+"Mandatory for some abroad shipments. Consult your carrier support to known "
+"which countries need that data."
+msgstr ""
+"Information obligatoire pour certaines expéditions à l'étranger et selon les "
+"transporteurs. Consultez l'aide de votre transporteur pour connaître les "
+"pays utilisant cette donnée."
+
+#: includes/CDI-Settings.php:397
+msgid ""
+"Number of day after the order creation date+time during whitch a customer "
+"parcel return label request is permitted. Setting this number to 0 will "
+"allowed customers to use this function only on a case by case basis after "
+"the admin has changed this value for the order in the CDI metabox."
+msgstr ""
+"Nombre de jours suivant la date-heure de création de la commande pendant "
+"lesquels est permise une demande d'étiquette de retour de colis par la "
+"clientèle. La mise à 0  de ce nombre  donnera la permission aux clients "
+"d'utiliser cette fonction uniquement au cas par cas, après que "
+"l'administrateur ait changé cette valeur pour la commande dans la métabox "
+"CDI."
+
+#: includes/CDI-Settings.php:398
+msgid ""
+"Here, the number of days you allow to your customer to retrieve and print a "
+"return parcel label. This number must not be confused which the validity "
+"period the carriers give for a label to be deposit. The default 14 days "
+"correspond to the European regulation e-commerce for returns if you offer "
+"this facility to your customers."
+msgstr ""
+"Ici, le nombre de jours que vous accordez à votre client pour récupérer et "
+"imprimer une étiquette de retour colis . Ce nombre ne doit pas être confondu "
+"avec la période de validité donnée par un transporteur pour le dépot d'un "
+"colis avec son étiquette imprimée. Si vous offrez ce service à vos clients, "
+"sachez que la valeur par défaut de 14 jours correspond à la réglementation "
+"européenne commerce électronique  pour les retours  de marchandises."
+
+#: includes/CDI-Settings.php:402
+msgid "Plugin features"
+msgstr "Fonctionnalités Plugin"
+
+#: includes/CDI-Settings.php:405
+msgid "Clean CDI datas when plugin is uninstalled"
+msgstr ""
+"Suppression des données/paramètres CDI lorsque le plugin est désinstallé"
+
+#: includes/CDI-Settings.php:406
+msgid ""
+"CDI parameters are normally keep saved in the database when the plugin is "
+"uninstalled. Thus, these parameters are operational when the plugin is "
+"reinstalled. By cons, when the ckeck is checked, all CDI datas will be "
+"cleaned when the plugin is uninstall."
+msgstr ""
+"Les paramètres de CDI sont normalement conservés dans la base de données "
+"lorsque le plugin est désinstallé. Ainsi, ces paramètres sont à nouveau "
+"opérationnels  lorsque le plugin est réinstallé. Par contre, lorsque ce "
+"control est coché, toutes les données/paramêtres de CDI seront nettoyées à "
+"la désinstallation du plugin."
+
+#: includes/CDI-Settings.php:416
+msgid "Select your choice for a debugging log."
+msgstr ""
+"Sélectionnez votre choix pour un Debug CDI. Le Debug CDI doit ensuite être "
+"activé dans la Passerelle CDI."
+
+#: includes/CDI-Settings.php:417
+msgid ""
+"Debug traces apply to all CDI modules. They are stored in the wp-content/"
+"cdilog.log file and only contain messages about CDI. In addition, CDI can "
+"view the error_log and wp-content/debug.log log files when they exist. To "
+"activate the wp-content/debug.log file, the configuration of config.php must "
+"allow debug mode with: define ('WP_DEBUG', true); define ('WP_DEBUG_LOG', "
+"true); define ('WP_DEBUG_DISPLAY', false). To analyze the debugs, you can "
+"directly edit the files concerned or use CDI which includes a function for "
+"viewing and selecting the 3 debugs files: wp-content/cdilog.log, wp-content/"
+"debug.log, and error_log."
+msgstr ""
+"Les traces de debug s'appliquent à tous les modules CDI. Elles sont stockées "
+"dans le fichier wp-content/cdilog.log et ne contient que les messages "
+"concernant CDI. Par ailleurs, CDI peut visualiser les fichiers log :  "
+"error_log et wp-content/debug.log lorsqu'ils existent. Pour activer le "
+"fichier wp-content/debug.log , le paramètrage de config.php doit autoriser "
+"le mode debug avec:  define( 'WP_DEBUG', true ); define( 'WP_DEBUG_LOG', "
+"true ); define( 'WP_DEBUG_DISPLAY', false ); . Pour analyser les logs, vous "
+"pouvez éditer directement les fichiers concernés ou utiliser CDI  qui inclut "
+"en Passerelle une fonction de visualisation et de sélection des 3 fichiers "
+"de debug : wp-content/cdilog.log, wp-content/debug.log et error_log."
+
+#: includes/CDI-Settings.php:424
+msgid "Choose the WP role you want to have access to CDI-Gateway."
+msgstr ""
+"Choisissez un (des)  rôle(s) WP pour lequel vous souhaitez un accès à la "
+"passerelle CDI (en plus des Admin)."
+
+#: includes/CDI-Settings.php:425
+msgid ""
+"Administrator have already an access to CDI-Gateway. But you can choose to "
+"give also access to CDI-Gateway to another role which is not administrator ."
+msgstr ""
+"Les Administrateurs ont déjà accès à la passerelle CDI. Mais vous pouvez "
+"choisir de donner également un accès à la passerelle à un ou plusieurs "
+"autres rôles (standard ou privé) qui ne sont pas administrateurs."
+
+#: includes/CDI-Settings.php:431
+msgid ""
+"Display of icons and pdf files for each order in the shop order list panel"
+msgstr ""
+"Affichage des icônes et des fichiers pdf pour chaque commande du panneau de "
+"la liste des commandes"
+
+#: includes/CDI-Settings.php:437
+msgid "Cdistore storage"
+msgstr "Stockage \"cdistore\""
+
+#: includes/CDI-Settings.php:440
+msgid "Encryption of files when inserted in cdistore for additional security"
+msgstr ""
+"Chiffrement des fichiers lorsqu'ils sont insérés dans \"cdistore\" pour plus "
+"de sécurité"
+
+#: includes/CDI-Settings.php:450
+msgid ""
+"Number of days to keep documents (label, cn23, bordereau) in the cdistore "
+"directory. The recommended number is 30 days to cover any reprints and "
+"returns. "
+msgstr ""
+"Nombre de jours de conservation des documents (label, cn23, et bordereau) "
+"dans le répertoire cdistore. Le nombre recommandé est de 30 jours pour "
+"couvrir les réimpressions et les retours. "
+
+#: includes/CDI-Settings.php:451
+msgid ""
+"The documents are deleted as soon as this deadline has passed. The deletion "
+"takes place in logistics processing when a new document is stored. Generally "
+"the recommended number is 30 days to cover any reprints and returns label to "
+"process."
+msgstr ""
+"Les documents sont supprimés dès que ce nombre de jours est dépassé. La "
+"suppression a lieu dans le traitement des documents logistiques lorsqu'un "
+"nouveau document est stocké dans cdistore. Généralement, le nombre "
+"recommandé est de 30 jours pour couvrir les réimpressions et les retours "
+"d'étiquette à traiter. "
+
+#: includes/CDI-Settings.php:457
+msgid ""
+"Maximum number for logistics documents and for processed items in logistics "
+"documents"
+msgstr ""
+"Nombre maximum de documents logistiques et d'articles à traiter dans les "
+"documents logistiques"
+
+#: includes/CDI-Settings.php:458
+msgid ""
+"The default value is 100 (for parcels selected and for historic logistic "
+"documents). Too many could unnecessarily overload the merchant site and the "
+"server sites it calls."
+msgstr ""
+"La valeur par défaut est 100 (tant pour les colis sélectionnés dans un "
+"document, que pour l'historique des documents logistiques). Un nombre trop "
+"grand pourrait  surcharger inutilement le site marchand et les sites "
+"serveurs qu'il appelle. "
+
+#: includes/CDI-Settings.php:462
+msgid "Parcel references"
+msgstr "Références dans les colis"
+
+#: includes/CDI-Settings.php:465
+msgid "Order Id"
+msgstr "Order Id"
+
+#: includes/CDI-Settings.php:466
+msgid "Order Number"
+msgstr "Order Number"
+
+#: includes/CDI-Settings.php:469
+msgid ""
+"Choice of the reference to apply to package labels: by default \"Order Id\" "
+"which is the standard numbering of Woocommerce orders, or \"Order Number\" "
+"which is a personalization of the numbering of WC orders (by a specialized "
+"plugin)."
+msgstr ""
+"Choix de la référence à appliquer aux étiquettes de colis : par défaut "
+"«Order Id» qui est la numérotation standard des commandes Woocommerce, ou "
+"«Order Number» qui est une personnalisation de la numérotation des commandes "
+"WC (par un plugin spécialisé)."
+
+#: includes/CDI-Settings.php:475
+msgid ""
+"Check to add the parcel reference to the name of the company addressed in "
+"the parcel label."
+msgstr ""
+"Cochez pour ajouter la référence du colis au nom de la société adressée dans "
+"l'étiquette du colis."
+
+#: includes/CDI-Settings.php:476
+msgid ""
+"The package reference and the company name in the label can also be "
+"configured using CDI filters."
+msgstr ""
+"La référence de colis ainsi que le nom de l’entreprise dans l’étiquette, "
+"sont de plus paramétrables par des filtres CDI."
+
+#: includes/CDI-Settings.php:480
+msgid "Automated sequences"
+msgstr "Enchaînements automatisés"
+
+#: includes/CDI-Settings.php:483
+msgid ""
+"Automatically insert a parcel into the gateway for each order (performed "
+"during Woocommerce order list display)."
+msgstr ""
+"Insérer automatiquement un colis dans la passerelle pour chaque commande "
+"(effectué pendant l'affichage de la liste de commandes de Woocommerce)."
+
+#: includes/CDI-Settings.php:489
+msgid ""
+"Optional when parcel to gateway is selected- Comma separated list of "
+"shipping method names for which orders must automatically produce a parcel "
+"in gateway. May be a CDI shipping method or external methods. Ex: "
+"\"cdi_shipping_colissimo_home5, free_shipping\". When blank, all shipping "
+"methods will be elligible to create a parcel."
+msgstr ""
+"Optionnel lorsque le colis est à insérer automatiquement dans la "
+"passerelle : Liste séparée par des virgules de noms de méthodes d'expédition "
+"pour lesquels les commandes doivent générer automatiquement un colis dans la "
+"passerelle. Il peut s'agir de méthodes d'expédition CDI ou de méthodes "
+"externes. Ex: \"cdi_shipping_colissimo_home5:12, "
+"cdi_shipping_mondialrelay_home3, free_shipping\". Lorsque cette zone est "
+"vide, toutes les méthodes d’expédition créeront un colis dans la passerelle."
+
+#: includes/CDI-Settings.php:490
+msgid ""
+"Here, define the shipping methods for which orders will generate a parcel in "
+"the gateway, or blank to select all shipping methods"
+msgstr ""
+"Ici, définissez les méthodes d'expédition pour lesquelles les commandes vont "
+"générer un colis dans la passerelle, ou vide pour sélectionner toutes les "
+"méthodes d'expédition."
+
+#: includes/CDI-Settings.php:496
+msgid "Auto clean of parcels in gateway when \"In truck\" status"
+msgstr ""
+"Nettoyage automatique des colis de la Passerelle CDI dont le colis/commande "
+"est en statut \"Dans le camion\" (effectué pendant l'affichage de la liste "
+"de commandes de Woocommerce). "
+
+#: includes/CDI-Settings.php:502
+msgid ""
+"Automatically pass orders in \"completed\" status when parcel is in \"intruck"
+"\" status (performed during Woocommerce order list display)."
+msgstr ""
+"Passer automatiquement les commandes dans le statut \"Terminé\" lorsque les "
+"colis sont dans le statut \"Dans le camion\" (effectué pendant l'affichage "
+"de la liste de commandes de Woocommerce)."
+
+#: includes/CDI-Settings.php:506
+msgid "e-Merchant Address"
+msgstr " Adresse e-marchand"
+
+#: includes/CDI-Settings.php:509
+msgid "e-Merchant Address - Company Name (May be same as website name)"
+msgstr ""
+"Adresse du e-marchand - Nom de la société (éventuellement le même que  celui "
+"de Wordpress)"
+
+#: includes/CDI-Settings.php:510
+msgid ""
+"The 6 following datas define your address as merchant. This address will be "
+"use by carriers, on parcels, and on logistic documents."
+msgstr ""
+"Les 6 données suivantes définissent votre adresse de e-marchand. Cette "
+"adresse sera utilisée par les transporteurs, sur les colis, et pour les "
+"documents logistiques."
+
+#: includes/CDI-Settings.php:516
+msgid "e-Merchant Address - Mandatory num and street"
+msgstr "Adresse du e-marchand - Obligatoire numéro et voie"
+
+#: includes/CDI-Settings.php:522
+msgid "e-Merchant Address - Optionnal other infos"
+msgstr "Adresse du e-marchand  -  Optionnel autres informations"
+
+#: includes/CDI-Settings.php:528
+msgid "e-Merchant Address - ZipCode"
+msgstr "Adresse du e-marchand  - Code postal"
+
+#: includes/CDI-Settings.php:534
+msgid "e-Merchant Address - City"
+msgstr "Adresse du e-marchand  - Ville"
+
+#: includes/CDI-Settings.php:540
+msgid "e-Merchant Address - Country Code"
+msgstr "Adresse du e-marchand  - Code ISO du Pays"
+
+#: includes/CDI-Settings.php:546
+msgid "For some carriers, fix phone is mandatory."
+msgstr "Pour certains transporteurs, le téléphone fixe est obligatoire"
+
+#: includes/CDI-Settings.php:547
+msgid "e-Merchant Fix Phone"
+msgstr "Téléphone fixe e-marchand"
+
+#: includes/CDI-Settings.php:553
+msgid "For some carriers, cellular phone is mandatory."
+msgstr ""
+"Pour certains transporteurs, le téléphone cellulaire (mobile) est obligatoire"
+
+#: includes/CDI-Settings.php:554
+msgid "e-Merchant Cellular Phone"
+msgstr "Téléphone cellulaire/mobile e-marchand"
+
+#: includes/CDI-Settings.php:560
+msgid "e-Merchant Address - Email"
+msgstr "Adresse du e-marchand  - Adresse mail"
+
+#: includes/CDI-Settings.php:561
+msgid "Your email address as merchant."
+msgstr "Votre adresse e-mail comme marchand."
+
+#: includes/CDI-Settings.php:603
+msgid "Tracking code to customer"
+msgstr "Code de suivi pour le client"
+
+#: includes/CDI-Settings.php:606
+msgid "nothing"
+msgstr "rien"
+
+#: includes/CDI-Settings.php:607
+msgid "emails"
+msgstr "mail au client"
+
+#: includes/CDI-Settings.php:608
+msgid "order-views"
+msgstr "ordre vu par le client"
+
+#: includes/CDI-Settings.php:609
+msgid "emails and order-views"
+msgstr "mail au client et ordre vu par le client"
+
+#: includes/CDI-Settings.php:612
+msgid ""
+"Insert tracking code and pickup location in Customer emails and/or Customer "
+"order views"
+msgstr ""
+"Insérer le code de suivi et le point de retrait dans les mails au client et/"
+"ou dans les vues d'ordre du client "
+
+#: includes/CDI-Settings.php:613
+msgid ""
+"You can choose to insert customer informations in the customer  mails and / "
+"or the customer order views. Information shown are the tracking code and the "
+"pickup location the customer has choosen."
+msgstr ""
+"Vous pouvez choisir d'insérer des informations pour vos clients dans leurs "
+"mails et / ou dans leurs vues de commande. Les informations affichées sont "
+"le code de suivi et le lieu de retrait que le client a choisi."
+
+#: includes/CDI-Settings.php:621
+msgid "After the order details"
+msgstr "Après les détails de la commande"
+
+#: includes/CDI-Settings.php:622
+msgid "Before the order details"
+msgstr "Avant les détails de la commande"
+
+#: includes/CDI-Settings.php:625
+msgid "Location in emails where the tracking infos must be"
+msgstr "Emplacement dans les e-mails où les informations de suivi doivent être"
+
+#: includes/CDI-Settings.php:626
+msgid ""
+"You can choose the location in emails where the tracking infos must be. The "
+"defaut is 'after' the order details because it is more consistant in "
+"display. The choice 'before'  is to be immediatly seen by the consumer."
+msgstr ""
+"Vous pouvez choisir l'emplacement dans les e-mails où les informations de "
+"suivi doivent être. Le défaut est «après» les détails de la commande, car "
+"c'est plus cohérent dans l'affichage. Le choix «avant» a lui l'avantage "
+"d'être immédiatement vu par le consommateur."
+
+#: includes/CDI-Settings.php:630
+msgid "Extend WC countries list with \"S1 - Envoi vers les Armées\" country"
+msgstr "Ajouter le pays \"Envoi vers les Armées (S1)\""
+
+#: includes/CDI-Settings.php:633
+msgid ""
+"Extend the WC countries list with \"S1 - Envoi vers les Armées\" country. "
+"This S1 country must be refered to in a WC internationnal shipping zone. It "
+"must be used according to LaPoste specifications for army hub."
+msgstr ""
+"Extension de la liste Woocommerec des pays avec le pays \"Envoi vers les "
+"Armées (S1)\". Ce pays S1 (virtuel et positionné arbitrairement en Europe) "
+"doit être référencé dans une \"shipping zone\" de Woocommerce. Il doit être "
+"utilisé par le e-marchand et les clients internautes conformément aux "
+"spécifications de LaPoste-Colissimo pour les envois vers \"Hub Armée\"."
+
+#: includes/CDI-Settings.php:637
+msgid "Customer address structure"
+msgstr "Sructure adresse client"
+
+#: includes/CDI-Settings.php:640
+msgid ""
+"Extend input customer addresses to 4 lines according to the international "
+"S42 address standard"
+msgstr ""
+"Étendre les adresses client saisies à 4 lignes selon la norme d'adressage "
+"internationale S42 "
+
+#: includes/CDI-Settings.php:640
+msgid "(Checkout Block is not compatible with this option)"
+msgstr "(Checkout Block n'est pas compatible avec cette option)"
+
+#: includes/CDI-Settings.php:646
+msgid "32 digits"
+msgstr "32 caractères"
+
+#: includes/CDI-Settings.php:647
+msgid "35 digits"
+msgstr "35 caractères"
+
+#: includes/CDI-Settings.php:648
+msgid "38 digits"
+msgstr "38 caractères"
+
+#: includes/CDI-Settings.php:649
+msgid "no limit"
+msgstr "Pas de limite (base WC)"
+
+#: includes/CDI-Settings.php:652
+msgid ""
+"Maximum length of customer address lines (32, 35, 38, or unlimited like WC). "
+"32 is recommended."
+msgstr ""
+"Longueur maximale des lignes d'adresse du client (32, 35, 38, ou sans limite "
+"comme WC). 32 est la longueur recommandée."
+
+#: includes/CDI-Settings.php:653
+msgid ""
+"Carriers use different standards for their destination address lines. To "
+"facilitate the interchangability of carriers, it is recommended to choose "
+"the length of 32 characters. The sizes corresponding to the different "
+"standards adopted by the carriers. There remains the possibility of "
+"personalizing the addresses by the CDI filter "
+"'cdi_filterarray_auto_arrayforcarrier' preceding each call to the label web "
+"service of each carrier. "
+msgstr ""
+"Les transporteurs utilisent des normes différentes pour leur lignes "
+"d'adresse de destination. Pour faciliter l'interchangabilité des "
+"transporteurs, il est recommandé de choisir la longueur de 32 caractères."
+"<br>Les tailles 32,35,38 correspondent à différentes normes successives "
+"retenues par les transporteurs. <br>Il reste la possibilité de personnaliser "
+"les adresses  par le filtre CDI 'cdi_filterarray_auto_arrayforcarrier' "
+"précédant chaque appel au web service d'affranchissement de chaque "
+"transporteur."
+
+#: includes/CDI-Settings.php:657
+msgid "Add full pickup address in view order and email"
+msgstr ""
+"Ajouter une adresse de retrait (pickup) dans les vues de commandes et les "
+"mails"
+
+#: includes/CDI-Settings.php:660
+msgid ""
+"Add full pickup address in view order and email. Concomitamment there is a "
+"clarification of WC shipping address translation (shipping becoming "
+"destination)."
+msgstr ""
+"Ajoutez l'adresse de point de retrait complète dans la commande et l'e-mail. "
+"Concomitamment il y a une clarification de la traduction de l'adresse de "
+"livraison WC (expédition devenant destination). "
+
+#: includes/CDI-Settings.php:667
+msgid ""
+"La Poste ControlAdresse API key. Key to get at https://developer.laposte.fr/"
+msgstr ""
+"La clé de l'API ControlAdresse fournie par La Poste. La clé peut être "
+"obtenue à https://developer.laposte.fr/"
+
+#: includes/CDI-Settings.php:668
+msgid ""
+"Here, the La Poste ControlAdresse API key to be authorize to ask address "
+"control."
+msgstr ""
+"Ici, la clé de l'API ControlAdresse de La Poste pour vous autoriser à "
+"utiliser le contrôle d'adresse."
+
+#: includes/CDI-Settings.php:702
+msgid "Global enabling of CDI shipping method (Shipping zone mode)"
+msgstr ""
+"Activation/désactivation globale des méthodes de livraison CDI contenues "
+"dans les \"shipping zones\" Woocommerce."
+
+#: includes/CDI-Settings.php:703
+msgid ""
+"You must have installed WooCommerce 2.6 or further to run this shipping "
+"method.  Details of settings must be done in each methods [WooCommerce -> "
+"Settings -> Shipping]."
+msgstr ""
+"Le paramétrage détaillé de chacune des méthodes est à faire dans les "
+"shipping zones  [WooCommerce -> Réglages -> Expédition] . Ne fonctionne "
+"qu'avec WooCommerce 2.6 ou supérieur."
+
+#: includes/CDI-Settings.php:709
+msgid ""
+"Default weight (in grams) of empty package (net weight of products will be "
+"added)"
+msgstr ""
+"Poids par défaut (en grammes) d'un colis vide (le poids net des articles y "
+"sera ajouté)"
+
+#: includes/CDI-Settings.php:710
+msgid ""
+"If products have not weight, this tare weight will be the default weight of "
+"the parcel. Anyway, the total computed weight of the parcel can be change "
+"manually in the order meta box before processing the parcel."
+msgstr ""
+"Si les produits n'ont pas de poids indiqué, cette tare sera le poids par "
+"défaut du colis. Quoi qu'il en soit, le poids total calculé  du colis peut "
+"être modifié manuellement dans la méta box de la commande, avant traitement "
+"du colis."
+
+#: includes/CDI-Settings.php:716
+msgid "Set shipping method icons in front end."
+msgstr ""
+"Ajout en front-end client  d'une icône précédant  le nom de la méthode de "
+"livraison."
+
+#: includes/CDI-Settings.php:717
+msgid ""
+"Customization of icons are to do in plugin images directory (refer to "
+"examples for size and type) or trought a filter to keep the images in your "
+"own directory."
+msgstr ""
+"La personnalisation des icônes est à faire dans le répertoire images du "
+"plugin (voir les exemples pour la taille et le type), ou mieux,  au travers "
+"d'un filtre pour conserver vos images dans votre propre répertoire."
+
+#: includes/CDI-Settings.php:725
+msgid "First shipping package"
+msgstr "Premier lot d'expédition"
+
+#: includes/CDI-Settings.php:726
+msgid "Last shipping package"
+msgstr "Dernier lot d'expédition"
+
+#: includes/CDI-Settings.php:727
+msgid "Whole cart"
+msgstr "Panier complet"
+
+#: includes/CDI-Settings.php:730
+msgid "If multi shipping packages, select what CDI Gateway must process."
+msgstr ""
+"Si vous traitez plusieurs lots d'expédition (WC shipping packages), "
+"sélectionnez ce que CDI Gateway doit traiter. Le standard est le premier lot "
+"(cas notamment des  abonnements WCS)"
+
+#: includes/CDI-Settings.php:731
+msgid ""
+"If WC multi shipping packages (e.g. a market places activated), you can "
+"choose which package is to be process by the CDI Gateway : first package, "
+"last package, or whole cart. The defaut is first package."
+msgstr ""
+"A ne changer que si vous traitez plusieurs lots d'expédition - WC shipping "
+"packages (par exemple, vous gérez une place de marché ou un plugin "
+"d'abonnement). Vous pouvez alors choisir quel lot d'expédition doit être "
+"traité par la passerelle CDI : premier lot, dernier lot ou panier complet. "
+"Le standard est le premier lot (cas notamment des  abonnements WCS)."
+
+#: includes/CDI-Settings.php:737
+msgid ""
+"Defines the name to assign to the \"notcdi\" CDi shipping method. The "
+"default name is \"Custom\" ; Internal name is \"notcdi\"."
+msgstr ""
+"Définit le nom à attribuer au mode d'expédition  CDI \"notcdi\". Le nom par "
+"défaut est \"Custom\" ; le code interne est \"notcdi\"."
+
+#: includes/CDI-Settings.php:738
+msgid ""
+"Here, defines the name to assign to the \"notcdi\" CDi shipping method. The "
+"default name is \"Custom\" ; Internal name is \"notcdi\""
+msgstr ""
+"Ici, définir le nom à attribuer au mode d'expédition  CDI \"notcdi\". Le nom "
+"par défaut est \"Custom\" ; le code interne est \"notcdi\"."
+
+#: includes/CDI-Settings.php:742
+msgid "Extend Termid list"
+msgstr "Liste étendue des TermId"
+
+#: includes/CDI-Settings.php:745
+msgid ""
+"Optional - Comma separated list of shipping method Termid which will be "
+"added to the standard list. Ex: \"home6, home7, shop6, autre1, autre2\""
+msgstr ""
+"Optionnel - Liste des  TermId de méthode d'expédition séparée par des "
+"virgules, qui seront ajoutées à la liste standard. Ex: \"home6, home7, "
+"shop6, autre1, autre2\""
+
+#: includes/CDI-Settings.php:746
+msgid ""
+"Here, extend the shipping methods Termid for your special customization."
+msgstr ""
+"Ici, personnalisez et étendez les TermId de vos méthodes d'expédition CDI "
+
+#: includes/CDI-Settings.php:780
+msgid "Page size width x height in mm"
+msgstr "Taille utile dans la page : largeur x hauteur en mm"
+
+#: includes/CDI-Settings.php:781
+msgid ""
+"Here the size of the page in your printer. Syntax = width x height in mm (ex "
+"210x297 for a portrait A4 format)."
+msgstr ""
+"Ici, la taille utile dans la page en syntaxe largeur x hauteur en mm (ex "
+"210x297 pour un format A4 portrait). Le choix du format de la page (A4, B4, "
+"A5,B5, portrait, paysage, etc) n'est pas réalisé dans CDI, mais par le poste "
+"client lors de l'enregistrement du fichier  avant son impression. "
+
+#: includes/CDI-Settings.php:787
+msgid "Layout of labels in the page: width  x height"
+msgstr "Disposition des étiquettes dans la page : largeur x hauteur"
+
+#: includes/CDI-Settings.php:788
+msgid ""
+"Here, the layout of the labels in the page: nb-in-width x nb-in-height (ex "
+"3x5 which will give a total of 15 labels in the page)."
+msgstr ""
+"Ici, la disposition des étiquettes dans la page : nb-en-largeur x nb-en-"
+"hauteur(ex 3x5 qui donnera un total de 15 étiquettes dans la page)."
+
+#: includes/CDI-Settings.php:794
+msgid "Width of the viewing area of the address: in %"
+msgstr "Largeur de la zone de visualisation de l’adresse : en %"
+
+#: includes/CDI-Settings.php:795
+msgid ""
+"Here, the width of the display area of the address on the label, expressed "
+"in % of the width of the label (ex 85%)."
+msgstr ""
+"Ici, la largeur de la zone de visualisation de l’adresse sur l’étiquette, "
+"exprimée en % de la largeur de l’étiquette (ex 80%)."
+
+#: includes/CDI-Settings.php:801
+msgid "Address font size : in css unit"
+msgstr "Taille de la police de l’adresse : en unité css"
+
+#: includes/CDI-Settings.php:802
+msgid "Here, the address font size in css unit (ex 12px)."
+msgstr "Ici, la taille de la police de l’adresse en unité css (ex 12px)."
+
+#: includes/CDI-Settings.php:812
+msgid "Position of the first label to be printed."
+msgstr "Position de la 1ère étiquette à imprimer."
+
+#: includes/CDI-Settings.php:813
+msgid ""
+"Here, the position of the first label to be printed. This number must be "
+"between 1 and the total number of labels in the page."
+msgstr ""
+"Ici, la position de départ de la 1ère étiquette à imprimer. Ce nombre doit "
+"être compris entre 1 et le nombre d’étiquettes total dans la page."
+
+#: includes/CDI-Settings.php:823
+msgid "Mode for managing the position of the first label"
+msgstr "Mode de gestion de la position de la 1ère étiquette"
+
+#: includes/CDI-Settings.php:824
+msgid ""
+"Here, the mode of management of the position of the 1st label. fix to always "
+"start at the same location in the pages; forward to automatically advance "
+"the position and thus allow to use all the labels of the pages."
+msgstr ""
+"Ici, le mode de gestion de la position  de la 1ère étiquette : fix pour "
+"toujours commencer au même emplacement dans les pages ; forward pour faire "
+"progresser automatiquement la position et permettre ainsi d'utiliser sans "
+"perte toutes les étiquettes des pages."
+
+#: includes/CDI-Settings.php:830
+msgid "Test grid mode to help the setting of the printer"
+msgstr "Mode grille de test pour aider au cadrage de l’imprimante"
+
+#: includes/CDI-Settings.php:831
+msgid ""
+"Here, the test grid mode is used to assist in the setting of the printer. In "
+"this mode, the positions of the labels are delimited by a grid."
+msgstr ""
+"Ici, le mode grille de test permet d’aider au cadrage de l’imprimante. Dans "
+"ce mode l’emplacement des étiquettes est délimité par une grille."
+
+#: includes/CDI-Settings.php:838
+msgid "Area specifying the layout in the sheet, in css code"
+msgstr "Zone précisant la mise en page dans la feuille, en code css"
+
+#: includes/CDI-Settings.php:839
+msgid ""
+"Here, the zone specifying the layout in the sheet, in css code (Ex: padding: "
+"0 !important; margin-top: 5mm !important; height:96% !important; margin-"
+"left: 12mm !important; width:99% !important;)."
+msgstr ""
+"Ici, zone précisant la mise en page dans la feuille, en code css (Ex : "
+"padding: 0 !important; margin-top: 5mm !important; height:96% !important; "
+"margin-left: 12mm !important; width:99% !important; )."
+
+#: includes/CDI-Settings.php:846
+msgid "Zone specifying formatting of addresses, in css  code"
+msgstr "Zone précisant la mise en forme des adresses, en code css "
+
+#: includes/CDI-Settings.php:847
+msgid "Here, the area specifying the formatting of the addresses, in css code."
+msgstr ""
+"Ici, la zone précisant la mise en forme des adresses, en code css. Ex pour "
+"supprimer la zone référence de l'étiquette : #printlabelref{display:none;}"
+
+#: includes/CDI-Settings.php:875
+msgid "Global enable of referrals to shipping method."
+msgstr ""
+"Activation/désactivation globale des références aux méthodes de livraison."
+
+#: includes/CDI-Settings.php:876
+msgid ""
+"Shipping method referrals enables to set qualifications to shipping methods "
+"presented to customer : - shipping methods for which the Pickup locations "
+"function must be activate, - the carriers product codes to associate to "
+"shipping methods, - shipping methods which are exclusive."
+msgstr ""
+"Les références aux méthodes de livraison permettent de leur attribuer "
+"diverses qualifications quand elles sont présentées au client. Par exemple , "
+"les méthodes pour laquelle la fonction de point de retrait doit être "
+"activée, les codes produit des transporteurs à associer à certaines "
+"méthodes,  les méthodes qui sont exclusives des autres (donc présentées "
+"seules)."
+
+#: includes/CDI-Settings.php:880
+msgid "Pickup locations"
+msgstr "Points de retrait"
+
+#: includes/CDI-Settings.php:884
+msgid ""
+"Optional - Comma separated list of \"Shipping-Method-names = filter-relay\" "
+"which activate the CDI pickup location choice process. Filter-relay = 0 or 1 "
+"to define type of list according to the carrier. May be methods of CDI "
+"shipping or external methods. Selection may focus on a specific instance as "
+"\"flat_rate:25=1\" "
+msgstr ""
+"Optionnel - Liste des \"Shipping-Méthode-names = filtre-relais\" (séparés "
+"par des virgules) qui activent le processus de choix du point relay. Filtre-"
+"relais = 0 ou 1 pour définir le type de liste du transporteur (ex : points "
+"commerces non présentés ou présentés). Les méthodes peuvent être les "
+"méthodes de ce plugin  ou des méthodes externes. La sélection peut préciser "
+"une instance particulière comme par exemple \"flat_rate:25=1\""
+
+#: includes/CDI-Settings.php:890
+msgid ""
+"Not show pickup tariffs when offline (no access to outgoing IP, LaPoste "
+"server, ... )."
+msgstr ""
+"Ne pas afficher aux clients les lignes tarifs des points relai, quand le "
+"site est hors connexion (pas de connexion)."
+
+#: includes/CDI-Settings.php:896
+msgid "Pickup location map shown open at entry of selected method."
+msgstr ""
+"Carte des points de retrait à ouvrir automatiquement dès sélection d'une "
+"méthode point de retrait."
+
+#: includes/CDI-Settings.php:902
+msgid ""
+"Pickup location mode to select location by click on map. Warning, this "
+"option may not work with some themes, plugins, and/or browser."
+msgstr ""
+"Sélection des points retrait en cliquant sur la carte. Attention, cette "
+"option peut ne pas fonctionner avec certains thèmes, plugins et/ou "
+"navigateurs."
+
+#: includes/CDI-Settings.php:908
+msgid "Before shop box"
+msgstr "Avant le bloc boutique"
+
+#: includes/CDI-Settings.php:909
+msgid "After shop box"
+msgstr "Après le bloc boutique"
+
+#: includes/CDI-Settings.php:910
+msgid "Before payment"
+msgstr "Avant le bloc paiement"
+
+#: includes/CDI-Settings.php:911
+msgid "After payment"
+msgstr "Après le bloc paiement"
+
+#: includes/CDI-Settings.php:912
+msgid "Before order review"
+msgstr "Avant la zone commande"
+
+#: includes/CDI-Settings.php:913
+msgid "After order review"
+msgstr "Après la zone commande"
+
+#: includes/CDI-Settings.php:917
+msgid ""
+"Pickup location to choose where must be map in checkout page. Warning, this "
+"option may not work with some themes, plugins, and/or browser."
+msgstr ""
+"Choix de l'emplacement de la carte des points retrait dans la page commande. "
+"Attention, cette option peut ne pas fonctionner avec certains thèmes, "
+"plugins et/ou navigateurs."
+
+#: includes/CDI-Settings.php:923
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/CDI-Settings.php:924
+msgid "Open Map"
+msgstr "Open Map"
+
+#: includes/CDI-Settings.php:927
+msgid ""
+"Pickup location map engine to choose. Google Maps needs an API key that you "
+"must place in field below. The alternative called Open Map is build with 3 "
+"services : Open Layers, Open Street Map, and Nominatim, which are open and "
+"free."
+msgstr ""
+"Choix du moteur de carte pour les points retrait. Google Maps a besoin d'une "
+"clé API que vous devez placer dans le champ ci-dessous. L'alternative "
+"proposée par CDI, appelée Open Map, est construite avec 3 services ne "
+"nécessitant pas un enregistrement particulier : Open Layers, Open Street Map "
+"et Nominatim."
+
+#: includes/CDI-Settings.php:934
+msgid "Optional - Google maps API key"
+msgstr "Optionnel  - Clé API pour Google  Maps"
+
+#: includes/CDI-Settings.php:935
+msgid ""
+"Here, set your Google maps API key. Without a key, you will have a "
+"restricted use of Google maps."
+msgstr ""
+"Ici, mettez votre clé pour l'API de Google Maps. Sans clé, vous pourriez "
+"avoir un usage limité de Google Maps."
+
+#: includes/CDI-Settings.php:939
+msgid "Non CDI shipping"
+msgstr "Shipping hors CDI"
+
+#: includes/CDI-Settings.php:943
+msgid ""
+"Optional - Only for non-CDI shipping methods. Forces a carrier for an "
+"external delivery method in CDI processing. For example: "
+"flat_rate:25=colissimo,ups_external_method=ups.  An \"*=carrier\" means that "
+"this carrier is forced for all non-CDI shipping methods. "
+msgstr ""
+"Facultatif - Uniquement si vous utilisez des méthodes d'expédition non CDI. "
+"Au checkout, force un transporteur pour une méthode de livraison externe à "
+"CDI. Par exemple : flat_rate:25=colissimo, ups_external_method=ups. Un "
+"\"*=carrier\" signifie que ce transporteur est forcé pour toutes les "
+"méthodes d'expédition non CDI. "
+
+#: includes/CDI-Settings.php:944
+msgid "Optional - Only if you have non-CDI shipping methods."
+msgstr ""
+"Facultatif - Uniquement si vous utilisez des méthodes d'expédition non CDI. "
+"Permet au checkout de lui affecter un transporteur CDI (ex : "
+"flat_rate=colissimo)"
+
+#: includes/CDI-Settings.php:948
+msgid "Associated product codes"
+msgstr "Codes produit à forcer"
+
+#: includes/CDI-Settings.php:952
+msgid ""
+"Optional - List of comma separated relations \"Method-name = carrier-product-"
+"code\" to be use. May be methods of CDI shipping or external methods."
+msgstr ""
+"Optionnel - Liste des \"Shipping-Méthode-names= Carrier-product-code"
+"\" (séparés par des virgules) pour déterminer le code produit du "
+"transporteur à forcer (Ex: cdi_shipping_colissimo_home1=DOM, "
+"cdi_shipping_colissimo_home2=DOS, cdi_shipping_mondialrelay_home3=LD1, "
+"cdi_shipping_mondialrelay_pick3=24R, cdi_shipping_ups_home4=11, "
+"cdi_shipping_ups_home5=07, cdi_shipping_ups_pick4=70). Les méthodes peuvent "
+"être les méthodes du plugin CDI ou des méthodes externes. La sélection peut "
+"préciser une instance particulière  comme par exemple \"flat_rate:25=DOS\""
+
+#: includes/CDI-Settings.php:956
+msgid "Mandatory phone number"
+msgstr "Téléphone obligatoire"
+
+#: includes/CDI-Settings.php:960
+msgid ""
+"Optional - Form a comma separated list of \"Method-name\" to be use for "
+"mandatory phone number. May be methods of CDI shipping or external methods. "
+"An \"*\" means that phone number is mandatory for all shipping methods."
+msgstr ""
+"Optionnel - Liste des noms des \"Shipping-Méthode\" (séparés par des "
+"virgules) pour déterminer celles pour lesquelles le numéro de téléphone "
+"(mobile) est obligatoire (Ex: cdi_shipping_colissimo_pick1, "
+"cdi_shipping_colissimo_pick2, cdi_shipping_mondialrelay_pick3, "
+"cdi_shipping_ups_pick4). Les méthodes peuvent être des méthodes CDI ou des "
+"méthodes externes. La sélection peut préciser une instance particulière  "
+"comme par exemple \"flat_rate:25\". Il est fortement recommandé de mettre "
+"ici, a minima, la même liste que celle des points de retrait, puisque le "
+"numéro de téléphone est généralement imposé pour ces méthodes de points de "
+"retrait. Un caractère \"*\" signifie que le numéro de téléphone est "
+"obligatoire dans tous les cas."
+
+#: includes/CDI-Settings.php:964
+msgid "Exclusive shipping methods"
+msgstr "Méthodes de livraison exclusives"
+
+#: includes/CDI-Settings.php:967
+msgid ""
+"Optional - Comma separated list of shipping method names which are exclusive "
+"of others. The priority is given to the first method matching in the "
+"original woocommerce package list. May be methods of CDI shipping or "
+"external methods. Ex: \"cdi_shipping_mondialrelay_pick1, free_shipping\""
+msgstr ""
+"Optionnel - Liste (séparation par virgules) des noms des méthodes de "
+"livraison qui sont exclusives de toutes autres méthodes. La priorité est "
+"donnée à la première méthode trouvée dans la liste des méthodes éligibles "
+"pour le panier selon Woocommerce (sa package list). Les méthodes peuvent "
+"être des méthodes de livraison du plugin CDI ou des méthodes externes. La "
+"sélection peut cibler une instance particulière.  Ex: "
+"\"cdi_shipping_mondialrelay_pick1, free_shipping\""
+
+#: includes/CDI-Settings.php:968
+msgid ""
+"Here, define the shipping methods which are exclusive (i.e. which will be "
+"alone when presented to customer)."
+msgstr ""
+"Ici, définissez les méthodes de livraison qui sont exclusives (i.e. qui "
+"seront présentées seules au client)."
+
+#: includes/CDI-Settings.php:998
+msgid "Shipment desciption :"
+msgstr "Description colis :"
+
+#: includes/CDI-Settings.php:1001
+msgid ""
+"General description of the package. It is required by some carriers in all "
+"shipping situations, in addition to the CN23 descriptions."
+msgstr ""
+"Description générale du colis. Elle est exigée par certains transporteurs "
+"dans toutes les situations d'envoi, en plus des descriptions CN23. "
+
+#: includes/CDI-Settings.php:1002
+msgid ""
+"General description of the package. It is required by some carriers in all "
+"shipping situations, in addition to the CN23 descriptions. For example: "
+"'Ready-made clothing'."
+msgstr ""
+"Description générale du colis. Elle est exigée par certains transporteurs "
+"dans toutes les situations d'envoi, en plus des descriptions CN23. Par "
+"exemple : \"Vêtements de confection\"."
+
+#: includes/CDI-Settings.php:1006
+msgid "CN23 :"
+msgstr "CN23 :"
+
+#: includes/CDI-Settings.php:1017
+msgid "Default CN23 Category"
+msgstr "CN23 par défaut :  Catégorie "
+
+#: includes/CDI-Settings.php:1018
+msgid ""
+"Give the nature of the contents of the package in CN23 codification. CN23 is "
+"an internationally recognized standard, to codify customs declarations. In "
+"France, a CN23 is required for all shipments abroad and the TOM-DOM except: "
+"DE, AT, BE, BG, CY, DK ES  EE, FI, E, GR, HU, IE, IT, LV, LT, LU, MT, NL,  "
+"PL , PT , CZ , RO , GB , IE , SK , SI , SE."
+msgstr ""
+"Donne la nature du contenu du colis. CN23 est une norme internationalement "
+"reconnue, de codification des déclarations en douane. En France, un CN23 est "
+"nécessaire pour tous les envois à l'étranger et les TOM-DOM sauf: DE, AT, "
+"BE, BG, CY, DK ES EE, FI, E, GR, HU, IE, IT, LV, LT, LU, MT, NL, PL, PT, CZ, "
+"RO, GB, IE, SK, SI, SE."
+
+#: includes/CDI-Settings.php:1023
+msgid "Default CN23 Description of article (blank = copied from product order)"
+msgstr ""
+"CN23 par défaut : Description des articles (blanc = sera copiée depuis "
+"l'ordre)"
+
+#: includes/CDI-Settings.php:1025
+msgid ""
+"Give the the default description of articles in the parcel. Up to 10 items/"
+"products can be included in a CDI CN23.\n"
+"If null or 0,  product title, product weight, product quantity, and product "
+"price in the order will be considered. "
+msgstr ""
+"Donne la description par défaut des articles dans le colis. Jusqu'à 10 "
+"articles / produits peuvent être inclus dans un CN23 de CDI. \n"
+"Si les informations ci-après sont nulles ou 0, seront alors considérés le "
+"titre du produit, le poids du produit, la quantité de produit, et le prix du "
+"produit dans la commande ."
+
+#: includes/CDI-Settings.php:1034
+msgid ""
+"Default CN23 Net weight in grams of one article (0 = copied from product "
+"order)"
+msgstr ""
+"CN23 par défaut : Poids net en grammes d'un article (0 = sera copiée depuis "
+"l'ordre)"
+
+#: includes/CDI-Settings.php:1040
+msgid ""
+"Default CN23 Number of articles in the parcel (0 = copied from product order)"
+msgstr ""
+"CN23 par défaut : Nombre d'articles dans le colis (0 = sera copiée depuis "
+"l'ordre)"
+
+#: includes/CDI-Settings.php:1046
+msgid ""
+"Default CN23 ex VAT Value in € of one article (0 = copied from product order)"
+msgstr ""
+"CN23 par défaut : Valeur HT en € d'un article (0 = sera copiée depuis "
+"l'ordre)"
+
+#: includes/CDI-Settings.php:1055
+msgid ""
+"Default CN23 HS tariff code- 4 to 10 digits (only if \"Commercial\" category)"
+msgstr ""
+"CN23 par défaut : Code tarif HS - 4 à 10 chiffres - requis pour la catégorie "
+"\"Commercial\"  (blanc = sera copiée de la meta donnée \"hstariff\" du "
+"produit)"
+
+#: includes/CDI-Settings.php:1056
+msgid ""
+"HS Tariff is an internationally recognized standard, to codify customs "
+"declarations. This code is required only for commercial shipment"
+msgstr ""
+"HS Tariff est une norme internationalement reconnue, de codification "
+"douanière des marchandises. Ce code est nécessaire seulement pour les "
+"expéditions Envoi commercial."
+
+#: includes/CDI-Settings.php:1062
+msgid "Default CN23 ISO code of origine country (for Customs)"
+msgstr "CN23 par défaut : Code ISO du pays d'origine   (pour les douanes)"
+
+#: includes/CDI-Settings.php:1063
+msgid ""
+"Required by some customs : the 2 letters ISO code of origine country of the "
+"item"
+msgstr ""
+"Requis par certaines douanes : les 2 lettres code ISO du pays d'origine de "
+"l'article."
+
+#: includes/CDI-Settings.php:1069
+msgid "Maximum number for cn3 articles in metabox"
+msgstr "Nombre maximum d'articles cn23 dans la metabox CDI"
+
+#: includes/CDI-Settings.php:1070
+msgid ""
+"The default value is 100. You must choose a raisonnable value, lower than "
+"100 if possible. Too many could unnecessarily overload the merchant site at "
+"any change inside metabox."
+msgstr ""
+"La valeur par défaut est 100. Vous devez choisir une valeur raisonnable, "
+"inférieure à 100 si possible. Un trop grand nombre pourrait surcharger "
+"inutilement le site marchand à tout changement à l'intérieur de la métabox."
+
+#: includes/CDI-Settings.php:1074
+msgid "Sender EORI code"
+msgstr "EORI de l'exportateur"
+
+#: includes/CDI-Settings.php:1080
+msgid ""
+"Optionnal : Sender EORI (Economic Operator Registration and Identification) "
+"to be marked in cn23 according to some regulations"
+msgstr ""
+"Optionnel : L'EORI (Economic Operator Registration and Identification) de "
+"l'exportateur doit être marqué dans le document cn23 conformément à "
+"certaines réglementations"
+
+#: includes/CDI-Settings.php:1081
+msgid ""
+"EORI : European regulations provide a unique Community identifier number for "
+"use by international economic operators."
+msgstr ""
+"EORI: la réglementation européenne fournit un numéro d'identifiant "
+"communautaire unique à l'usage des opérateurs économiques internationaux."
+
+#: includes/CDI-Settings.php:1085
+msgid "EU Countries exempted"
+msgstr "Pays UE exemptés de cn23"
+
+#: includes/CDI-Settings.php:1089
+msgid ""
+"Comma separated list of EU country codes exempted of cn23 documents. Be "
+"aware that this list is from the European rules."
+msgstr ""
+"Liste séparée par des virgules des codes de pays de l'UE exemptés de "
+"documents cn23. Cette liste est issue des règles européennes."
+
+#: includes/CDI-Settings.php:1090
+msgid ""
+"Here, is the list of EU country codes exempted of cn23 documents. Be aware "
+"that this list is from the European rules."
+msgstr ""
+"Ici, la liste des codes de pays de l’UE exemptés de documents cn23. Cette "
+"liste est issue des règles européennes."
+
+#: includes/CDI-Settings.php:1094
+msgid "EU zipcode exemptions"
+msgstr "Codes postaux en exception"
+
+#: includes/CDI-Settings.php:1098
+msgid ""
+"Semicolon separated list of relations \"country-code=list of zip-code\" for "
+"which some territories, imbedded in a EU state, do not get the EU cn23 "
+"exemption. This list is useful only for the territories without an ISO "
+"country code. Be aware that this list is from the European rules."
+msgstr ""
+"Liste de relations séparées par des points-virgules \"code de pays = liste "
+"de codes postaux\" pour lesquelles certains territoires, inclus dans un État "
+"de l'UE, ne bénéficient pas de l'exemption cn23 de l'UE. Cette liste est "
+"utile uniquement pour les territoires sans code de pays ISO. Sachez que "
+"cette liste est issue des règles européennes."
+
+#: includes/CDI-Settings.php:1099
+msgid ""
+"Here, semicolon separated list of relations \"country-code=list of zip-code"
+"\" for which some territories, imbedded in a EU state, do not get the EU "
+"cn23 exemption. This list is useful only for the territories without an ISO "
+"country code. Be aware that this list is from the European rules."
+msgstr ""
+"Ici, liste de relations séparées par des points-virgules \"code de pays = "
+"liste de codes postaux\" pour lesquelles certains territoires, inclus dans "
+"un État de l'UE, ne bénéficient pas de l'exemption cn23 de l'UE. Cette liste "
+"est utile uniquement pour les territoires sans code de pays ISO. Sachez que "
+"cette liste est issue des règles européennes."
+
+#: includes/CDI-Settings.php:1116
+msgid ""
+"Warning  :\n"
+"- To use the Colissimo carrier, you must sign a business contract with it "
+"including Web services: Postage, Choice of deliveries, Tracking.\n"
+"- Colissimo does not provide a test account for the integration of your "
+"franking services, choice of collection points, parcel tracking, return "
+"labels. On the other hand, your franking labels produced will not be "
+"invoiced by Colissimo as long as you do not drop them off for shipment.\n"
+"- For all questions relating to the operation of Colissimo services, you "
+"must contact your Colissimo sales representative or Colissimo technical "
+"support."
+msgstr ""
+"Avertissement  : \n"
+"- Pour utiliser le transporteur Colissimo, vous devez souscrire avec lui un "
+"contrat entreprise incluant les Web services : Affranchissement, Choix "
+"livraisons, Suivi.\n"
+"- Colissimo ne met pas à disposition de compte de test pour l’intégration de "
+"vos services affranchissement, choix des points de retrait, suivi colis, "
+"étiquettes retour. En revanche, vos étiquettes d’affranchissement produites "
+"ne seront pas facturées par Colissimo tant que vous ne les déposez pas à "
+"l’expédition.\n"
+"- Pour toutes les questions en rapport avec l’exploitation des services "
+"Colissimo, vous devez vous rapprocher de votre Commercial Colissimo ou du "
+"support technique Colissimo."
+
+#: includes/CDI-Settings.php:1137
+msgid "Contract :"
+msgstr "Contrat  :"
+
+#: includes/CDI-Settings.php:1140
+msgid "Web Service - Contract Number"
+msgstr ""
+"Web Service - Numéro de votre contrat donné par votre commercial LaPoste"
+
+#: includes/CDI-Settings.php:1141
+msgid ""
+"Your Colissimo-LaPoste contrat number including the option 'Web Service "
+"(Flexibilité) pour livraison et étiquetage'."
+msgstr ""
+"Votre numéro de contrat Colissimo ayant les 3 options  'Web Service' pour "
+"Affranchissement, Choix de livraison, et Suivi Colis. "
+
+#: includes/CDI-Settings.php:1147
+msgid "Web Service - Password"
+msgstr "Web Service - Mot de passe donné par votre commercial LaPoste"
+
+#: includes/CDI-Settings.php:1148
+msgid "Your password at your Colissimo-LaPoste contrat"
+msgstr "Votre mot de passe pour votre contrat Colissimo Entreprise."
+
+#: includes/CDI-Settings.php:1160
+msgid ""
+"Add in referrals settings the Colissimo default for shipping méthods: "
+"pickup , product code, mandatory phone.."
+msgstr ""
+"Ajoutez dans les réglages CDI \"Références\" les réglages Colissimo par "
+"défaut pour les zones : \"Points de retrait\", \"Codes produit à forcer \", "
+"\"Téléphone obligatoire \". "
+
+#: includes/CDI-Settings.php:1161
+msgid ""
+"Will be added at the end of referrals settings - as pickup : "
+"cdi_shipping_colissimo_pick1, cdi_shipping_colissimo_pick2 ; as product "
+"code : cdi_shipping_colissimo_home1=DOM, cdi_shipping_colissimo_home2=DOS ; "
+"as mandatory phone : cdi_shipping_colissimo_pick1, "
+"cdi_shipping_colissimo_pick2 ."
+msgstr ""
+"Sera ajouté à la fin de chaque zone  des réglages \"Références\" - comme "
+"\"Points de retrait\" : cdi_shipping_colissimo_pick1, "
+"cdi_shipping_colissimo_pick2 ; comme \"Codes produit à forcer\" : "
+"cdi_shipping_colissimo_home1=DOM, cdi_shipping_colissimo_home2=DOS ; comme "
+"\"Téléphone obligatoire\" : cdi_shipping_colissimo_pick1, "
+"cdi_shipping_colissimo_pick2 ."
+
+#: includes/CDI-Settings.php:1165 includes/CDI-Settings.php:1445
+#: includes/CDI-Settings.php:1669
+msgid "Label layout :"
+msgstr "Disposition étiquettes :"
+
+#: includes/CDI-Settings.php:1168
+msgid "Web Service - Output Format - Offset X in pixels"
+msgstr "Web Service - Format de sortie - Offset X en pixels"
+
+#: includes/CDI-Settings.php:1169
+msgid "The 3 following datas are Colissimo settings for the printing."
+msgstr ""
+"Les 3 données suivantes sont des paramètres Colissimo pour l'impression."
+
+#: includes/CDI-Settings.php:1175
+msgid "Web Service - Output Format - Offset Y in pixels"
+msgstr "Web Service - Format de sortie - Offset Y en pixels"
+
+#: includes/CDI-Settings.php:1185 includes/CDI-Settings.php:1453
+#: includes/CDI-Settings.php:1677
+msgid "Web Service - Output Format - Printing Type (DPL & ZPL not supported)"
+msgstr ""
+"Web Service - Format de sortie - Type d'impression (DPL & ZPL not supported)"
+
+#: includes/CDI-Settings.php:1195
+msgid ""
+"Web Service - Offset Deposit Date (estimate in days after running the web "
+"service - Must be > 0)"
+msgstr ""
+"Web Service -  Nombre de jours avant dépôt  (Estimation à partir du jour "
+"d'exécution du Web Service - Doit être > 0)"
+
+#: includes/CDI-Settings.php:1196
+msgid "Estimate period in days to deposit yours parcels. Useful for La Poste."
+msgstr ""
+"Délai estimé en jours pour déposer le  colis à La Poste. Utile pour les "
+"prévisions de La Poste."
+
+#: includes/CDI-Settings.php:1202
+msgid "Include CN23 customs declarations with returned labels"
+msgstr "Inclure les déclarations de douane CN23 avec les étiquettes de retour"
+
+#: includes/CDI-Settings.php:1207 includes/CDI-Settings.php:1457
+#: includes/CDI-Settings.php:1681 includes/CDI-Settings.php:2020
+msgid "Tracking information for customer:"
+msgstr "Suivi des colis :"
+
+#: includes/CDI-Settings.php:1211 includes/CDI-Settings.php:1461
+#: includes/CDI-Settings.php:1685 includes/CDI-Settings.php:2024
+msgid "Text preceding tracking code"
+msgstr "Texte précédant le code de suivi"
+
+#: includes/CDI-Settings.php:1212 includes/CDI-Settings.php:1462
+#: includes/CDI-Settings.php:1686 includes/CDI-Settings.php:2025
+msgid ""
+"Here, the text you want the customer to see just before the tracking code"
+msgstr ""
+"Ici, le texte que vous voulez que le client voit juste avant son code de "
+"suivi."
+
+#: includes/CDI-Settings.php:1219 includes/CDI-Settings.php:1469
+#: includes/CDI-Settings.php:1693
+msgid "Url for tracking code"
+msgstr "Url de suivi des colis"
+
+#: includes/CDI-Settings.php:1220 includes/CDI-Settings.php:1470
+#: includes/CDI-Settings.php:1694
+msgid ""
+"Here, the standard url of your carrier. Don't change it if you don't known "
+"its url."
+msgstr ""
+"Ici, l'URL standard de votre transporteur Colissimo. Ne pas la changer si "
+"vous ne connaissez pas l'URL à mettre."
+
+#: includes/CDI-Settings.php:1224 includes/CDI-Settings.php:1474
+#: includes/CDI-Settings.php:1698
+msgid "Return services :"
+msgstr "Service des Retours colis :"
+
+#: includes/CDI-Settings.php:1227
+msgid "Global enabling of Colissimo parcel return function."
+msgstr "Activation/désactivation globale de la fonction retour de colis."
+
+#: includes/CDI-Settings.php:1228
+msgid ""
+"Logged customers will have the capacity, from their order view, to create "
+"and print a Colissimo return label. This feature requires a Bussiness "
+"contract with Colissimo to access the Web Service Affranchissement."
+msgstr ""
+"les clients connectés auront la capacité, depuis la vue de leur commande, de "
+"créer et imprimer une étiquette de retour Colissimo. Cette fonction "
+"nécessite un contrat Bussiness avec Colissimo pour accéder au Web Service "
+"Affranchissement . Ces retours automatisés ne peuvent se faire que depuis "
+"des pays sans formalités douanières avec la destination du retour (notamment "
+"sans cn23)."
+
+#: includes/CDI-Settings.php:1234
+msgid ""
+"In case you need to return your parcel, request for a  printable Colissimo "
+"return label : "
+msgstr "Si besoin, demandez une étiquette  Colissimo \"retour de colis\" :"
+
+#: includes/CDI-Settings.php:1235 includes/CDI-Settings.php:1506
+#: includes/CDI-Settings.php:1709
+msgid "Text preceding customer parcel return label request in their order view"
+msgstr ""
+"Texte dans la vue commande client, précédant le bouton demande d'étiquette "
+"pour colis retour"
+
+#: includes/CDI-Settings.php:1236 includes/CDI-Settings.php:1507
+#: includes/CDI-Settings.php:1710
+msgid ""
+"Here, the text your customer will see in its order view to invite him to "
+"post a request to get a parcel return label. These information will be seen "
+"by the customer only if it is inside the authorized period defined below."
+msgstr ""
+"Ici, le texte que votre client verra dans sa vue de commande afin de "
+"l'inviter à poster une demande pour obtenir une étiquette retour de colis. "
+"Ces informations seront vues et accessibles par le client uniquement si "
+"elles sont à l'intérieur de la période autorisée définie ci-dessous."
+
+#: includes/CDI-Settings.php:1242
+msgid ""
+" Your Colissimo return label is available. Print it and paste it on your "
+"parcel. After printing, you can choose the type of postal deposit you want "
+"at :"
+msgstr ""
+"Votre étiquette retour Colissimo est disponible. Imprimez-la et collez-la "
+"sur votre colis. Après son impression, vous pouvez choisir le type de dépôt "
+"postal que vous souhaitez à : "
+
+#: includes/CDI-Settings.php:1243 includes/CDI-Settings.php:1514
+#: includes/CDI-Settings.php:1717
+msgid "Text accompanying the parcel return label print button"
+msgstr "Texte accompagnant le bouton d'impression de l'étiquette colis retour"
+
+#: includes/CDI-Settings.php:1244
+msgid ""
+"Here, the text your customer will see to invite him to print its parcel "
+"return label."
+msgstr ""
+"Ici, le texte que votre client verra pour l'inviter à imprimer l'étiquette "
+"retour de colis qu'il a demandé."
+
+#: includes/CDI-Settings.php:1252
+msgid "Url following the text parcel return print (when necessary)"
+msgstr "Url qui suit le texte d'impression d'un retour colis (si nécessaire)"
+
+#: includes/CDI-Settings.php:1253
+msgid ""
+"Here, when necessary, the url your need to follow the parcel return print "
+"text. When blank, no url will be shown"
+msgstr ""
+"Ici, si nécessaire, l'url apparaissant après le texte pour gérer  le retour "
+"colis. Si vide, aucune URL ne sera affichée"
+
+#: includes/CDI-Settings.php:1260
+msgid ""
+"Comma separated list of 2 digits headers of Colissimo tracking codes allowed "
+"for a customer parcel return label request."
+msgstr ""
+"Liste, séparée par des virgules, des 2 chiffres d'en-tête codes de suivi "
+"Colissimo  autorisés pour une demande d'étiquette de retour de colis"
+
+#: includes/CDI-Settings.php:1261
+msgid ""
+"Here, the list of Colissimo tracking codes headers (2 digits) which are "
+"allowed for a customer parcel return label request. The  standard list can "
+"be updated for future new Colissimo products."
+msgstr ""
+"Ici, la liste des en-têtes de codes de suivi Colissimo (2 premiers "
+"caractères) qui sont autorisés pour une demande d'étiquette de retour par le "
+"client. Cette liste standard pourra être mise à jour pour les futurs "
+"nouveaux produits Colissimo. "
+
+#: includes/CDI-Settings.php:1268
+msgid ""
+"Semicolon separated list of relations \"Return-product-code=ISO-countrycode "
+"list\" to be use for parcel returns."
+msgstr ""
+"Liste, séparées par des point-virgules, des relations  \"Return-product-code "
+"= ISO-country code list\" qui doivent être utilisées pour déterminer les "
+"pays et  codes produit des retours Colissimo."
+
+#: includes/CDI-Settings.php:1269
+msgid ""
+"Here, define the Colissimo return product codes and associated countries."
+msgstr ""
+"Ici, définissez la liste des codes produit retour Colissimo et les pays "
+"associés."
+
+#: includes/CDI-Settings.php:1275 includes/CDI-Settings.php:1521
+#: includes/CDI-Settings.php:1724
+msgid "Name of the Company service to whitch the parcels must be returned"
+msgstr "Nom du service dans la société auquel doivent être retournés les colis"
+
+#: includes/CDI-Settings.php:1276 includes/CDI-Settings.php:1522
+#: includes/CDI-Settings.php:1725
+msgid ""
+"Here, the name of the service in your company that must receice the returned "
+"parcel. The rest of the return address is the sender address you set in Web "
+"Service Affranchissement settings."
+msgstr ""
+"Ici, le nom du service dans votre entreprise qui doit recevoir les colis "
+"retournés. Le reste de l'adresse de retour est l'adresse expéditeur que vous "
+"avez défini dans les paramètres Web Service Affranchissement."
+
+#: includes/CDI-Settings.php:1280 includes/CDI-Settings.php:1526
+#: includes/CDI-Settings.php:1729
+msgid "Default services when the CDI Metabox is not filled :"
+msgstr "Services lorsque la Metabox CDI n'est pas remplie  :"
+
+#: includes/CDI-Settings.php:1286
+msgid "France Zone"
+msgstr "Zone France"
+
+#: includes/CDI-Settings.php:1290
+msgid "ISO country codes for Colissimo France zone"
+msgstr "Codes ISO des pays de la Zone Colissimo France"
+
+#: includes/CDI-Settings.php:1291
+msgid ""
+"This defines 1- the list of ISO country codes for Colissimo France zone, and "
+"2- the Colissimo product codes with France as destination, for the "
+"services : without signature, with signature, pickup location. Theses codes "
+"are used only if no product code is set in the order meta box."
+msgstr ""
+"Ceci définit 1) la liste des codes ISO des pays de la Zone France de "
+"Colissimo, et 2) la liste des codes produits Colissimo ayant la Zone France "
+"comme destination, pour respectivement les services Colissimo: sans "
+"signature, avec signature, point de retrait. Ces codes ne sont utilisés "
+"qu’au cas où aucun code produit n'est défini dans la Métabox Colissimo de "
+"l'ordre. "
+
+#: includes/CDI-Settings.php:1298
+msgid "Product Codes for France zone"
+msgstr "Codes produit Colissimo pour la Zone France"
+
+#: includes/CDI-Settings.php:1302
+msgid "Outre-mer Zone"
+msgstr "Zone Outre-mer"
+
+#: includes/CDI-Settings.php:1306
+msgid "ISO country codes for Colissimo Outre-mer zone"
+msgstr "Codes ISO des pays de la Zone Colissimo Outre-mer"
+
+#: includes/CDI-Settings.php:1307
+msgid ""
+"This defines 1- the list of ISO country codes for Colissimo Outre-mer zone, "
+"and 2- the Colissimo product codes with Outre Mer as destination, for the "
+"services : without signature, with signature, pickup location. Theses codes "
+"are used only if no product code is set in the order meta box."
+msgstr ""
+"Ceci définit 1) la liste des codes ISO des pays de la Zone Outre-mer de "
+"Colissimo, et 2) la liste des codes produits Colissimo ayant la Zone Outre-"
+"mer comme destination, pour respectivement les services Colissimo: sans "
+"signature, avec signature, point de retrait. Ces  codes ne sont utilisés "
+"qu’au cas où aucun code produit n'est défini dans la Métabox Colissimo de "
+"l'ordre. "
+
+#: includes/CDI-Settings.php:1314
+msgid "Product Codes for Outre-mer zone"
+msgstr "Codes produit Colissimo pour la Zone Outre-mer"
+
+#: includes/CDI-Settings.php:1318
+msgid "Europe Zone"
+msgstr "Zone Europe"
+
+#: includes/CDI-Settings.php:1322
+msgid "ISO country codes for Colissimo Europe zone"
+msgstr "Codes ISO des pays de la Zone Colissimo Europe"
+
+#: includes/CDI-Settings.php:1323
+msgid ""
+"This defines 1- the list of ISO country codes for Colissimo Europe zone, and "
+"2- the Colissimo product codes with Europe as destination, for the "
+"services : without signature, with signature, pickup location. Theses codes "
+"are used only if no product code is set in the order meta box."
+msgstr ""
+"Ceci définit 1) la liste des codes ISO des pays de la Zone Europe de "
+"Colissimo, et 2) la liste des codes produits Colissimo ayant la Zone Europe "
+"comme destination, pour respectivement les services Colissimo: sans "
+"signature, avec signature, point de retrait. Ces  codes ne sont utilisés "
+"qu’au cas où aucun code produit n'est défini dans la Métabox Colissimo de "
+"l'ordre. "
+
+#: includes/CDI-Settings.php:1330
+msgid "Product Codes for Europe zone"
+msgstr "Codes produit Colissimo pour la Zone Europe"
+
+#: includes/CDI-Settings.php:1334
+msgid "International Zone"
+msgstr "Zone Internationale"
+
+#: includes/CDI-Settings.php:1338
+msgid "ISO country codes for Colissimo International zone"
+msgstr "Codes ISO des pays de la Zone Colissimo Internationale"
+
+#: includes/CDI-Settings.php:1339
+msgid ""
+"This defines 1- the list of ISO country codes for Colissimo International "
+"zone, and 2- the Colissimo product codes with International as destination, "
+"for the services : without signature, with signature, pickup location. "
+"Theses codes are used only if no product code is set in the order meta box."
+msgstr ""
+"Ceci définit 1) la liste des codes ISO des pays de la Zone Internationale de "
+"Colissimo, et 2) la liste des codes produits Colissimo ayant la Zone "
+"Internationale comme destination, pour respectivement les services "
+"Colissimo: sans signature, avec signature, point de retrait. Ces  codes ne "
+"sont utilisés qu’au cas où aucun code produit n'est défini dans la Métabox "
+"Colissimo de l'ordre. "
+
+#: includes/CDI-Settings.php:1346
+msgid "Product Codes for International zone"
+msgstr "Codes produit Colissimo pour la Zone Internationale"
+
+#: includes/CDI-Settings.php:1350
+msgid "Others parameters."
+msgstr "Autres paramètres :"
+
+#: includes/CDI-Settings.php:1354
+msgid ""
+"Web Service - Comma separated list of \"code_to_replace=new_code_to_use\" "
+"just before the call of Colissimo WS (ex DOM=COLD,DOS=COL)"
+msgstr ""
+"Liste (séparée par des virgules) des remplacements  "
+"\"code_à_replacer=nouveau_code_à_utiliser\" à faire juste avant l'appel du "
+"Colissimo Web Service (ex DOM=COLD,DOS=COL)"
+
+#: includes/CDI-Settings.php:1355
+msgid ""
+"This defines Colissimo product codes in exception which have to be replace "
+"just before the call of Colissimo Web Service. Generally speaking, the "
+"choice of a product code is done in this order : 1) the code for a shipping "
+"method as defined in referal, 2) the code given by Colissimo for a pickup "
+"location, 3) the code manually forced in meta box order, 4) optionnally if "
+"still null in meta box, the code defines in settings for France, Outre mer, "
+"International, 5) and finally the exception code rule which has the greatest "
+"priority. "
+msgstr ""
+"Ceci définit les codes de produit Colissimo en exception qui doivent être "
+"remplacés juste avant l'appel du Web service  Colissimo. D'une manière "
+"générale, le choix d'un code de produit se fait dans cet ordre: 1) le code "
+"d'une méthode de livraison tel que défini dans le réglages des référencesl, "
+"2) le code donné par Colissimo pour un point de retrait, 3) le code forcé "
+"manuellement en Colissimo méta box , 4) optionnellement si il est encore "
+"vide dans la Colissimo méta box, le code définit dans les paramètres pour "
+"France, Outre mer, international, 5) et enfin la règle du code d'exception "
+"qui a la plus grande priorité."
+
+#: includes/CDI-Settings.php:1362
+msgid "Country codes for which is authorized a without signature Colissimo."
+msgstr ""
+"Codes des pays pour lesquels est autorisé des colis Colissimo sans signature."
+
+#: includes/CDI-Settings.php:1363
+msgid ""
+"This defines the list of country codes for which is authorized a without "
+"signature Colissimo."
+msgstr ""
+"Ceci définit la liste des codes des pays pour lesquels est autorisé des "
+"colis Colissimo sans signature."
+
+#: includes/CDI-Settings.php:1370
+msgid "Pickup location country codes (excluding X00 network)"
+msgstr ""
+"Liste des codes ISO des pays pour lesquels des \"points de retrait\"  "
+"Colissimo sont gérés  (réseaux X00  exclus)"
+
+#: includes/CDI-Settings.php:1371
+msgid ""
+"This defines the list of destination countries for which Colissimo runs its "
+"pickup location service."
+msgstr ""
+"Ceci définit la liste des pays de destination pour lesquels Colissimo assure "
+"son service de point de retait."
+
+#: includes/CDI-Settings.php:1378
+msgid ""
+"Comma separated list of 2 digits country codes which cant let a choice for a "
+"parcel return in case of no delivery."
+msgstr ""
+"Liste de codes pays (2 lettres) séparés par des virgules, qui ne permettent "
+"pas un choix de retour de colis en cas de non livraison."
+
+#: includes/CDI-Settings.php:1379
+msgid ""
+"Here, the list of country codes (2 digits) which cant let a choice for a "
+"parcel return in case of no delivery. The  standard list can be updated for "
+"future new countries."
+msgstr ""
+"Liste de codes pays (2 lettres) séparés par des virgules, qui ne permettent "
+"pas un choix de retour de colis en cas de non livraison. Cette liste "
+"standard pourra être mise à jour selon les évolutions. "
+
+#: includes/CDI-Settings.php:1396
+msgid ""
+"Warning : \n"
+"- To use the Mondial Relay carrier, you must have signed a contract with it "
+"giving access to its API services.\n"
+"- Mondial Relay provides you with a test account ('BDTEST13' account and "
+"'TestAPI1key' password) for the integration of your postage services, choice "
+"of Relay Points, parcel tracking, return labels. On the other hand, you "
+"should be careful about potential billing when producing postage or return "
+"labels with your actual identifiers.\n"
+"- For all questions relating to the operation of Mondial Relay services, you "
+"should contact your Mondial Relay sales representative or Mondial Relay "
+"technical support."
+msgstr ""
+"Avertissement  : \n"
+"- Pour utiliser le transporteur Mondial Relay, vous devez avoir souscrit "
+"avec lui un contrat donnant accès à ses API de services.\n"
+"- Mondial Relay met à votre disposition un compte de test (compte 'BDTEST13' "
+"et mot de passe 'TestAPI1key') pour l’intégration de vos services "
+"affranchissement, choix des Points Relay, suivi colis, étiquettes retour. En "
+"revanche, il convient d’être prudent à la facturation potentielle quand vous "
+"produisez des étiquettes d’affranchissement ou de retour avec vos "
+"identifiants réels.\n"
+"- Pour toutes les questions en rapport avec l’exploitation des services "
+"Mondial Relay, vous devez vous rapprocher de votre Commercial Mondial Relay "
+"ou du support technique Mondial Relay."
+
+#: includes/CDI-Settings.php:1417
+msgid "Mondial Relay contract"
+msgstr "Numéro contrat (Enseigne) chez Mondial Relay"
+
+#: includes/CDI-Settings.php:1420
+msgid "Web Service - Mondial Relay Contract Number"
+msgstr "Web Service - Numéro contrat (Enseigne) chez Mondial Relay"
+
+#: includes/CDI-Settings.php:1421
+msgid "Your Mondial Relay contrat number."
+msgstr "Votre numéro de contrat Mondial Relay"
+
+#: includes/CDI-Settings.php:1427
+msgid ""
+"Web Service - Mondial Relay Password (Test private key has change to "
+"TestAPI1key starting from 09/2024)"
+msgstr ""
+"Web Service - Mondial Relay Password (Test private key has change to "
+"TestAPI1key starting from 09/2024)"
+
+#: includes/CDI-Settings.php:1428
+msgid ""
+"Your password at your Mondial Relay contrat (Test private key has change to "
+"TestAPI1key starting from 09/2024)"
+msgstr ""
+"Votre mot de passe dans votre contrat Mondial Relay (la clé privée de Test "
+"est devenue TestAPI1key à partir de 09/2024)"
+
+#: includes/CDI-Settings.php:1440
+msgid ""
+"Add in referrals settings the Mondial Relay default for shipping méthods: "
+"pickup , product code, mandatory phone.."
+msgstr ""
+"Ajoutez dans les réglages CDI \"Références\" les réglages Mondial Relay par "
+"défaut pour les zones : \"Points de retrait\", \"Codes produit à forcer \", "
+"\"Téléphone obligatoire \". "
+
+#: includes/CDI-Settings.php:1441
+msgid ""
+"Will be added at the end of referrals settings - as pickup : "
+"cdi_shipping_mondialrelay_pick1, cdi_shipping_mondialrelay_pick2 ; as "
+"product code : cdi_shipping_mondialrelay_home1=LD1, "
+"cdi_shipping_mondialrelay_home2=LD2, cdi_shipping_mondialrelay_pick1=24R ; "
+"as mandatory phone : cdi_shipping_mondialrelay_pick1, "
+"cdi_shipping_mondialrelay_pick2 ."
+msgstr ""
+"Sera ajouté à la fin de chaque zone  des réglages \"Références\" - comme "
+"\"Points de retrait\" : cdi_shipping_mondialrelay_pick1, "
+"cdi_shipping_mondialrelay_pick2 ; comme \"Codes produit à forcer\" : "
+"cdi_shipping_mondialrelay_home1=LD1, cdi_shipping_mondialrelay_home2=LD2, "
+"cdi_shipping_mondialrelay_pick1=24R  ; comme \"Téléphone obligatoire\" : "
+"cdi_shipping_mondialrelay_pick1, cdi_shipping_mondialrelay_pick2 ."
+
+#: includes/CDI-Settings.php:1460
+msgid "Order shipped. Your Mondial Relay tracking code is : "
+msgstr ""
+"Votre colis a été expédié avec Mondial Relay. Votre code de suivi est :"
+
+#: includes/CDI-Settings.php:1477
+msgid "Global enabling of Mondial parcel return function."
+msgstr "Activation/désactivation globale de la fonction retour de colis."
+
+#: includes/CDI-Settings.php:1478
+msgid ""
+"Logged customers will have the capacity, from their order view, to create "
+"and print a Mondial Relay return label."
+msgstr ""
+"les clients connectés auront la capacité, depuis la vue de leur commande, de "
+"créer et imprimer une étiquette de retour Mondial relay. Cette fonction "
+"nécessite un contrat avec Mondial relay pour accéder à ce Web Service "
+"Affranchissement . Ces retours automatisés ne peuvent se faire que depuis "
+"des pays sans formalités douanières avec la destination du retour (notamment "
+"sans cn23)."
+
+#: includes/CDI-Settings.php:1484
+msgid "24R - Livraison point relais"
+msgstr "24R - Livraison point relais"
+
+#: includes/CDI-Settings.php:1485
+msgid "LCC - Livraison Client Chargeur"
+msgstr "LCC - Livraison Client Chargeur"
+
+#: includes/CDI-Settings.php:1488
+msgid "How will be delivered the return parcels to the e-merchand."
+msgstr ""
+"Comment seront délivrés les colis retours au e-marchand. 24R - Livraison "
+"Point Relay est l'option par défaut."
+
+#: includes/CDI-Settings.php:1489
+msgid "How will be delivered the parcels to e-merchand. 24R is the defaut"
+msgstr ""
+"Comment seront délivrés les colis retours au e_marchand. 24R - Livraison en "
+"Point Relay est l'option par défaut."
+
+#: includes/CDI-Settings.php:1499
+msgid ""
+"Merchand Relay ID for its return parcels. Mandatory if 24R. (Structure pp-"
+"rrrrrr ; pp=ISO country code, rrrrrr=relay Id)"
+msgstr ""
+"Id du Point Relay où le e-marchand veut recevoir ses colis retours. "
+"Obligatoire si 24R. (Structure pp-rrrrrr ; pp=ISO country code, rrrrrr=relay "
+"Id)"
+
+#: includes/CDI-Settings.php:1505
+msgid ""
+"In case you need to return your parcel, request for a  printable Mondial "
+"Relay return label : "
+msgstr ""
+"Si besoin, demandez une étiquette  Mondial relay pour \"retour de colis\" :"
+
+#: includes/CDI-Settings.php:1513
+msgid ""
+"Your Mondial relay return label is available. Print it and paste it on your "
+"parcel :"
+msgstr ""
+"Votre étiquette de retour Mondial Relay est disponible. Imprimez-la et "
+"collez-la sur votre colis."
+
+#: includes/CDI-Settings.php:1515 includes/CDI-Settings.php:1718
+msgid ""
+"Here, the text your customers will see to invite them to print its parcel "
+"return label."
+msgstr ""
+"Ici, le texte que votre client verra pour l'inviter à imprimer l'étiquette "
+"retour de colis qu'il a demandé."
+
+#: includes/CDI-Settings.php:1536
+msgid "CDS - Collecte domicile 2P"
+msgstr "CDS - Collecte domicile 2P"
+
+#: includes/CDI-Settings.php:1540
+msgid ""
+"How will be collected the parcels by defaut. Limited choice for some "
+"countries."
+msgstr "Comment seront collectés/enlevés vos colis à envoyer."
+
+#: includes/CDI-Settings.php:1541
+msgid "How will be collect the parcels. REL is the defaut"
+msgstr ""
+"Comment seront collectés les colis à envoyer. REL Collect en Point Relay  "
+"est l'option par défault"
+
+#: includes/CDI-Settings.php:1545
+msgid "MR Zone 1"
+msgstr "MR Zone 1"
+
+#: includes/CDI-Settings.php:1549
+msgid "ISO country codes for Mondial relay zone 1"
+msgstr "Codes ISO des pays de la Zone 1 de Mondial Relay"
+
+#: includes/CDI-Settings.php:1550 includes/CDI-Settings.php:1566
+#: includes/CDI-Settings.php:1582
+msgid ""
+"This defines 1- the list of ISO country codes for Mondial relay countries "
+"zones, and 2- the Mondialrelay product codes (Deliver code services), for "
+"the services : without signature, with signature, pickup location. Theses "
+"codes are used only if no product code is set in the order metabox."
+msgstr ""
+"Celui-ci définit 1- la liste des codes pays ISO pour les zones de pays "
+"Mondial Relay, et 2- les codes produits Mondial Relay (Deliver code "
+"services), pour les 3 catégories de services: sans signature, avec "
+"signature, Point Relay. Ces codes ne sont utilisés que si aucun code produit "
+"n'est défini dans la Metabox CDI de la commande."
+
+#: includes/CDI-Settings.php:1557
+msgid "Product Codes for Mondial relay zone 1"
+msgstr "Codes produit Mondial Relay pour sa zone 1"
+
+#: includes/CDI-Settings.php:1561
+msgid "MR Zone 2"
+msgstr "MR Zone 2"
+
+#: includes/CDI-Settings.php:1565
+msgid "ISO country codes for Mondial relay zone 2"
+msgstr "Codes ISO des pays de la Zone 2 de Mondial Relay"
+
+#: includes/CDI-Settings.php:1573
+msgid "Product Codes for Mondial relay zone 2"
+msgstr "Codes produit Mondial Relay pour sa zone 2"
+
+#: includes/CDI-Settings.php:1577
+msgid "MR Zone 3"
+msgstr "MR Zone 3"
+
+#: includes/CDI-Settings.php:1581
+msgid "ISO country codes for Mondial relay zone 3"
+msgstr "Codes ISO des pays de la Zone 3 de Mondial Relay"
+
+#: includes/CDI-Settings.php:1589
+msgid "Product Codes for Mondial relay zone 3"
+msgstr "Codes produit Mondial Relay pour sa zone 3"
+
+#: includes/CDI-Settings.php:1606
+msgid ""
+"Warning : \n"
+"- To use the UPS carrier, you must have signed a contract with it giving "
+"access to its API services.\n"
+"- UPS provides you with a test mode using specific urls, for the integration "
+"of your postage services, choice of access points, package tracking, return "
+"labels. To do this, you must comply with the settings offered to you by CDI. "
+"On the other hand, you should be careful with your potential billing when "
+"producing postage or return labels in 'Production' mode.\n"
+"- For all questions related to the operation of UPS services, you should "
+"contact your UPS Sales Representative or UPS Technical Support."
+msgstr ""
+"Avertissement : \n"
+"- Pour utiliser le transporteur UPS, vous devez avoir souscrit avec lui un "
+"contrat donnant accès à ses API de services.\n"
+"- UPS met à votre disposition un mode de test par des url spécifiques, pour "
+"l’intégration de vos services affranchissement, choix des points d'accès, "
+"suivi colis, étiquettes retour. Pour cela, il faut vous conformer aux "
+"réglages qui vous sont proposé par CDI. En revanche, il convient d’être "
+"prudent à votre facturation potentielle quand vous produisez des étiquettes "
+"d’affranchissement ou de retour en mode «Production».\n"
+"- Pour toutes les questions en rapport avec l’exploitation des services UPS, "
+"vous devez vous rapprocher de votre Commercial UPS ou du support technique "
+"UPS."
+
+#: includes/CDI-Settings.php:1627
+msgid "UPS access keys (OAuth Authentification) :"
+msgstr "Identifiants  UPS (Authentification OAuth) :"
+
+#: includes/CDI-Settings.php:1630
+msgid "Web Service - UPS Payment Compte Number OAuth"
+msgstr "Web Service - Numéro de votre Compte  UPS"
+
+#: includes/CDI-Settings.php:1631
+msgid "Your Payment Compte Number at your UPS contrat"
+msgstr "Votre numéro de compte UPS"
+
+#: includes/CDI-Settings.php:1637
+msgid "OAuth ClientId of your UPS API Client"
+msgstr "OAuth \"ClientId\" de votre API UPS"
+
+#: includes/CDI-Settings.php:1638
+msgid "Your OAuth ClientId of your UPS API Client"
+msgstr "Le OAuth \"ClientId\" de votre API UPS"
+
+#: includes/CDI-Settings.php:1644
+msgid "OAuth ClientSecret of your UPS API Client"
+msgstr "OAuth \"ClientSecret\" de votre API UPS"
+
+#: includes/CDI-Settings.php:1645
+msgid "Your OAuth ClientSecret of your UPS API Client"
+msgstr "Le OAuth \"ClientSecret\" de votre API UPS"
+
+#: includes/CDI-Settings.php:1657
+msgid ""
+"Add in referrals settings the UPS defaut  for shipping méthods: pickup , "
+"product code, mandatory phone.."
+msgstr ""
+"Ajoutez dans les réglages CDI \"Références\" les réglages UPS par défaut "
+"pour les zones : \"Points de retrait\", \"Codes produit à forcer \", "
+"\"Téléphone obligatoire \". "
+
+#: includes/CDI-Settings.php:1658
+msgid ""
+"Will be added at the end of referrals settings - as pickup : "
+"cdi_shipping_ups_pick1, cdi_shipping_ups_pick2 ; as product code : "
+"cdi_shipping_ups_home1=11,cdi_shipping_ups_home2=07,"
+"cdi_shipping_ups_pick1=AP ; as mandatory phone : cdi_shipping_ups_pick1,"
+"cdi_shipping_ups_pick2 ."
+msgstr ""
+"Sera ajouté à la fin de chaque zone  des réglages \"Références\" - comme "
+"\"Points de retrait\" : cdi_shipping_ups_pick1, cdi_shipping_ups_pick2 ; "
+"comme \"Codes produit à forcer\" : cdi_shipping_ups_home1=11,"
+"cdi_shipping_ups_home2=07,cdi_shipping_ups_pick1=AP  ; comme \"Téléphone "
+"obligatoire\" : cdi_shipping_ups_pick1,cdi_shipping_ups_pick2."
+
+#: includes/CDI-Settings.php:1662
+msgid "Production :"
+msgstr "Production :"
+
+#: includes/CDI-Settings.php:1665
+msgid ""
+"Choose your processing mode : checked is prod mode ; unchecked is test mode"
+msgstr ""
+"Choisissez votre mode de traitement: coché signifie que vous êtes en mode "
+"\"Production\"; non coché signifie que vous êtes en mode \"Test\"."
+
+#: includes/CDI-Settings.php:1684
+msgid "Order shipped. Your UPS tracking code is : "
+msgstr "Votre colis a été expédié avec UPS. Votre code de suivi est :"
+
+#: includes/CDI-Settings.php:1701
+msgid "Global enabling of UPS return function."
+msgstr "Activation/désactivation globale de la fonction retour de colis UPS."
+
+#: includes/CDI-Settings.php:1702
+msgid ""
+"Logged customers will have the capacity, from their order view, to create "
+"and print a UPS return label. This feature requires a contract with UPS to "
+"access the Web Service Affranchissement."
+msgstr ""
+"les clients connectés auront la capacité, depuis la vue de leur commande, de "
+"créer et imprimer une étiquette de retour UPS. Cette fonction nécessite un "
+"contrat  avec UPS pour accéder au Web Service Affranchissement . Ces retours "
+"automatisés ne peuvent se faire que depuis des pays sans formalités "
+"douanières avec la destination du retour (notamment sans cn23)."
+
+#: includes/CDI-Settings.php:1708
+msgid ""
+"In case you need to return your parcel, request for a  printable UPS return "
+"label : "
+msgstr "Si besoin, demandez une étiquette  UPS  \"Retour de colis\" :"
+
+#: includes/CDI-Settings.php:1716
+msgid ""
+"Your UPS return label is available. Print it and paste it on your parcel :"
+msgstr ""
+"Votre étiquette de retour UPS est disponible. Imprimez-la et collez-la sur "
+"votre colis."
+
+#: includes/CDI-Settings.php:1742
+msgid ""
+"UPS default \"Service Code\" for the deliver mode of parcels when nothing is "
+"stipulated in CDI Metabox. Also called \"Code Product\" in CDI Metabox"
+msgstr ""
+"\"Code Service\" UPS par défaut pour le mode de livraison des colis lorsque "
+"rien n'est stipulé dans Metabox CDI. Aussi appelé \"Code Produit\" dans la "
+"Metabox CDI."
+
+#: includes/CDI-Settings.php:1743
+msgid ""
+"default for the deliver mode of parcels when nothing is stipulated in CDI "
+"Metabox 'Code product'. 11 - UPS Standard is the default "
+msgstr ""
+"Mode de livraison des colis par défault lorsque rien n'est stipulé dans CDI "
+"Metabox 'Code produit' et qu'il ne s'agit pas d'un Access Point UPS. 11 - "
+"UPS Standard est la valeur par défaut."
+
+#: includes/CDI-Settings.php:1752
+msgid ""
+"Percentage of the cart price (default is 10%) which will be taken to "
+"indicate the maximum authorized quotation for the cost of UPS shipping. Will "
+"be inserted into the Metabox. The value in Metabox will be the higher value "
+"between rate and absolute."
+msgstr ""
+"Pourcentage du prix du panier (par défaut 10%) qui sera pris pour indiquer "
+"la cotation maximale autorisée pour le coût du shipping UPS. La valeur "
+"insérée dans la Metabox sera la valeur la plus élevée entre le taux et "
+"l'absolu. "
+
+#: includes/CDI-Settings.php:1753
+msgid ""
+"Here, the percentage of the basket price (by default 10%) which will be "
+"taken to indicate the maximum authorized quotation for the cost of UPS "
+"shipping. Will be inserted into the Metabox. The value in the Metabox can be "
+"changed. The UPS postage request is abandoned if the UPS quote exceeds the "
+"value."
+msgstr ""
+"Ici, le pourcentage du prix du panier (par defaut 10%) qui sera pris pour "
+"indiquer la cotation maximale autorisée pour le cout du shipping UPS. Sera "
+"inséré dans la Metabox. La valeur dans la Metabox est modifiable. La demande "
+"d'affranchissement UPS est abandonnée si la cotation UPS dépasse la valeur."
+
+#: includes/CDI-Settings.php:1762
+msgid ""
+"Max shipping cost in € (default is 10€) which will be taken to indicate the "
+"maximum authorized quotation for the cost of UPS shipping. Will be inserted "
+"into the Metabox. The value in Metabox will be the higher value between rate "
+"and absolute."
+msgstr ""
+"Montant absolu max en € qui sera pris pour indiquer la cotation maximale "
+"autorisée pour le coût du shipping UPS. La valeur insérée dans la Metabox "
+"sera la valeur la plus élevée entre le taux et l'absolu. "
+
+#: includes/CDI-Settings.php:1763
+msgid ""
+"Here, the max shipping cost  of the basket price (by default 10) which will "
+"be taken to indicate the maximum authorized quotation for the cost of UPS "
+"shipping. Will be inserted into the Metabox. The value in the Metabox can be "
+"changed. The UPS postage request is abandoned if the UPS quote exceeds the "
+"value."
+msgstr ""
+"Ici, le montant maximal en €  (par defaut 10€) qui sera pris pour indiquer "
+"la cotation maximaleabsolue  autorisée pour le cout du shipping UPS. Sera "
+"inséré dans la Metabox. La valeur dans la Metabox est modifiable. La demande "
+"d'affranchissement UPS est abandonnée si la cotation UPS dépasse la valeur."
+
+#: includes/CDI-Settings.php:1778
+msgid "Warning : "
+msgstr "Warning : "
+
+#: includes/CDI-Settings.php:1791
+msgid "COLLECT POINT : "
+msgstr "POINT DE RETRAIT : "
+
+#: includes/CDI-Settings.php:1798
+msgid "Your Collect point id (mandatory)"
+msgstr "Id du Point de retrait (obligatoire)"
+
+#: includes/CDI-Settings.php:1799
+msgid ""
+"Here, you can change your Collect point id according to your organization."
+msgstr ""
+"Ici, vous pouvez changer l'Id de votre Point de retrait selon votre "
+"organisation."
+
+#: includes/CDI-Settings.php:1809
+msgid "Your Collect point name  (mandatory). It is part of the address."
+msgstr "Nom du Point de retrait (obligatoire)"
+
+#: includes/CDI-Settings.php:1810
+msgid ""
+"Here, you can change your Collect point name according to your ornanization."
+msgstr ""
+"Ici, vous pouvez changer le Nom de votre Point de retrait selon votre "
+"organisation."
+
+#: includes/CDI-Settings.php:1820
+msgid "Address line 1 (mandatory)"
+msgstr "Adresse ligne 1(obligatoire)"
+
+#: includes/CDI-Settings.php:1821
+msgid "Here, you can change your Collect point address line 1."
+msgstr "Ici, vous pouvez changer la ligne 1 de votre Point de retrait."
+
+#: includes/CDI-Settings.php:1830
+msgid "Address line 2"
+msgstr "Adresse ligne 2"
+
+#: includes/CDI-Settings.php:1849
+msgid "Address Zipcode (mandatory)"
+msgstr "Adresse Code postal"
+
+#: includes/CDI-Settings.php:1859
+msgid "Address city (mandatory)"
+msgstr "Adresse Ville (obligatoire)"
+
+#: includes/CDI-Settings.php:1869
+msgid "Address ISO country code (mandatory)"
+msgstr "Adresse Code ISO du pays (obligatoire)"
+
+#: includes/CDI-Settings.php:1873
+msgid "Complements (optional) :"
+msgstr "Compléments (optionnel) :"
+
+#: includes/CDI-Settings.php:1879
+msgid ""
+"If you want to be more specific for the location. Indicate a nearby monument."
+msgstr ""
+"Vous pouvez donner ici une précision sur le lieu du Point de retrait (Ex. un "
+"monument proche)."
+
+#: includes/CDI-Settings.php:1888
+msgid ""
+"Phone number (international format beginning with a + sign and country code)"
+msgstr ""
+"Numéro de téléphone (en format international, commençant par + suivi de "
+"l'indicatif pays)."
+
+#: includes/CDI-Settings.php:1897
+msgid "Parking : Indicate if parking or where is the nearest parking."
+msgstr "Indiquez s'il existe un parking à proximité, et lequel."
+
+#: includes/CDI-Settings.php:1901
+msgid "GPS position (optional) :"
+msgstr "Coordonnées GPS (optionnelles)"
+
+#: includes/CDI-Settings.php:1907
+msgid "Latitude for this point (optional)"
+msgstr "Latitude (optionnel)"
+
+#: includes/CDI-Settings.php:1908 includes/CDI-Settings.php:1918
+msgid ""
+"Optional. If not marked, CDI will do a search for approximate coordinates."
+msgstr ""
+"Optionnel. Si non indiqué, CDI fera une recherche des coordonnées GPS "
+"(éventuellement plus approximative)."
+
+#: includes/CDI-Settings.php:1917
+msgid "Longitude for this point (optional)"
+msgstr "Longitude (optionnel)"
+
+#: includes/CDI-Settings.php:1922
+msgid "Opening time (optional) :"
+msgstr "Horaires d'ouverture (optionnel) :"
+
+#: includes/CDI-Settings.php:1930
+msgid "Monday"
+msgstr "Lundi"
+
+#: includes/CDI-Settings.php:1941
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: includes/CDI-Settings.php:1952
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: includes/CDI-Settings.php:1963
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: includes/CDI-Settings.php:1974
+msgid "Friday"
+msgstr "Vendredi"
+
+#: includes/CDI-Settings.php:1985
+msgid "Saturday"
+msgstr "Samedi"
+
+#: includes/CDI-Settings.php:1996
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: includes/CDI-Settings.php:2004
+msgid "Collect settings : "
+msgstr "RÉGLAGES :"
+
+#: includes/CDI-Settings.php:2007
+msgid ""
+"Add in referrals settings the Collect defaut for shipping méthods: pickup"
+msgstr ""
+"Ajoutez dans les réglages CDI \"Références\" les réglages Click&Collect  par "
+"défaut pour la zone : \"Points de retrait\". "
+
+#: includes/CDI-Settings.php:2008
+msgid ""
+"Will be added at the end of referrals settings - as pickup : "
+"cdi_shipping_collect_pick1, cdi_shipping_collect_pick2"
+msgstr ""
+"Sera ajouté à la fin des réglages Références  - comme pickup : "
+"cdi_shipping_collect_pick1, cdi_shipping_collect_pick2"
+
+#: includes/CDI-Settings.php:2015
+msgid "Default collection points file (at startup). "
+msgstr "Fichier de démarrage des Points de retrait (si démarrage)."
+
+#: includes/CDI-Settings.php:2016
+msgid ""
+"Default collection point file to present if no point is present. (The points "
+"are presented after clicking on the 'Save' button). The file must be in the "
+"plugin's uploads directory. By default CDI illustrates with a demo file. "
+msgstr ""
+"Le fichier des Points de Retrait à présenter au démarrage si le tableau des "
+"points est vide. Les points sont présentés après avoir cliqué sur le bouton "
+"«Enregistrer». Le fichier doit se trouver dans le répertoire /uploads du "
+"plugin. Par défaut, CDI l'illustre avec un exemple de démonstration. "
+
+#: includes/CDI-Settings.php:2023
+msgid ""
+"Your order is taken into account. Its situation is given by its tracking "
+"code: "
+msgstr ""
+"Votre commande est prise en compte. Sa situation est donnée par son code de "
+"suivi : "
+
+#: includes/CDI-Settings.php:2031
+msgid "in preparation for"
+msgstr "En préparation."
+
+#: includes/CDI-Settings.php:2032
+msgid "at collect point"
+msgstr "Disponible au point de retrait."
+
+#: includes/CDI-Settings.php:2033
+msgid "courier is running"
+msgstr "Pris en charge par coursier "
+
+#: includes/CDI-Settings.php:2036
+msgid ""
+"Starting situation for your \"Click & Collect\" orders: \"in preparation for"
+"\", \"at collect point\", or \"courier is running\"."
+msgstr ""
+"Situation de départ de vos commandes \"Click & Collect\" à l'impression de "
+"l'étiquette : \"Commande en préparation\",  \"Disponible au Point de retrait"
+"\", ou \"Pris en charge par coursier\"."
+
+#: includes/CDI-Settings.php:2037
+msgid ""
+"\"Click & Collect\" orders have 5 successive statuses: \"In preparation for"
+"\", \"At collect point\", \"Courier is running\", \"Delivered to customer\", "
+"and \"Customer agreement\". These statuses can be operated either by the "
+"Metabox CDI admin, or by scanning the QR code on the label. "
+msgstr ""
+"Les commandes \"Click & Collect\" ont  5 statuts successifs facultatifs : "
+"\"En préparation\",  \"Disponible au Point de retrait\",  \"Pris en charge "
+"par coursier \",   \"Livré au client\",  \"Validation du client\". Ces "
+"statuts sont manœuvrables soit par l'admin dans la Metabox CDI, soit par  "
+"scan du QR code de l'étiquette."
+
+#: includes/CDI-Settings.php:2044
+msgid "Without security codes"
+msgstr "Sans codes de sécurité"
+
+#: includes/CDI-Settings.php:2047
+msgid ""
+"Security code to apply when scanning the QRcode for issue (by default no "
+"code)"
+msgstr ""
+"Code de sécurité à appliquer lors du scan du QRcode pour délivrance (par "
+"défaut pas de code)"
+
+#: includes/CDI-Settings.php:2048
+msgid ""
+"By default, there is no security codes. It depends on the organizations and "
+"whether the scan to mark the delivery will be performed by the customer,  "
+"the collect point, or the coursier. The security code is the total price of "
+"the order (for the customer)  or a specific code (for the collect point and "
+"the coursier)."
+msgstr ""
+"Par défaut, il n'y a pas de codes de sécurité. Cela dépend des organisations "
+"et si le scan pour marquer la livraison est effectué par le client, le point "
+"de retrait ou un coursier. Le code de sécurité est le prix total de la "
+"commande (pour le client) ou un code spécifique (pour le point retrait ou un "
+"coursier)."
+
+#: includes/CDI-Shipping.php:70
+msgid "Choose a carrier"
+msgstr "Choisir Transporteur"
+
+#: includes/CDI-Shipping.php:78
+msgid ""
+"Select the defaut carrier which will collect or deliver yours parcels for "
+"this CDI shipping instance"
+msgstr ""
+"Sélectionnez le transporteur par défaut qui fait la collecte ou la "
+"délivrance de vos colis pour cette instance d'expédition CDI"
+
+#: includes/CDI-Shipping.php:81
+msgid "Title"
+msgstr "Titre"
+
+#: includes/CDI-Shipping.php:83
+msgid "Mandatory - Title shown in admin shipping options"
+msgstr ""
+"Obligatoire - Titre qui est vu par l'administrateur dans la \"shipping zone\""
+
+#: includes/CDI-Shipping.php:84 includes/CDI-Shipping.php:90
+msgid "CDI no carrier"
+msgstr "CDI - Choix transporteur requis"
+
+#: includes/CDI-Shipping.php:87
+msgid "Prefix "
+msgstr "Préfixe"
+
+#: includes/CDI-Shipping.php:89
+msgid "Optional - Prefix of shipping title which will be seen by customer."
+msgstr "Optionnel - Prefix du titre  de la méthode qui est vu par le client"
+
+#: includes/CDI-Shipping.php:98
+msgid ""
+"Tax Status. To apply or not the tax for the shipping fees when in TVA rates "
+"you have checked the shipping tick."
+msgstr ""
+"Statut fiscal. Pour appliquer ou non la TVA aux frais d'expédition lorsque  "
+"dans les écrans des taux de TVA vous avez coché la case \"livraison\"."
+
+#: includes/CDI-Shipping.php:102
+msgid "Taxable"
+msgstr "Taxable"
+
+#: includes/CDI-Shipping.php:110
+msgid "Default tariffs file"
+msgstr "Fichier tarifs démarrage"
+
+#: includes/CDI-Shipping.php:112
+msgid ""
+"Optional - Default tariffs file to overcome the example tariffs at "
+"initialisation."
+msgstr ""
+"Optionnel - Fichier des tarifs par défaut  à présenter au démarrage.  Quand "
+"le champ est à blanc, ce sont des exemples de tarifs qui sont présentés. "
+"Sinon, un nom de fichier (ex :  CDI-Colissimo-2017-France-DOM.txt) identifie "
+"un fichier de tarifs situé dans le répertoire du plugin colissimo-delivery-"
+"colissimo/uploads qui sera présenté au démarrage des réglages quand aucune "
+"ligne tarif n'existe. Attention, à chaque nouvelle version de CDI, seuls les "
+"fichiers de tarifs propres à CDI seront maintenus dans ce répertoire, vos "
+"fichiers de tarifs personnalisés devront donc être sauvegardés par ailleurs "
+"au risque sinon de les perdre."
+
+#: includes/CDI-Shipping.php:116
+msgid "Modes:"
+msgstr "Modes:"
+
+#: includes/CDI-Shipping.php:118
+msgid "Excluding shipping class mode"
+msgstr "Mode \"Exclure les classes de livraison \""
+
+#: includes/CDI-Shipping.php:119
+msgid "Check to have shipping class mode set to Excluding mode"
+msgstr "Cochez pour positionner à \"Exclure\" le mode classe de livraison."
+
+#: includes/CDI-Shipping.php:124
+msgid "Price all tax included shipping price mode"
+msgstr "Mode \"Inclure les taxes dans le prix du panier lors des calculs\""
+
+#: includes/CDI-Shipping.php:125
+msgid "Check to control cart price with all its tax included."
+msgstr "Cocher pour être en mode  \"Prix du panier toutes taxes incluses\""
+
+#: includes/CDI-Shipping.php:130
+msgid "Calculation mode based on the discount price deducted"
+msgstr "Mode \"calcul basé sur le prix remise déduite\" "
+
+#: includes/CDI-Shipping.php:131
+msgid "Check to control cart price with discount price deducted."
+msgstr "Cocher pour être en mode \"calcul basé sur le prix remise déduite\"."
+
+#: includes/CDI-Shipping.php:136
+msgid "including empty package weight mode"
+msgstr "Mode \"Inclure le poids du colis vide lors des calculs\". "
+
+#: includes/CDI-Shipping.php:137
+msgid "Check to add empty package weight when considering cart weight."
+msgstr ""
+"Cochez pour ajouter, lors des calculs, le poids du colis vide au poids des "
+"articles du panier."
+
+#: includes/CDI-Shipping.php:142
+msgid ""
+"If multi shipping packages (e.g. a Market places plugin activated), consider "
+"classes, weights, and prices inside the current shipping package and not for "
+"whole cart"
+msgstr ""
+"Mode \"WC shipping packages\" : Si plusieurs lots d'expédition sont présents "
+"(par exemple, vous gérez un plugin Market places ou un plugin d'abonnement), "
+"tenir compte des classes, des poids et des prix dans le lot d'expédition en "
+"cours et non pour le panier total. A ne sélectionner que si vous êtes en "
+"\"WC shipping packages\"."
+
+#: includes/CDI-Shipping.php:143
+msgid ""
+"If you process WC multi shipping packages (e.g. a Market places plugin "
+"activated), you can choose if classes, weights, and prices must be compute "
+"inside the current shipping package or for whole cart. The defaut is to not "
+"check this option, i.e. the computation is for the whole cart."
+msgstr ""
+"Uniquement si vous traitez des lots d'expéditions multiples - WC shipping "
+"packages (par exemple vous gérez un plugin Market Places ou un plugin "
+"d'abonnement ) : vous pouvez choisir si les classes, les poids et les prix "
+"doivent être calculés uniquement dans ce lot d'expédition ou pour le panier "
+"complet. Le défaut est de ne pas cocher cette option, c'est-à-dire que le "
+"calcul s'effectuera sur le panier complet et ne considérera pas le contenu "
+"des WC shipping packages. Attention, les produits virtuels de WC ne sont "
+"jamais inclus dans les WC shipping packages."
+
+#: includes/CDI-Shipping.php:147
+msgid "Promos :"
+msgstr "Promos :"
+
+#: includes/CDI-Shipping.php:152
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/CDI-Shipping.php:153
+msgid "A valid free shipping coupon"
+msgstr "Un coupon promo valide de livraison gratuite "
+
+#: includes/CDI-Shipping.php:154
+msgid "A minimum order amount"
+msgstr "Un montant minimum de la commande"
+
+#: includes/CDI-Shipping.php:155
+msgid "A minimum order amount OR a coupon"
+msgstr "Un montant minimum de la commande OU un coupon promo valide"
+
+#: includes/CDI-Shipping.php:156
+msgid "A minimum order amount AND a coupon"
+msgstr "Un montant minimum de la commande ET un coupon promo valide"
+
+#: includes/CDI-Shipping.php:158
+msgid ""
+"Permet une activation ou non de cette instance CDI Shipping selon le montant "
+"du panier et le code promo actif. "
+msgstr ""
+"Permet, en fonction du code promo indiqué par le client, une activation ou "
+"non de cette instance CDI. C'est selon le montant du panier et le code promo "
+"actif. "
+
+#: includes/CDI-Shipping.php:163
+msgid ""
+"Les clients devront avoir un montant de dépense supérieur à ce montant pour "
+"que cette instance CDI soit active (si option choisie ci-dessus)."
+msgstr ""
+"Les clients devront avoir un montant de dépense supérieur à ce montant pour "
+"que cette instance CDI soit active (si option choisie ci-dessus)."
+
+#: includes/CDI-Shipping.php:169
+msgid "\"Excluding promo\" mode"
+msgstr "Mode \"Exclure les codes promo\""
+
+#: includes/CDI-Shipping.php:170
+msgid "Check to have promo mode set to \"Excluding\" mode"
+msgstr "Cochez pour être en mode \"Exclusion\" sur les coupons promo"
+
+#: includes/CDI-Shipping.php:174
+msgid "Macros shipping classes :"
+msgstr "Macros classes :"
+
+#: includes/CDI-Shipping.php:183
+msgid ""
+"Shipping class macros are Boolean logic expressions (as in php syntax but "
+"strictly use \"and\" \"or\" \"not\" logical operators) on existing "
+"Woocommerce classes on the products in the cart, complex and parenthesized "
+"expressions being allowed. They enrich the possibilities of selection of the "
+"tariffs according to the contents of the cart, the macro-classes allowing a "
+"selection at lines tariffs level.\n"
+"The general syntax is a list of macros separated by \";” with  structure: "
+"#exmacro# = Boolean expression ; the Woocommerce product classes referenced "
+"in the Boolean expression have the syntax {exclasse}.\n"
+"Example: #light-package# = {Catalog A} or {Catalog B} and not ({Heavy} or "
+"{Bulky}} ; #special-transport# = {Heavy} and {Bulky}; "
+msgstr ""
+"Les macros-classes d'expédition sont des expressions booléennes (comme dans "
+"la syntaxe php mais utilisez strictement les opérateurs logiques \"and\" \"or"
+"\" \"not\"  ) sur les classes Woocommerce des produits du panier, les "
+"expressions complexes et parenthésées étant permises. Comme les classes "
+"Woocommerce, les macros-classes permettent une sélection au niveau des "
+"lignes tarifs de la Méthode de livraison Colissimo . Elles enrichissent "
+"ainsi les possibilités de sélection. \n"
+"La syntaxe générale est une liste de macros séparées par « ; », de "
+"structure : #exmacro# = expression-booléenne-sur-les-classes , les classes "
+"produit de Woocommerce référencées dans l’expression bouléenne ayant une "
+"syntaxe comme {exclasse}. "
+
+#: includes/CDI-Shipping.php:188
+msgid "Macros shipping classes for this instance of shipping method."
+msgstr ""
+"Macros classes d'expédition pour cette instance de méthode d'expédition."
+
+#: includes/CDI-Shipping.php:335
+msgid "This fares starting file in cdi/uploads is not valid : "
+msgstr ""
+"Ce fichier des tarifs de  démarrage dans CDI/uploads n'est pas valide : "
+
+#: includes/CDI-Shipping.php:457
+msgid " ===> Error weight for product #"
+msgstr " ===> Erreur de poids pour le produit  (ou une variation) #"
+
+#: includes/CDI-Shipping.php:656
+msgid ""
+"CDI: direct PHP codes are now deprecated for security reasons.\n"
+"Now use instead  the filter  \"cdi_filterstring_shipping_add_varfare_ . "
+"$code \".\n"
+"$code is a 4 numeric string you have put in addvar field of shipping tariff "
+"line."
+msgstr ""
+"CDI : les codes PHP directs sont désormais obsolètes pour des raisons de "
+"sécurité.\n"
+"Utilisez maintenant à la place le filtre "
+"'cdi_filterstring_shipping_add_varfare_  . $code '.\n"
+"$code est une chaîne de 4 chiffres que vous avez placée dans le champ addvar "
+"de la ligne tarifaire d'expédition."
+
+#: includes/CDI-Shipping.php:730
+msgid "Name"
+msgstr "Titre"
+
+#: includes/CDI-Shipping.php:731
+msgid "Name seen by the customer"
+msgstr "Titre de la livraison que verra le client"
+
+#: includes/CDI-Shipping.php:733
+msgid "Flat rate"
+msgstr " Fixe"
+
+#: includes/CDI-Shipping.php:734
+msgid "Flat rate VAT excluded"
+msgstr "Partie fixe du prix, TVA exclue"
+
+#: includes/CDI-Shipping.php:736
+msgid "Add fees"
+msgstr "Variable"
+
+#: includes/CDI-Shipping.php:737
+msgid ""
+"A supplement, excluding VAT, to be added to the package. This may be :\n"
+"1) a 4-digit numeric code nnnn to call a wordpress filter "
+"cdi_filterstring_shipping_add_varfare_nnnn which will calculate and return "
+"the value of the additional variable;\n"
+"2) a comma-separated list of expressions: percentage of cart price and/or "
+"additional cost per kg of weight. Ex. syntax: p=+2.5%, w=+5 .\n"
+"The php short code trigger under is now deprecated for security reasons."
+msgstr ""
+"Un supplément, hors TVA, à ajouter au forfait. Cela peut être :\n"
+"1) un code numérique à 4 chiffres nnnn pour appeler un filtre wordpress "
+"cdi_filterstring_shipping_add_varfare_nnnn qui calculera et renverra la "
+"valeur de la variable additionnelle ;\n"
+"2) une liste  d'expressions séparées par des virgules : pourcentage du prix "
+"du panier et/ou coût supplémentaire par kg du poids. Ex. syntaxe : p=+2.5%, "
+"w=+5 .\n"
+"Le code php direct est désormais obsolète pour des raisons de sécurité."
+
+#: includes/CDI-Shipping.php:742
+msgid "Shipping class"
+msgstr "Classes"
+
+#: includes/CDI-Shipping.php:743
+msgid ""
+"In standard mode,  to activate this rate, an item at least in your cart must "
+"have one of the shipping classes. If your have checked the Exclude tick, "
+"this rate will activate if none of your items in your cart have none of the "
+"shipping classes. Multi select classes allowed."
+msgstr ""
+"En mode classique, pour activer un tarif, un article au moins dans votre "
+"panier doit avoir une des classes de livraison sélectionnées. Si par contre "
+"vous avez coché le mode classe de livraison Exclure plus bas, le tarif ne "
+"sera activé que si aucun de vos articles dans votre panier n'a une classe de "
+"livraison parmi celles sélectionnées. Possibilité de multiples sélections de "
+"classes."
+
+#: includes/CDI-Shipping.php:745
+msgid "Method"
+msgstr "Term id"
+
+#: includes/CDI-Shipping.php:746
+msgid "End of CDI method id"
+msgstr ""
+"Terminaison  de  l'id de la methode CDI.\n"
+"Une méthode de livraison CDI a toujours un id de la forme  cdi_shipping_"
+"\"carrier\"_\"termid\":numinstance , termid  étant la terminaison de l'id à "
+"votre choix (ex : home1, home2, ... pick1,..., pick5, shop1, ..., shop5)."
+
+#: includes/CDI-Shipping.php:748
+msgid "Min price"
+msgstr "Prix mini"
+
+#: includes/CDI-Shipping.php:749
+msgid "minimum price, VAT excluded. All taxes included if the mode is checked."
+msgstr ""
+"Prix minimum, TVA exclue. Toutes les taxes incluses si le mode est coché."
+
+#: includes/CDI-Shipping.php:751
+msgid "Max price"
+msgstr "Prix maxi"
+
+#: includes/CDI-Shipping.php:752
+msgid "maximum price, VAT excluded. All taxes included if the mode is checked."
+msgstr ""
+"Prix maximum, TVA exclue. Toutes les taxes incluses si le mode est coché."
+
+#: includes/CDI-Shipping.php:754
+msgid "Min weight"
+msgstr "Poids mini"
+
+#: includes/CDI-Shipping.php:755
+msgid "minimum weight in g"
+msgstr "Poids mimimum du panier en g"
+
+#: includes/CDI-Shipping.php:757
+msgid "Max weight"
+msgstr "Poids maxi"
+
+#: includes/CDI-Shipping.php:758
+msgid "maximum weight in g"
+msgstr "Poids maximum du panier en g"
+
+#: includes/CDI-Shipping.php:772
+msgid "Rates"
+msgstr "Tarifs"
+
+#: includes/CDI-Shipping.php:788
+msgid "Add rate"
+msgstr "Ajouter une ligne de tarif"
+
+#: includes/CDI-Shipping.php:789
+msgid "Delete selected"
+msgstr "Supprimer les lignes sélectionnées"
+
+#: includes/CDI-Shipping.php:793
+msgid ""
+"When the table is empty, click \"Save changes\" and, for this carrier, "
+"examples of delivery rates are offered to inspire you (or your starting "
+"rates if specified). "
+msgstr ""
+"Quand la table est vide, faites \"Enregistrer les modifications\" et, pour "
+"ce transporteur, des exemples de tarifs de livraison vous sont proposés pour "
+"vous inspirer (ou  vos tarifs de  démarrage dans cdi/uploads ) .  "
+
+#: includes/CDI-Shipping.php:813
+msgid ""
+"CDI : The macroclass definition is invalid. \n"
+"For the correct syntax, you should refer to the documentation in help or "
+"placeholder. Boolean operators allowed are \"and\", \"or\", \"no\" and each "
+"definition must be closed with a semicolon \";\"."
+msgstr ""
+"CDI : La définition de la macroclasse n'est pas valide.\n"
+"Pour la syntaxe correcte, vous devez vous référer à la documentation dans "
+"l'aide contextuelle ou le placeholder. Les opérateurs booléens autorisés "
+"sont \"and\", \"or\", \"not\" (ou  éventuellement ''&&\", \"||\", \"!\") et "
+"chaque définition doit être close par un point-virgule \";\". "
+
+#, fuzzy
+#~| msgid "Address line 3"
+#~ msgid "Adresse : "
+#~ msgstr "Adresse ligne 3"
+
+#, fuzzy
+#~| msgid "Pickup location : "
+#~ msgid "pickup label : "
+#~ msgstr "Point de retrait : "
+
+#~ msgid "Web Service - Mondial Relay Password"
+#~ msgstr "Web Service - Mot de passe (clé) chez Mondial Relay"
+
+#~ msgid "Your password at your Mondial Relay contrat"
+#~ msgstr "Votre mot de passe pour votre contrat Mondial Relay."
+
+#~ msgid " ===> Error stop processing at Return for order #"
+#~ msgstr " ===> Erreur arrêt du traitement à l'ordre  #"
+
+#~ msgid "Your UPS access keys :"
+#~ msgstr "Vos identifiants d'accès UPS :"
+
+#~ msgid "Web Service - UPS User ID"
+#~ msgstr ""
+#~ "Web Service - Identifiant utilisateur donné par votre commercial UPS"
+
+#~ msgid "Your UPS User ID."
+#~ msgstr "Votre identifiant d'utilisateur UPS"
+
+#~ msgid "Web Service - UPS Password"
+#~ msgstr "Web Service - Mot de passe donné par votre commercial UPS"
+
+#~ msgid "Your password at your UPS User IDt"
+#~ msgstr "Votre mot de passe pour votre User id UPS."
+
+#~ msgid "Web Service - UPS Access License Number"
+#~ msgstr "Web Service - Numéro de votre Accès License UPS"
+
+#~ msgid "Your Access License Number at your UPS contrat"
+#~ msgstr "Votre numéro \"licence d'accès\" à UPS"
+
+#~ msgid ""
+#~ "External (scan, app, etc) syntaxe update_option "
+#~ "('cdi_o_Br_select_extern', 'orderid1, orderid2,..., [codetracking1],"
+#~ "[codetracking2],...'); : "
+#~ msgstr ""
+#~ "Externe (scan, app, etc) syntaxe update_option ('cdi_o_Br_select_extern', "
+#~ "'orderid1, orderid2,..., [codetracking1],[codetracking2],...'); : "
+
+#~ msgid "With total price as code"
+#~ msgstr "Code =  total du prix"
+
+#~ msgid "With Collect point ID as code"
+#~ msgstr "Code = Id du Point de collect"
+
+#~ msgid "delivered"
+#~ msgstr "Delivrée"
+
+#~ msgid "To switch to \"Delivered\" the Order "
+#~ msgstr "Pour basculer en \"Livré au client\" la Commande "
+
+#~ msgid ""
+#~ "(*) Your security code is the total price you have paid for your order, "
+#~ "expressed in cents (i.e. 1550 if you paid 15,50€) ."
+#~ msgstr ""
+#~ "(*) Votre code de sécurité est le prix total que vous avez payé pour "
+#~ "votre commande, exprimé en centimes (soit 1550 si vous avez payé 15,50 €)."
+
+#~ msgid "(*) Your security code is your collect point ID."
+#~ msgstr ""
+#~ "(*) Votre code de sécurité est votre identifiant de point de collecte."
+
+#~ msgid "Switching to the \"Delivered\" tracking status of the Order "
+#~ msgstr "Passage au statut de suivi \"Délivrée\" de la Commande "
+
+#~ msgid "delivered to customer"
+#~ msgstr "Livré au client"
+
+#~ msgid "customer agreement"
+#~ msgstr "Accusé du client"
+
+#~ msgid "Delivered"
+#~ msgstr "Delivrée"
+
+#~ msgid "Parcel available for collect"
+#~ msgstr "Commande disponible"
+
+#~ msgid "Parcel at collect point"
+#~ msgstr "Commande disponible au Point de Collecte"
+
+#~ msgid "Parcel delivered"
+#~ msgstr "Commande réceptionnée"
+
+#~ msgid ""
+#~ "Comma separated list of additionnal fees, VAT excluded, to add to flat "
+#~ "rate. Percentage of price and/or weight(kg) fee. Syntaxe : p=+2.5%, w="
+#~ "+5 . May also be a short php code trigger under create_function"
+#~ msgstr ""
+#~ "Part variable, TVA exclue, à ajouter au prix fixe : \n"
+#~ "Utilisez une séquence php : une courte ligne de code PHP exécutable sous "
+#~ "eval, encadrée par <?php et ?> (Voir les exemples donnés en fin du "
+#~ "fichier WC-filter-examples.php. Ex <?php $return = (float)$woocommerce-"
+#~ ">cart->cart_contents_total*0.01; ?>)."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Custom"
+#~ msgstr "Personnalisé"
+
+#~ msgid "not CDI"
+#~ msgstr "Non CDI"
+
+#~ msgid "COLLECT SETTINGS : "
+#~ msgstr "REGLAGES CLICK&COLLECT"
+
+#, fuzzy
+#~| msgid "This collect starting file in cdi/uploads is not valid : "
+#~ msgid "4 This macroclasse(s) definition is not valid : "
+#~ msgstr ""
+#~ "Le fichier de démarrage indiqué dans CDI/uploads n'est pas valide : "
+
+#~ msgid ""
+#~ "Extend the Woocommerce addresses to 4 lines as the AFNOR standart used by "
+#~ "LaPoste"
+#~ msgstr ""
+#~ "Extension des adresses Wocommerce de 2 à 4 lignes, telle  la norme "
+#~ "utilisée par les organisations postales internationales (dont La Poste) "
+
+#~ msgid "Extend WC addresses to postal standarts"
+#~ msgstr "Extension des adresses Woocommerce aux normes postales"
+
+#~ msgid ""
+#~ "Here is the installation id - Mandatory for some carriers and for some "
+#~ "logistic documents - CDI fill it with a time stamp"
+#~ msgstr ""
+#~ "Ceci est l'identifiant d'installation - Obligatoire pour certains "
+#~ "transporteurs et pour certains documents logistiques - Le plugin CDI le "
+#~ "remplit avec un horodatage ."
+
+#~ msgid "CDI Information"
+#~ msgstr "Information CDI"
+
+#~ msgid "CDI+ support"
+#~ msgstr "Support CDI+"
+
+#~ msgid "Url Labels"
+#~ msgstr "Url vers étiquettes"
+
+#~ msgid "Auto clean of parcels in CDI gateway when \"In truck\" status"
+#~ msgstr ""
+#~ "Nettoyage automatique des colis de la Passerelle CDI dont le colis/"
+#~ "commande est en statut \"Dans le camion\" (effectué pendant l'affichage "
+#~ "de la liste de commandes de Woocommerce). "
+
+#~ msgid "For CDI + members"
+#~ msgstr "Pour les adhérents CDI+"
+
+#~ msgid "CDI+ contract number (12 numerics)"
+#~ msgstr ""
+#~ "Laisser à blanc, ou numéro de contrat CDI+  si vous êtes abonnés à CDI+ . "
+#~ "Comme abonné CDI+, indiquez ici votre numéro de contrat  et votre Clé "
+#~ "d'authentification dans le champ suivant ; il faudra alors 10mn pour que "
+#~ "votre plugin obtienne ses droits auprès de CDI+."
+
+#~ msgid "If you are a CDI + member, enter your contract number here."
+#~ msgstr "Si vous êtes membre CDI+, entrez votre numéro de contrat ici."
+
+#~ msgid "CDI+ authentification"
+#~ msgstr "CDI+ Authentification"
+
+#~ msgid ""
+#~ "If you have subscribed to CDI +, enter your CDI + authentication key here"
+#~ msgstr ""
+#~ "Si vous êtes abonné à CDI +, entrez votre clé d'authentification CDI+ ici"
+
+#~ msgid "Expedition "
+#~ msgstr "Expédition "
+
+#~ msgid "Cette expedition : "
+#~ msgstr "Cette expédition : "
+
+#~ msgid "Shipping method"
+#~ msgstr "Méthode de livraison"
+
+#~ msgid "Expedition - Initial : "
+#~ msgstr "Expédition  - Initial : "
+
+#~ msgid " - Used : "
+#~ msgstr "- Utilisé: "
+
+#~ msgid ""
+#~ "CDI  (Collect and Deliver Interface) must be activated alone !. For your "
+#~ "security CDI has stopped these plugin(s). Please review the plugins you "
+#~ "need active. "
+#~ msgstr ""
+#~ " CDI doit être actif seul !  Pour votre sécurité, CDI  (Collect and "
+#~ "Deliver Interface)  a désactivé ces plugin(s). SVP vérifiez les plugins "
+#~ "que vous avez besoin d’avoir actifs."
+
+#~ msgid ""
+#~ "Optional - Only if you have non-CDI shipping methods. An \"*=carrier\" "
+#~ "means that this carrier is forced for all non-CDI shipping methods."
+#~ msgstr ""
+#~ "Facultatif - Uniquement si vous avez des méthodes d'expédition non CDI. "
+#~ "Un \"*=carrier\" signifie que ce \"carrier\" est forcé pour toutes les "
+#~ "méthodes d'expédition non CDI rencontrées. "
+
+#~ msgid "Bienvenue dans CDI !"
+#~ msgstr "Bienvenue dans CDI !"
+
+#~ msgid ""
+#~ "However, in order to use more simply and immediately the new services of "
+#~ "all carriers, it is recommended not to copy your old settings identically "
+#~ "(so,  use the \"Continue and dismiss this message\" button), and to "
+#~ "reintroduce your settings, possibly adapted, afterward in your new CDI -"
+#~ "Collect and Deliver Interface.  "
+#~ msgstr ""
+#~ "Cependant, afin d'utiliser plus simplement et plus immédiatement les "
+#~ "nouveaux services de tous les transporteurs, il est recommandé de ne pas "
+#~ "recopier vos anciens paramètres à l'identique (utilisez donc le bouton "
+#~ "«ignorer»), et ensuite  réintroduisez vos paramètres, éventuellement "
+#~ "adaptés, dans votre nouveau CDI. "
+
+#~ msgid ""
+#~ "Create a Cn23 Return form for this order. Only the admin can generate and "
+#~ "print it to send it to his client. The Internet customer does not see it "
+#~ "in his order view. "
+#~ msgstr ""
+#~ "Créer un formulaire de retour Cn23 pour cette commande. Seul "
+#~ "l'administrateur du site peut le générer et l'imprimer pour l'envoyer à "
+#~ "son client. Le client internaute ne le voit pas dans sa vue de commande. "
+
+#, fuzzy
+#~| msgid ""
+#~| "Warning : \n"
+#~| "- To use the UPS carrier, you must have signed a contract with it giving "
+#~| "access to its API services.\n"
+#~| "- UPS provides you with a test mode using specific urls, for the "
+#~| "integration of your postage services, choice of access points, package "
+#~| "tracking, return labels. To do this, you must comply with the settings "
+#~| "offered to you by CDI. On the other hand, you should be careful with "
+#~| "your potential billing when producing postage or return labels in "
+#~| "'Production' mode.\n"
+#~| "- For all questions related to the operation of UPS services, you should "
+#~| "contact your UPS Sales Representative or UPS Technical Support."
+#~ msgid ""
+#~ "Warning : A FAIRE\n"
+#~ "- To use the collect carrier, you must have signed a contract with it "
+#~ "giving access to its API services.\n"
+#~ "- collect provides you with a test mode using specific urls, for the "
+#~ "integration of your postage services, choice of access points, package "
+#~ "tracking, return labels. To do this, you must comply with the settings "
+#~ "offered to you by CDI. On the other hand, you should be careful with your "
+#~ "potential billing when producing postage or return labels in 'Production' "
+#~ "mode.\n"
+#~ "- For all questions related to the operation of collect services, you "
+#~ "should contact your collect Sales Representative or collect Technical "
+#~ "Support."
+#~ msgstr ""
+#~ "Avertissement : \n"
+#~ "- Pour utiliser le transporteur UPS, vous devez avoir souscrit avec lui "
+#~ "un contrat donnant accès à ses API de services.\n"
+#~ "- UPS met à votre disposition un mode de test par des url spécifiques, "
+#~ "pour l’intégration de vos services affranchissement, choix des points "
+#~ "d'accès, suivi colis, étiquettes retour. Pour cela, il faut vous "
+#~ "conformer aux réglages qui vous sont proposé par CDI. En revanche, il "
+#~ "convient d’être prudent à votre facturation potentielle quand vous "
+#~ "produisez des étiquettes d’affranchissement ou de retour en mode "
+#~ "«Production».\n"
+#~ "- Pour toutes les questions en rapport avec l’exploitation des services "
+#~ "UPS, vous devez vous rapprocher de votre Commercial UPS ou du support "
+#~ "technique UPS."
+
+#~ msgid ""
+#~ "Order now sent to your Collect point. You can go pick it up. Your "
+#~ "tracking code is : "
+#~ msgstr ""
+#~ "Votre commande est maintenant à votre disposition au Point de Collecte. "
+#~ "Son code de suivi pour identification est :"
+
+#~ msgid ""
+#~ "Here, define the shipping methods for which the Pickup locations function "
+#~ "must be activate. They must be shipping zone methods (WC >=2.6)"
+#~ msgstr ""
+#~ "Ici, définissez les méthodes de livraison pour lesquelles la fonction de "
+#~ "point de retrait doit être activée. Ce doit être des méthodes au standard "
+#~ "\"shipping zones\" de WC >= 2.6."
+
+#~ msgid ""
+#~ "Here, define the carriers product codes to associate to shipping methods."
+#~ msgstr ""
+#~ "Ici, définissez les codes produit des transporteurs à associer à des "
+#~ "méthodes de livraison."
+
+#~ msgid ""
+#~ "Here, define the shipping methods for which you need a mandatory phone "
+#~ "number. An * means all shipping methods"
+#~ msgstr ""
+#~ "Optionnel - Liste des noms des \"Shipping-Méthode\" (séparés par des "
+#~ "virgules) pour déterminer celles pour lesquelles le numéro de téléphone "
+#~ "(mobile) est obligatoire (Ex: colissimo_shippingzone_method_pick1). Les "
+#~ "méthodes peuvent être des méthodes CDI ou des méthodes externes. La "
+#~ "sélection peut préciser une instance particulière  comme par exemple "
+#~ "\"flat_rate:25\". Un * signifie que toutes les méthodes rendent "
+#~ "obligatoire un numéro de téléphone. Il est fortement recommandé de mettre "
+#~ "ici, a minima, la même liste que celle des points de retrait, puisque le "
+#~ "numéro de téléphone est imposé pour ces méthodes de points de retrait."
+
+#~ msgid "This file does not exist in cdi/uploads : "
+#~ msgstr "Ce fichier n'existe pas dans CDI/uploads : "
+
+#~ msgid "Welcome to CDI !"
+#~ msgstr "Bienvenue dans CDI !"

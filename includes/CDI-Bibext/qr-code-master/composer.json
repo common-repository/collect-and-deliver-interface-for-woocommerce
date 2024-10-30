@@ -1,0 +1,36 @@
+{
+    "name": "endroid/qr-code",
+    "description": "Endroid QR Code",
+    "keywords": ["endroid", "qrcode", "qr", "code", "php"],
+    "homepage": "https://github.com/endroid/qr-code",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van den Enden",
+            "email": "info@endroid.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.3||^8.0",
+        "bacon/bacon-qr-code": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Endroid\\QrCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Endroid\\QrCode\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.x-dev"
+        }
+    }
+}
